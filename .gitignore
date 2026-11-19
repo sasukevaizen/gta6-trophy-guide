@@ -1,2 +1,4 @@
+# Build artifacts & local OS noise
 out/
 .DS_Store
+*.log
