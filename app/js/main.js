@@ -52,6 +52,7 @@ const els = {
   heroBarFill: document.getElementById('heroBarFill'),
   gradeStrip: document.getElementById('gradeStrip'),
   platinumBand: document.getElementById('platinumBand'),
+  auditStrip: document.getElementById('auditStrip'),
   spoilerToggleBtn: document.getElementById('spoilerToggleBtn'),
   spoilerBtnIcon: document.getElementById('spoilerBtnIcon'),
   spoilerBtnLabel: document.getElementById('spoilerBtnLabel'),
@@ -305,6 +306,52 @@ function renderChecklist(options = {}) {
   });
 }
 
+function renderAuditStrip() {
+  if (!els.auditStrip || !dataset) return;
+  const trophies = dataset.trophies || [];
+  const sources = dataset.sources || [];
+  const validSourceNums = new Set(sources.map((s) => s.num));
+
+  const totalGuides = trophies.length;
+  let guidesCited = 0;
+  let totalSteps = 0;
+  let citedSteps = 0;
+  let missableCount = 0;
+  let singleSourceCount = 0;
+
+  for (const t of trophies) {
+    const cites = Array.isArray(t.citations) ? t.citations : [];
+    if (cites.length >= 1) guidesCited += 1;
+    if (cites.length === 1) singleSourceCount += 1;
+    if (t.missable) missableCount += 1;
+    for (const step of (t.steps || [])) {
+      totalSteps += 1;
+      const stepCites = typeof step === 'string' ? [] : (Array.isArray(step.cites) ? step.cites : []);
+      if (stepCites.length >= 1 && stepCites.every((n) => validSourceNums.has(n))) {
+        citedSteps += 1;
+      }
+    }
+  }
+
+  const readDate = sources[0]?.readDate ? sources[0].readDate.toUpperCase() : '';
+  const singleHtml = singleSourceCount > 0
+    ? `<span class="audit-sep" aria-hidden="true">&middot;</span><span class="audit-item is-warn"><strong>${singleSourceCount}</strong> SINGLE-SOURCE</span>`
+    : '';
+
+  els.auditStrip.innerHTML = `
+    <span class="audit-bullet" aria-hidden="true"></span>
+    <span class="audit-label">AUDIT</span>
+    <span class="audit-item"><strong>${guidesCited}/${totalGuides}</strong> GUIDES CITED</span>
+    <span class="audit-sep" aria-hidden="true">&middot;</span>
+    <span class="audit-item"><strong>${citedSteps}/${totalSteps}</strong> STEPS CITED</span>
+    <span class="audit-sep" aria-hidden="true">&middot;</span>
+    <span class="audit-item"><strong>${sources.length}</strong> SOURCES${readDate ? ` (${escapeHtml(readDate)})` : ''}</span>
+    <span class="audit-sep" aria-hidden="true">&middot;</span>
+    <span class="audit-item is-warn"><strong>${missableCount}</strong> POSSIBLY MISSABLE &mdash; UNCONFIRMED</span>
+    ${singleHtml}
+  `;
+}
+
 function renderActiveDossier(options = {}) {
   const selected = dataset.trophies.find((t) => t.id === state.selectedId) || dataset.trophies[0];
   renderDossier(
@@ -318,7 +365,7 @@ function renderActiveDossier(options = {}) {
       onUpdateCounter: (id, val) => updateCounter(id, val),
       onToggleStep: (id, idx) => toggleDossierStep(id, idx),
     },
-    options,
+    { ...options, sources: dataset.sources || [] },
   );
 }
 
@@ -670,6 +717,7 @@ async function init() {
   dataset = await response.json();
 
   bindEvents();
+  renderAuditStrip();
   renderFilterChipsState();
   renderSpoilerControls();
   renderHeroProgress(true);

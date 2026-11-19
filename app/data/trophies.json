@@ -15,28 +15,36 @@
   },
   "sources": [
     {
+      "num": 1,
       "id": "psnprofiles",
       "name": "PSNProfiles",
       "domain": "psnprofiles.com",
-      "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+      "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+      "readDate": "read 19 Nov 2026"
     },
     {
+      "num": 2,
       "id": "exophase",
       "name": "Exophase",
       "domain": "exophase.com",
-      "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+      "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+      "readDate": "read 19 Nov 2026"
     },
     {
+      "num": 3,
       "id": "powerpyx",
       "name": "PowerPyx",
       "domain": "powerpyx.com",
-      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+      "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+      "readDate": "read 19 Nov 2026"
     },
     {
+      "num": 4,
       "id": "gtabase",
       "name": "GTABase",
       "domain": "gtabase.com",
-      "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+      "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+      "readDate": "read 19 Nov 2026"
     }
   ],
   "roadmap": [
@@ -136,28 +144,67 @@
       "when": "Triggers immediately when the 54th base-game trophy unlocks.",
       "guide": "Unlock every other trophy in Grand Theft Auto VI's PlayStation 5 base list—2 Gold, 6 Silver, and 46 Bronze—to claim the Platinum automatically. Every requirement is strictly single-player with zero multiplayer or online components, so the entire hunt can be completed on a single clean offline save across the campaign and post-story free roam.\n\nTwo pitfalls can derail a Platinum run: activating any cheat code disables trophies on that save session, and skipping Lucia's Chapter 1 balcony meditation after 'Down to Earth' risks locking out 'Positive Mental Attitude' since GTA VI has no mission replay. Keep a permanent manual backup save in Chapter 1, never enter cheats, and track 100% progress via Pause > Progress > Total Completion.",
       "steps": [
-        "Start a clean single-player save and keep cheat codes completely disabled throughout the playthrough",
-        "Finish all 12 story campaign trophies across Chapters 1 through 5",
-        "Lock in the Chapter 1 balcony meditation at Jason's house right after 'Down to Earth' and keep a manual backup save",
-        "Clear all 8 Strangers & Freaks strands, all collectible sweeps, activities, shooting ranges, races, and stunts",
-        "Complete the free-roam heist, economy, and secret trophies before finishing the final bars of 'A Long Road' (100% Completion)",
-        "Let the 54th trophy register so 'Vice Got a Price!' unlocks immediately"
+        {
+          "text": "Start a clean single-player save and keep cheat codes completely disabled throughout the playthrough",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Finish all 12 story campaign trophies across Chapters 1 through 5",
+          "cites": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Lock in the Chapter 1 balcony meditation at Jason's house right after 'Down to Earth' and keep a manual backup save",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear all 8 Strangers & Freaks strands, all collectible sweeps, activities, shooting ranges, races, and stunts",
+          "cites": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "Complete the free-roam heist, economy, and secret trophies before finishing the final bars of 'A Long Road' (100% Completion)",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Let the 54th trophy register so 'Vice Got a Price!' unlocks immediately",
+          "cites": [
+            1,
+            2
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — GTA VI Official PS5 Trophy List",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — Grand Theft Auto VI PS5 Trophies",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Trophy Guide & Platinum Roadmap",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -179,21 +226,46 @@
       "when": "Unlocks automatically upon finishing the opening Chapter 1 mission 'Gone Fishing'.",
       "guide": "Complete the opening Chapter 1 campaign mission 'Gone Fishing' in the Leonida Keys. Follow the yellow main-story markers during the introductory hours to learn core movement, partner handoffs, and early coastal boat handling; the Bronze trophy pops as soon as the mission-passed banner appears.\n\nNo gold medal, accuracy threshold, or optional mission objective is required, so play naturally without stressing over retries. The only thing that can block this unlock is turning on cheat codes before finishing the job—keep cheats off and avoid skipping mission checkpoints if prompted after a fail.",
       "steps": [
-        "Launch a new campaign without activating any cheat codes",
-        "Follow the Chapter 1 story markers in the Leonida Keys until 'Gone Fishing' starts",
-        "Complete every primary objective through the coastal sequence",
-        "Wait for the mission-passed screen to confirm the Bronze unlock"
+        {
+          "text": "Launch a new campaign without activating any cheat codes",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Follow the Chapter 1 story markers in the Leonida Keys until 'Gone Fishing' starts",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Complete every primary objective through the coastal sequence",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Wait for the mission-passed screen to confirm the Bronze unlock",
+          "cites": [
+            1,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Trophy Listing",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — GTA 6 Story Trophies & Mission Guide",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -215,21 +287,46 @@
       "when": "Unlocks automatically upon clearing the final mission of Chapter 1.",
       "guide": "Finish every mandatory main-story mission in Chapter 1 to close out the opening Leonida Keys arc and transition into Chapter 2. Follow the golden campaign icons on your map at your own pace; story decisions and mission ratings do not affect this automatic progression trophy.\n\nBefore launching the Chapter 1 finale, double-check that you accepted Lucia's morning balcony meditation at Jason's house right after 'Down to Earth'. Because GTA VI lacks mission replay, leaving Chapter 1 without that opening 1/18 meditation is the sole unconfirmed missable risk on the road to Platinum—make a dedicated manual save slot beforehand.",
       "steps": [
-        "Play through the Chapter 1 story missions in the Leonida Keys without cheats",
-        "Immediately after 'Down to Earth', create a manual backup save and accept Lucia's balcony meditation",
-        "Complete the remaining mandatory Chapter 1 jobs",
-        "Clear the Chapter 1 finale so the transition to Chapter 2 pops the trophy"
+        {
+          "text": "Play through the Chapter 1 story missions in the Leonida Keys without cheats",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Immediately after 'Down to Earth', create a manual backup save and accept Lucia's balcony meditation",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Complete the remaining mandatory Chapter 1 jobs",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear the Chapter 1 finale so the transition to Chapter 2 pops the trophy",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Chapter 1 Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Story Roadmap & Chapter Breakdown",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -251,21 +348,46 @@
       "when": "Unlocks automatically upon finishing the final mission of Chapter 2.",
       "guide": "Advance Jason and Lucia's campaign through all mandatory Chapter 2 missions until the narrative shifts into Chapter 3. Chapter 2 widens your access to Leonida's venues—including the story visit to Kolt & Associates' bowling alley during 'Hit Kingpin Bowling'—while keeping every side activity open afterward.\n\nIf you get hung up on a multi-stage shootout, restock body armor and snacks between story icons rather than rushing in under-geared. Don't worry about optional banter or missing the bowling trophy during 'Hit Kingpin Bowling'; the venue respawns on cooldown in free roam, and this chapter trophy unlocks automatically upon completion.",
       "steps": [
-        "Restock body armor, health items, and primary ammo between Chapter 2 story markers",
-        "Follow all mandatory Chapter 2 mission icons across Leonida",
-        "Watch for the bowling alley moment in 'Hit Kingpin Bowling' (also revisit-safe later)",
-        "Finish the Chapter 2 climax to trigger the trophy automatically"
+        {
+          "text": "Restock body armor, health items, and primary ammo between Chapter 2 story markers",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Follow all mandatory Chapter 2 mission icons across Leonida",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Watch for the bowling alley moment in 'Hit Kingpin Bowling' (also revisit-safe later)",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Finish the Chapter 2 climax to trigger the trophy automatically",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 2,
           "label": "Exophase — Official PS5 Hidden Trophy Name",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Campaign Trophy Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -287,21 +409,46 @@
       "when": "Unlocks automatically upon clearing the final mission of Chapter 3.",
       "guide": "Complete every required main-story mission across Vice City during Chapter 3 to advance into Chapter 4. Along the way you unlock essential mid-game heist gear—most notably the Key Cloner—which opens up post-story showroom and vault scores like 'Capital Offense'.\n\nHeavy urban police responses begin escalating in Chapter 3, so keep a fast getaway vehicle topped up and use alleys or garages to break line of sight during mission escapes. Make sure autosave stays enabled and avoid any cheat input so the Chapter 3 completion flag registers cleanly.",
       "steps": [
-        "Follow the golden campaign markers throughout Vice City in Chapter 3",
-        "Keep a reliable rifle, shotgun, and spare armor equipped for urban gunfights",
-        "Unlock key Chapter 3 tools (including the Key Cloner) as the plot progresses",
-        "Complete the Chapter 3 finale to pop 'Vice City, Baby!'"
+        {
+          "text": "Follow the golden campaign markers throughout Vice City in Chapter 3",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Keep a reliable rifle, shotgun, and spare armor equipped for urban gunfights",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Unlock key Chapter 3 tools (including the Key Cloner) as the plot progresses",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Complete the Chapter 3 finale to pop 'Vice City, Baby!'",
+          "cites": [
+            1,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — GTA VI Story Trophies",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — Chapter Progression Guide",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -323,21 +470,46 @@
       "when": "Unlocks automatically upon completing the final mission of Chapter 4.",
       "guide": "Push through the late-game escalations of Chapter 4 by completing every mandatory story mission across Vice City and the outlying counties. Expect larger multi-wave set-pieces, tighter vehicle pursuits, and heavier enemy armor than earlier chapters.\n\nWhat usually trips players up here is starting a major mission with half-empty magazines or no spare armor—always swing by Ammu-Nation before stepping into a main icon, and lean on Combat Focus during dense flanks to avoid checkpoint loops. The trophy unlocks automatically when Chapter 4 hands off to Chapter 5.",
       "steps": [
-        "Refill body armor, medical supplies, and upgraded rifle ammo before launching Chapter 4 icons",
-        "Complete all required Chapter 4 missions across Vice City and surrounding regions",
-        "Use hard cover and Combat Focus during multi-wave set-piece firefights",
-        "Trigger the transition into Chapter 5 to earn the Bronze trophy"
+        {
+          "text": "Refill body armor, medical supplies, and upgraded rifle ammo before launching Chapter 4 icons",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Complete all required Chapter 4 missions across Vice City and surrounding regions",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Use hard cover and Combat Focus during multi-wave set-piece firefights",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Trigger the transition into Chapter 5 to earn the Bronze trophy",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — GTA VI Official Trophy List",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Trophy Guide & Roadmap",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -359,26 +531,54 @@
       "when": "Unlocks automatically upon completing the final main story mission.",
       "guide": "Play through Chapter 5 and complete the final main-story mission to earn this Gold campaign trophy. Every narrative branch and tactical choice counts toward 'You Gotta Know When to Get Off', and finishing the credits drops you straight into unrestricted post-story free roam with full access to every remaining trophy.\n\nTreat the finale like a full heist: buy maximum armor, upgrade your primary rifle and sniper with extended magazines, and top off explosives before triggering the point of no return. Keep a manual pre-finale save just in case a game crash interrupts the end credits before the Gold trophy registers.",
       "steps": [
-        "Create a clean manual save before launching the final Chapter 5 mission",
-        "Stock full armor, healing items, explosives, and maxed rifle/shotgun ammo",
-        "Complete all remaining Chapter 5 story missions leading into the finale",
-        "Finish the final mission and let the credits conclude to unlock the Gold trophy and post-story free roam"
+        {
+          "text": "Create a clean manual save before launching the final Chapter 5 mission",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Stock full armor, healing items, explosives, and maxed rifle/shotgun ammo",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Complete all remaining Chapter 5 story missions leading into the finale",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Finish the final mission and let the credits conclude to unlock the Gold trophy and post-story free roam",
+          "cites": [
+            1,
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Gold Story Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — Grand Theft Auto VI PS5 List",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Trophy Guide & Post-Story Notes",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -400,21 +600,46 @@
       "when": "Unlocks automatically when the main story mission 'Breakfast Run' ends.",
       "guide": "Advance along the main campaign path until the story mission 'Breakfast Run' appears on your map, then complete every objective through to the mission-passed banner. Because this is a mandatory plot job for Jason and Lucia, you cannot bypass it on a normal playthrough.\n\nNo special stealth rating or optional checklist is required—focus on keeping your partner covered during transitions and staying inside the mission vehicle path so you don't trigger an out-of-bounds fail. Once the closing escape clears, 'Trust' pops automatically.",
       "steps": [
-        "Progress the main storyline until 'Breakfast Run' unlocks on the map",
-        "Check your weapon wheel and armor before entering the mission trigger",
-        "Complete all scripted sequences, combat beats, and getaway objectives",
-        "Confirm 'Trust' unlocks on the mission-passed screen"
+        {
+          "text": "Progress the main storyline until 'Breakfast Run' unlocks on the map",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Check your weapon wheel and armor before entering the mission trigger",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Complete all scripted sequences, combat beats, and getaway objectives",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Confirm 'Trust' unlocks on the mission-passed screen",
+          "cites": [
+            1,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Mission Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — GTA 6 Story Mission Trophies",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -438,21 +663,46 @@
       "when": "Unlocks automatically after finishing the story mission 'The Cartel Heist'.",
       "guide": "Finish all preparatory setup missions leading into 'The Cartel Heist', then execute the main heist itself and escape the pursuit. Every tactical approach and crew/take configuration unlocks 'Break the Bank' identically upon mission completion.\n\nCartel enforcers hit hard in tight interiors, so carry a high-capacity rifle plus a shotgun for close breaches and don't get greedy lingering in open doorways while looting. Keep your getaway vehicle intact on the exit run—wrecking it under heavy fire is the easiest way to lose time on a checkpoint reset.",
       "steps": [
-        "Complete every mandatory setup job required to unlock 'The Cartel Heist'",
-        "Stock full body armor, medical items, and both midrange and close-quarters firearms",
-        "Execute your chosen vault approach and clear cartel defenders from cover",
-        "Secure the take and escape pursuit to trigger 'Break the Bank'"
+        {
+          "text": "Complete every mandatory setup job required to unlock 'The Cartel Heist'",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Stock full body armor, medical items, and both midrange and close-quarters firearms",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Execute your chosen vault approach and clear cartel defenders from cover",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Secure the take and escape pursuit to trigger 'Break the Bank'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Story Heist Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Story Heists Walkthrough",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -474,21 +724,46 @@
       "when": "Unlocks automatically upon completing the main mission 'Child's Play'.",
       "guide": "Follow the primary campaign track until the story mission 'Child's Play' becomes active, then finish all of its objectives to unlock 'Family Matters'. This is a mandatory narrative milestone with no hidden rank, timer, or bonus condition attached.\n\nKeep an eye on mission prompts when switching roles or escorting objectives so you don't accidentally abandon a key character or vehicle. As soon as the final scripted beat wraps and the mission-passed banner appears, the Bronze trophy pops automatically.",
       "steps": [
-        "Continue the main story mission chain until 'Child's Play' appears",
-        "Trigger the mission with full health and standard combat gear ready",
-        "Follow all primary objectives and character handoffs without straying out of bounds",
-        "Clear the closing sequence to unlock 'Family Matters'"
+        {
+          "text": "Continue the main story mission chain until 'Child's Play' appears",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Trigger the mission with full health and standard combat gear ready",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Follow all primary objectives and character handoffs without straying out of bounds",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Clear the closing sequence to unlock 'Family Matters'",
+          "cites": [
+            2,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 2,
           "label": "Exophase — Official PS5 Hidden Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — GTA 6 Campaign Trophies",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -510,21 +785,46 @@
       "when": "Unlocks automatically upon finishing the story mission 'Headliners'.",
       "guide": "Progress the main storyline until 'Headliners' opens on your map and play it straight through to completion. This mission features crowded combat arenas where flanking enemies can melt your armor quickly if you fight in the open.\n\nUse hard cover, save Combat Focus for high-density pushes, and watch the minimap for rear spawns so you clear the set-piece cleanly on one pass. No gold medal or optional constraint is required—finishing the final objective awards 'DWNFALL' immediately.",
       "steps": [
-        "Reach 'Headliners' along the main campaign progression path",
-        "Equip full armor and a steady midrange rifle before starting the mission",
-        "Clear crowded firefights using cover and Combat Focus bursts",
-        "Finish the final objective to pop 'DWNFALL'"
+        {
+          "text": "Reach 'Headliners' along the main campaign progression path",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Equip full armor and a steady midrange rifle before starting the mission",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear crowded firefights using cover and Combat Focus bursts",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Finish the final objective to pop 'DWNFALL'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — GTA VI Hidden Trophy List",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Campaign Walkthrough",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -548,21 +848,47 @@
       "when": "Unlocks automatically upon completing 'VCIA Takedown'.",
       "guide": "Play through the campaign until the Vice City International Airport set-piece 'VCIA Takedown' unlocks, then complete the infiltration, runway/tarmac combat, and extraction. Because airport tarmacs offer long sightlines with sparse cover, bring a scoped rifle alongside a fast-reloading automatic.\n\nDon't sprint across open aprons while security vehicles and choppers are converging—advance behind luggage carts, hangars, and fuel trucks while picking off gunners first. Finishing the VCIA extraction unlocks 'Hi-Jacked' automatically with no rank requirement.",
       "steps": [
-        "Advance the main story until 'VCIA Takedown' activates",
-        "Bring full armor, a high-capacity rifle, and a long-range option for tarmac sightlines",
-        "Push through the airport infiltration using hangars and vehicles for cover",
-        "Complete the extraction sequence to unlock 'Hi-Jacked'"
+        {
+          "text": "Advance the main story until 'VCIA Takedown' activates",
+          "cites": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Bring full armor, a high-capacity rifle, and a long-range option for tarmac sightlines",
+          "cites": [
+            2
+          ]
+        },
+        {
+          "text": "Push through the airport infiltration using hangars and vehicles for cover",
+          "cites": [
+            2
+          ]
+        },
+        {
+          "text": "Complete the extraction sequence to unlock 'Hi-Jacked'",
+          "cites": [
+            1,
+            2
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Trophy Listing",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — GTA VI PS5 Trophy Details",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -586,21 +912,46 @@
       "when": "Unlocks automatically after finishing 'Operation Savage Glory'.",
       "guide": "Continue through the late campaign chapters until 'Operation Savage Glory' unlocks, then finish the entire assault and getaway sequence. Expect armored opposition and vehicle reinforcements during the climax, making explosives and high-penetration rifles far more effective than sidearms.\n\nPrioritize neutralizing heavy threats and keeping your partner's health intact during defensive holds so you avoid mid-battle fails. Once you shake pursuit and reach the mission-complete screen, 'Snow Storm' triggers automatically.",
       "steps": [
-        "Stock full armor, explosives, and maxed rifle/sniper ammo before starting 'Operation Savage Glory'",
-        "Clear the opening assault waves from solid cover while watching flank angles",
-        "Eliminate armored reinforcements and protect your partner during holdouts",
-        "Finish the getaway sequence to pop 'Snow Storm'"
+        {
+          "text": "Stock full armor, explosives, and maxed rifle/sniper ammo before starting 'Operation Savage Glory'",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear the opening assault waves from solid cover while watching flank angles",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Eliminate armored reinforcements and protect your partner during holdouts",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Finish the getaway sequence to pop 'Snow Storm'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Story Trophy Listing",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Story Roadmap",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -627,27 +978,63 @@
       "when": "Usually your final trophy before the Platinum in Stage 6.",
       "guide": "Fill every required category in Pause > Progress > Total Completion to reach 100% and unlock this Gold trophy. Per PowerPyx's 100% breakdown, Total Completion combines the full main story, Strangers & Freaks strands, major world collectibles (including 100 WAiNK scans, Collectible Card sets, and 15 of the 18 meditations), activities, races, shooting ranges, stunts, robberies, and miscellaneous world interactions.\n\nTreat the in-game Total Completion ledger as your master audit screen during Stage 6—if you stall at 98–99%, inspect which individual sub-bar is short rather than guessing. Note that because only 15 of 18 meditations count toward 100%, 'A Long Road' itself stays fully reachable in post-story free roam even if the Chapter 1 balcony meditation were missed.",
       "steps": [
-        "Open Pause > Progress > Total Completion and note every sub-category percentage",
-        "Complete all main story chapters and the required Strangers & Freaks strands",
-        "Finish the required collectible totals (100 WAiNK scans, card decks, and at least 15 meditations)",
-        "Clear the required activities, races, shooting ranges, stunts, and robbery milestones",
-        "Audit any bar still under 100% and knock out remaining miscellaneous tasks until the Gold trophy unlocks"
+        {
+          "text": "Open Pause > Progress > Total Completion and note every sub-category percentage",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Complete all main story chapters and the required Strangers & Freaks strands",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Finish the required collectible totals (100 WAiNK scans, card decks, and at least 15 meditations)",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Clear the required activities, races, shooting ranges, stunts, and robbery milestones",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Audit any bar still under 100% and knock out remaining miscellaneous tasks until the Gold trophy unlocks",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 100% Completion Checklist & Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Gold 100% Completion Tracker",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — 100% Checklist Breakdown",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -672,22 +1059,52 @@
       "when": "Best knocked out systematically during Stage 4 with a fast motorbike and nimble helicopter.",
       "guide": "Complete 250 unique Stunts across Leonida (tracked live 0/250 on PS5). The stunt pool spans vehicle stunt jumps, under-the-bridge passes, knife flights, and district trick spots scattered from the Leonida Keys through downtown Vice City and the northern counties.\n\nTwo things waste the most time on stunts: using an overly heavy car that nose-dives off ramps, and retrying jumps after wrecking without a quick-save. Tune a nimble sportbike for ground ramps so you can level out mid-air and stick clean four-point/two-wheel landings, use a compact helicopter for bridge passes, and quick-save right before any water-gap or rooftop ramp.",
       "steps": [
-        "Fully upgrade a lightweight, responsive sportbike for ramp stunts and keep a nimble helicopter handy for bridge passes",
-        "Work systematically county by county so you don't lose track of uncompleted ramps",
-        "Drop a quick-save right before tight water-gap, alley, or rooftop stunt jumps",
-        "Approach ramps straight at the target speed—over-shooting often fails the landing zone",
-        "Verify each stunt registers on the HUD and in-game Progress tracker until 250/250 unlocks"
+        {
+          "text": "Fully upgrade a lightweight, responsive sportbike for ramp stunts and keep a nimble helicopter handy for bridge passes",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Work systematically county by county so you don't lose track of uncompleted ramps",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Drop a quick-save right before tight water-gap, alley, or rooftop stunt jumps",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Approach ramps straight at the target speed—over-shooting often fails the landing zone",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Verify each stunt registers on the HUD and in-game Progress tracker until 250/250 unlocks",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — 0/250 Stunts PSN Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Stunts & 100% Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -711,21 +1128,46 @@
       "when": "Track under Progress > Activities during Stage 4 cleanup.",
       "guide": "Complete at least one full session of each of the 9 activity categories listed under Pause > Progress > Activities (tracked 0/9 on PS5). Per PowerPyx, you only need to finish one round of each category—covering shooting ranges, Top Fun drone races, standard races, fishing, arcade cabinets, gym workouts, bowling, and local pastimes—rather than winning every single variant.\n\nQuitting mid-session or backing out before the results screen prevents an activity from registering on the 0/9 tracker. Always play through to the final scorecard, and stack this naturally while working on 'The Shootist', 'Top Fun', 'Baited My Tackle', 'Stick Fiddler', 'Personal Best', and 'Let's Go Bowling'.",
       "steps": [
-        "Open Pause > Progress > Activities to see which of the 9 activity types remain unchecked",
-        "Knock out trophy-overlapping activities first (shooting range, drone race, standard race, fishing, arcade, gym, bowling)",
-        "Finish any remaining unchecked local pastimes on the map through to their final results screen",
-        "Never quit an activity early—confirm the checkmark appears until 9/9 pops 'Master of None'"
+        {
+          "text": "Open Pause > Progress > Activities to see which of the 9 activity types remain unchecked",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Knock out trophy-overlapping activities first (shooting range, drone race, standard race, fishing, arcade, gym, bowling)",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Finish any remaining unchecked local pastimes on the map through to their final results screen",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Never quit an activity early—confirm the checkmark appears until 9/9 pops 'Master of None'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Master of None (9 Activity Types List)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/9 Activity Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -749,22 +1191,52 @@
       "when": "Best tackled in Stage 4 once your shooting skill and extended weapon magazines are upgraded.",
       "guide": "Earn a Gold medal in all 42 Shooting Range challenges across Leonida's licensed ranges and Ammu-Nation venues (tracked 0/42 on PS5). Each weapon class has tiered targets where Gold requires sustained accuracy multipliers and fast target transitions rather than spray-and-pray fire.\n\nDo not grind this early in Chapter 1 with base stats and tiny magazines—wait until Stage 4 when your shooting handling is maxed and you own extended magazines and low-recoil barrels/grips for every weapon tier. Missing a stray shot breaks your score multiplier, so prioritize steady bullseye/headshot rhythms and reload only during brief target-flip pauses.",
       "steps": [
-        "Wait until late game/Stage 4 when character shooting handling is maxed",
-        "Buy extended magazines and recoil-reducing attachments for every range weapon class",
-        "Focus on unbroken bullseye/headshot streaks to keep the score multiplier maxed",
-        "Check the Progress menu to track remaining Gold medals at every range venue",
-        "Clear all 42/42 Gold thresholds to unlock 'The Shootist'"
+        {
+          "text": "Wait until late game/Stage 4 when character shooting handling is maxed",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Buy extended magazines and recoil-reducing attachments for every range weapon class",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Focus on unbroken bullseye/headshot streaks to keep the score multiplier maxed",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Check the Progress menu to track remaining Gold medals at every range venue",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear all 42/42 Gold thresholds to unlock 'The Shootist'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — 0/42 Shooting Range Gold Tracker",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Shooting Range Gold Tips & Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -788,22 +1260,52 @@
       "when": "Sweep all 14 drone course markers during Stage 4.",
       "guide": "Win a Top Fun Drone Race (1st place finish) at every one of Leonida's 14 drone race locations (tracked 0/14 on PS5). Courses weave through urban alleys, piers, parking structures, and coastal overlooks, and every completed win also contributes toward 'Master of None' and 100% completion.\n\nHolding full boost nonstop is the #1 reason players clip gate frames and spin out into 3rd place. Treat your first run at an unfamiliar venue as a sight-reading lap, feather throttle before sharp 90-degree gates, bank early into the next ring, and hit instant restart the moment a crash drops you behind the pack.",
       "steps": [
-        "Reveal all 14 Top Fun Drone Race icons across Leonida (easiest after defogging the map)",
-        "Run a quick scouting lap on tight urban courses to memorize sharp elevation drops",
-        "Feather throttle through narrow checkpoint rings and reserve boost for clean straightaways",
-        "Finish 1st at every distinct venue—2nd place does not advance the 0/14 tracker",
-        "Verify all 14/14 locations register on the PSN counter"
+        {
+          "text": "Reveal all 14 Top Fun Drone Race icons across Leonida (easiest after defogging the map)",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Run a quick scouting lap on tight urban courses to memorize sharp elevation drops",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Feather throttle through narrow checkpoint rings and reserve boost for clean straightaways",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Finish 1st at every distinct venue—2nd place does not advance the 0/14 tracker",
+          "cites": [
+            1,
+            4
+          ]
+        },
+        {
+          "text": "Verify all 14/14 locations register on the PSN counter",
+          "cites": [
+            1
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — 0/14 Top Fun Location Tracker",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — Top Fun Drone Race Locations",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -827,22 +1329,53 @@
       "when": "Combine with Top Fun and 100% activity sweeps in Stage 4.",
       "guide": "Finish 1st across 20 unique race events in Leonida (tracked 0/20 on PS5). The roster includes street circuits, off-road/swamp tracks, sea races, and air courses; replaying a race you already won will not add to the counter.\n\nShow up with fully upgraded custom rides from your garages (street supercar, sportbike, off-roader) so you can pull away cleanly on straightaways and recover from traffic bumps. Watch the map legend for the gold winner checkmark after each race so you never waste time repeating a completed circuit.",
       "steps": [
-        "Upgrade a top street car, motorbike, and off-road vehicle at a mod shop before starting",
-        "Filter the map for uncompleted race events across Vice City, Keys, swamps, and water/air courses",
-        "Brake smoothly into hairpins rather than wall-riding to stay ahead of rubber-banding AI",
-        "Confirm the gold winner checkmark appears on each unique event (no repeats count)",
-        "Win 20/20 distinct races to unlock 'Earn Cash, Not Kudos'"
+        {
+          "text": "Upgrade a top street car, motorbike, and off-road vehicle at a mod shop before starting",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Filter the map for uncompleted race events across Vice City, Keys, swamps, and water/air courses",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Brake smoothly into hairpins rather than wall-riding to stay ahead of rubber-banding AI",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Confirm the gold winner checkmark appears on each unique event (no repeats count)",
+          "cites": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "Win 20/20 distinct races to unlock 'Earn Cash, Not Kudos'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — 0/20 Unique Races Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Races & Activities Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -866,22 +1399,54 @@
       "when": "Available from Chapter 1 after 'Feng Shui' (once Cal sends his text) all the way through post-story free roam.",
       "guide": "After finishing the Chapter 1 story mission 'Feng Shui', wait for Cal to send a text message inviting you out fishing (per PowerPyx and GTABase), then travel to his map marker and beat his total score in a head-to-head fishing challenge. The challenge remains available and replayable all the way into post-story free roam.\n\nSnapping your line by mashing reel while a heavy fish is thrashing is the fastest way to lose to Cal. Watch the rod bend and line-tension indicator: pause reeling and steer against the fish's run whenever tension spikes red, then reel steadily the instant it tires so you bank high-weight catches cleanly.",
       "steps": [
-        "Complete Chapter 1's 'Feng Shui' and wait for Cal's phone text invitation",
-        "Drive to Cal's fishing icon on the map and initiate the fishing challenge",
-        "Cast toward deeper ripple pockets for larger, higher-scoring fish",
-        "Stop reeling whenever line tension spikes red, then pull steadily while the fish rests",
-        "Out-score Cal before the challenge ends to unlock 'Baited My Tackle'"
+        {
+          "text": "Complete Chapter 1's 'Feng Shui' and wait for Cal's phone text invitation",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Drive to Cal's fishing icon on the map and initiate the fishing challenge",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Cast toward deeper ripple pockets for larger, higher-scoring fish",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Stop reeling whenever line tension spikes red, then pull steadily while the fish rests",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Out-score Cal before the challenge ends to unlock 'Baited My Tackle'",
+          "cites": [
+            3,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Baited My Tackle Fishing Walkthrough",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — Cal Fishing Challenge Guide",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -905,21 +1470,46 @@
       "when": "Anytime you find a playable arcade cabinet in Vice City or the Keys (Stage 4).",
       "guide": "Find any playable retro arcade cabinet inside Vice City bars, boardwalk arcades, piers, or hangouts and beat it all the way through its final stage and ending screen. Simply launching a cabinet or setting a high score without finishing the final stage will not pop 'Stick Fiddler'.\n\nSample a couple of cabinets to pick the shortest, most predictable game whose enemy patterns click for you, and keep extra pocket cash on hand in case the cabinet permits continues. Backing out early or letting the continue countdown expire resets your run, so finish the final boss/level in one sitting.",
       "steps": [
-        "Visit a boardwalk arcade, bar, or hangout in Vice City or the Keys with playable cabinets",
-        "Test available cabinets and pick the shortest game with clean, learnable patterns",
-        "Keep extra cash on hand to use continues if the cabinet allows them",
-        "Clear every stage and defeat the final boss/goal to reach the ending screen and unlock the trophy"
+        {
+          "text": "Visit a boardwalk arcade, bar, or hangout in Vice City or the Keys with playable cabinets",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Test available cabinets and pick the shortest game with clean, learnable patterns",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Keep extra cash on hand to use continues if the cabinet allows them",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear every stage and defeat the final boss/goal to reach the ending screen and unlock the trophy",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Bronze Activity Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Arcade Games & Activities",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -943,21 +1533,46 @@
       "when": "Complete Andy's full Strangers & Freaks chain during Stage 2.",
       "guide": "Locate Andy's '?' Strangers & Freaks icon in Leonida and complete every installment in his character chain through to his final mission. Andy's entire strand remains open in post-story free roam and directly ticks off one of the 8 strands required for 'Strangers & Freaks'.\n\nIf Andy's next marker does not pop up right after finishing a part, don't assume it's bugged—multi-part stranger chains often require in-game time to pass or a protagonist swap before the next phone text arrives. Sleep at a safehouse once or twice, check both Jason and Lucia's messages, and finish Andy's closing job.",
       "steps": [
-        "Find Andy's opening '?' Strangers & Freaks marker on the map",
-        "Complete each mission in Andy's chain as it unlocks",
-        "Sleep at a safehouse or swap protagonists if a follow-up text/marker pauses",
-        "Finish Andy's final mission to pop 'Road to Rehabilitation'"
+        {
+          "text": "Find Andy's opening '?' Strangers & Freaks marker on the map",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Complete each mission in Andy's chain as it unlocks",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Sleep at a safehouse or swap protagonists if a follow-up text/marker pauses",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Finish Andy's final mission to pop 'Road to Rehabilitation'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Strangers Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Strangers & Freaks Strands Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -981,21 +1596,46 @@
       "when": "Finish Kenton's Strangers & Freaks strand during Stage 2.",
       "guide": "Meet Kenton at his Strangers & Freaks '?' marker and play through every job in his multi-part strand until his finale concludes. Kenton's storyline never locks out after credits and counts toward both this hidden Bronze trophy and the 8-strand 'Strangers & Freaks' Silver.\n\nBecause Kenton's encounters lean coastal, stock armor and versatile mid-to-long-range weapons before triggering each stage so open-water or dock fights don't catch you short. If his next mission takes a moment to spawn, pass 6–12 in-game hours at a safehouse and check your phone inbox.",
       "steps": [
-        "Locate and trigger Kenton's opening Strangers & Freaks encounter",
-        "Bring body armor and reliable midrange weaponry for coastal objectives",
-        "Clear all intermediate missions, sleeping at a safehouse between parts if needed",
-        "Complete Kenton's final mission to unlock 'This Was No Boat Accident'"
+        {
+          "text": "Locate and trigger Kenton's opening Strangers & Freaks encounter",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Bring body armor and reliable midrange weaponry for coastal objectives",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear all intermediate missions, sleeping at a safehouse between parts if needed",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Complete Kenton's final mission to unlock 'This Was No Boat Accident'",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 2,
           "label": "Exophase — Official Hidden PS5 Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — GTA 6 Strangers & Freaks Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1019,21 +1659,46 @@
       "when": "Complete Billy's Strangers & Freaks arc during Stage 2.",
       "guide": "Track down Billy's Strangers & Freaks '?' marker in Leonida and complete his full sequence of side missions through to the finale. Like the other four named stranger arcs, Billy's chain stays fully accessible after the main campaign and counts toward 'Strangers & Freaks'.\n\nSome stranger follow-ups only show up on the radar for the specific protagonist who handles that arc or after a brief narrative cooldown. Check both Jason and Lucia on the map and advance time at a safehouse if Billy's next icon isn't immediately visible, then wrap his concluding job for 'The Lone Rider'.",
       "steps": [
-        "Start Billy's Strangers & Freaks strand from his initial map icon",
-        "Complete every intermediate job in Billy's progression chain",
-        "Swap between Jason and Lucia or sleep at a safehouse if the next icon is delayed",
-        "Finish Billy's final mission to unlock 'The Lone Rider'"
+        {
+          "text": "Start Billy's Strangers & Freaks strand from his initial map icon",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Complete every intermediate job in Billy's progression chain",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Swap between Jason and Lucia or sleep at a safehouse if the next icon is delayed",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Finish Billy's final mission to unlock 'The Lone Rider'",
+          "cites": [
+            1,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Trophy Listing",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — Strangers & Freaks Mission Strands",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1057,22 +1722,53 @@
       "when": "Completes at the end of Stage 2 once all 8 stranger chains are wrapped.",
       "guide": "Complete 8 full Strangers & Freaks mission strands across Leonida (tracked 0/8 on PS5). Five strands have dedicated finale trophies—Andy, Kenton, Billy, Randy, and Tyrone—leaving three additional complete strands (such as Bret's hunting encounters and other regional '?' characters) to reach 8/8.\n\nThe biggest reason players think they are stuck at 6/8 or 7/8 is forgetting that several '?' markers are protagonist-specific or only appear after advancing in-game time. Alternate between Jason and Lucia while scanning the full map, read unread phone texts, and finish every strand all the way to its final mission—partial strands don't count.",
       "steps": [
-        "Switch between both Jason and Lucia to uncover all protagonist-specific '?' icons",
-        "Complete all 5 named finale strands: Andy, Kenton, Billy, Randy, and Tyrone",
-        "Clear 3 additional complete stranger strands across Leonida (including Bret's line)",
-        "Sleep at safehouses and read phone texts to trigger delayed final parts",
-        "Confirm 8/8 finished strands on the PSN tracker to unlock the Silver trophy"
+        {
+          "text": "Switch between both Jason and Lucia to uncover all protagonist-specific '?' icons",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Complete all 5 named finale strands: Andy, Kenton, Billy, Randy, and Tyrone",
+          "cites": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "Clear 3 additional complete stranger strands across Leonida (including Bret's line)",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Sleep at safehouses and read phone texts to trigger delayed final parts",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Confirm 8/8 finished strands on the PSN tracker to unlock the Silver trophy",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — 0/8 Strangers & Freaks Tracker",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — All Strangers & Freaks Strands Walkthrough",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1096,21 +1792,46 @@
       "when": "Wrap Randy's Strangers & Freaks storyline during Stage 2.",
       "guide": "Visit Randy's initial '?' Strangers & Freaks icon and finish every mission in his side storyline through to his finale. Randy's strand stays permanently available in post-story free roam and advances your 0/8 'Strangers & Freaks' Silver progress.\n\nKeep an eye on incoming smartphone texts after each part, since Randy's follow-up meeting points won't appear until his message clears or a few in-game hours elapse. Complete his closing mission cleanly to unlock 'Supply & Demand'.",
       "steps": [
-        "Locate Randy's opening '?' Strangers & Freaks marker on the map",
-        "Play through every intermediate job in Randy's chain",
-        "Check your phone messages and advance time at a safehouse between stages if needed",
-        "Complete Randy's final mission to earn 'Supply & Demand'"
+        {
+          "text": "Locate Randy's opening '?' Strangers & Freaks marker on the map",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Play through every intermediate job in Randy's chain",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Check your phone messages and advance time at a safehouse between stages if needed",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Complete Randy's final mission to earn 'Supply & Demand'",
+          "cites": [
+            2,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 2,
           "label": "Exophase — Official Hidden PS5 Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — Randy Side Mission Guide",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1134,21 +1855,46 @@
       "when": "Finish Tyrone's Strangers & Freaks questline during Stage 2.",
       "guide": "Find Tyrone's Strangers & Freaks '?' marker and work through his entire string of missions until his final job wraps up. None of Tyrone's missions are missable—you can leave the entire arc for Stage 2 post-story cleanup while knocking out 'Strangers & Freaks'.\n\nIf Tyrone's next waypoint stalls after an earlier job, switch protagonists briefly or sleep at a safehouse to flush the cooldown timer. Finishing Tyrone's closing mission pops 'Spin On This!' automatically.",
       "steps": [
-        "Trigger Tyrone's starting Strangers & Freaks encounter on the map",
-        "Complete each intermediate task in Tyrone's storyline",
-        "Advance in-game time or check phone texts if the finale icon hasn't spawned yet",
-        "Clear Tyrone's final mission to unlock 'Spin On This!'"
+        {
+          "text": "Trigger Tyrone's starting Strangers & Freaks encounter on the map",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Complete each intermediate task in Tyrone's storyline",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Advance in-game time or check phone texts if the finale icon hasn't spawned yet",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear Tyrone's final mission to unlock 'Spin On This!'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Trophy Listing",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Strangers & Freaks Walkthrough",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1173,27 +1919,83 @@
       "when": "Start in Chapter 1 right after 'Down to Earth' (meditation #1), then finish the remaining 17 in Stage 3 free roam.",
       "guide": "Complete all 18 tracked meditation sessions across Leonida's 10 scenic meditation spots (PSN tracks 0/18; 15 of the 18 also count toward 100% completion). The single critical watchpoint in the entire GTA VI trophy list is meditation #1: in Chapter 1, the morning after 'Down to Earth', Lucia invites you to meditate on the balcony at Jason's house.\n\nBecause GTA VI has no mission replay, PowerPyx and GTABase flag that Chapter 1 balcony meditation as POSSIBLY MISSABLE — UNCONFIRMED. Never rush past Lucia's prompt or overwrite your Chapter 1 save: drop a dedicated manual backup right after 'Down to Earth', finish the balcony session immediately (1/18), and then sweep the remaining 17 sessions across beaches, overlooks, and sanctuaries in Stage 3 free roam.",
       "steps": [
-        "Right after completing Chapter 1's 'Down to Earth', create a dedicated manual backup save",
-        "Accept Lucia's morning balcony meditation prompt at Jason's house immediately (1/18)",
-        "Verify the PSN tracker increments to 1/18 before advancing Chapter 1",
-        "In Stage 3 free roam, visit all 10 scenic meditation spots across Leonida's coasts, overlooks, and sanctuaries",
-        "Complete every remaining meditation session/variant at each spot until 18/18 pops 'Positive Mental Attitude'"
+        {
+          "text": "Right after completing Chapter 1's 'Down to Earth', create a dedicated manual backup save",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Accept Lucia's morning balcony meditation prompt at Jason's house immediately (1/18)",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Verify the PSN tracker increments to 1/18 before advancing Chapter 1",
+          "cites": [
+            1
+          ]
+        },
+        {
+          "text": "In Stage 3 free roam, visit all 10 scenic meditation spots across Leonida's coasts, overlooks, and sanctuaries",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Complete every remaining meditation session/variant at each spot until 18/18 pops 'Positive Mental Attitude'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Meditation Locations & Chapter 1 Missable Alert",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — GTA 6 Trophy Guide (Missable Warning)",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/18 Meditation Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
+        }
+      ],
+      "honestyFlags": [
+        {
+          "kind": "disputed-missable",
+          "title": "MISSABLE STATUS UNCONFIRMED & DISPUTED",
+          "detail": "PowerPyx [3] and GTABase [4] flag the Chapter 1 balcony meditation after 'Down to Earth' as possibly missable because GTA VI has no mission replay, whereas official PSN trophy metadata on PSNProfiles [1] lists no missable lockout and permanent lock remains unconfirmed.",
+          "cites": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "kind": "count-split",
+          "title": "COUNT DIFFERS ACROSS SOURCES (18 VS 15)",
+          "detail": "PSNProfiles [1] tracks 18/18 meditation sessions across 10 spots for this trophy, while PowerPyx [3] notes only 15 of those 18 count toward the in-game 100% Total Completion ledger ('A Long Road').",
+          "cites": [
+            1,
+            3
+          ]
         }
       ]
     },
@@ -1218,22 +2020,52 @@
       "when": "Tackle during Stage 2 while sweeping Strangers & Freaks.",
       "guide": "Meet Bret in Leonida's wilderness regions via his Strangers & Freaks marker to open his hunting requests, then track and bag one of his rare unique animals. Bret's hunting line stays open permanently after the campaign and pairs naturally with Stage 2 Strangers & Freaks cleanup.\n\nCharging into a unique animal's territory on a noisy ATV or firing wild hip-shots will spook the target before you get a clean angle. Approach on foot with a high-powered scoped rifle, crouch while inspecting tracks and wildlife clues, and wait for a clean vital shot to drop the beast and confirm the hunt with Bret.",
       "steps": [
-        "Visit Bret's '?' Strangers & Freaks marker in the wilderness to unlock his hunting requests",
-        "Equip a high-powered scoped hunting rifle before entering the unique animal's zone",
-        "Leave loud vehicles outside the perimeter and crouch-track clues quietly",
-        "Line up a clean scoped shot to down the unique animal before it bolts",
-        "Complete the turn-in/confirmation for Bret to unlock 'Fair Game'"
+        {
+          "text": "Visit Bret's '?' Strangers & Freaks marker in the wilderness to unlock his hunting requests",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Equip a high-powered scoped hunting rifle before entering the unique animal's zone",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Leave loud vehicles outside the perimeter and crouch-track clues quietly",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Line up a clean scoped shot to down the unique animal before it bolts",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Complete the turn-in/confirmation for Bret to unlock 'Fair Game'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Bronze Hunting Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Bret Hunting & Strangers Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1257,27 +2089,61 @@
       "when": "Sweep region by region during Stage 3 collectible cleanup.",
       "guide": "Collect every single card in 3 complete Collectible Card sets scattered across Leonida—such as the Ed Comics Universe decks and themed regional sets (PSN tracks 0/3 finished sets). Cards rest on shop counters, motel ledges, stadium bleachers, piers, and back-alley crates, with zero missable locations.\n\nRandomly grabbing stray cards from ten different decks makes the 0/3 counter look stuck at 0/3 even after dozens of pickups. Open your in-game Collectibles binder first, pick three specific decks to target end-to-end, and sweep one Leonida district at a time with a fast helicopter or bike while pairing the sweep with WAiNK scans.",
       "steps": [
-        "Open the Pause > Collectibles binder and select 3 specific card sets to finish first",
-        "Sweep one Leonida county/district at a time using a nimble bike or helicopter",
-        "Check counters, piers, bleachers, ledges, and alleys thoroughly to avoid backtracking",
-        "Complete every card in Deck 1, Deck 2, and Deck 3—partial decks do not increment the counter",
-        "Confirm 3/3 completed card sets on the PSN tracker to earn the Silver trophy"
+        {
+          "text": "Open the Pause > Collectibles binder and select 3 specific card sets to finish first",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Sweep one Leonida county/district at a time using a nimble bike or helicopter",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Check counters, piers, bleachers, ledges, and alleys thoroughly to avoid backtracking",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Complete every card in Deck 1, Deck 2, and Deck 3—partial decks do not increment the counter",
+          "cites": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "Confirm 3/3 completed card sets on the PSN tracker to earn the Silver trophy",
+          "cites": [
+            1
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Collectible Card Sets & Locations Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/3 Card Sets Tracker",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — Collectible Cards Overview",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1301,27 +2167,60 @@
       "when": "Pair with map defogging and card hunting across Stage 3 (also required for 100%).",
       "guide": "Use your smartphone's WAiNK app to scan 100 distinct landmarks, street murals, sculptures, roadside oddities, and tags across Leonida (tracked 0/100 on PS5, and also required for 100% completion). Whenever you cruise near an unscanned curiosity, your phone chimes or pulses with a proximity ping—pull up WAiNK and frame the subject until the confirmation chime registers.\n\nTwo common snags slow WAiNK sweeps down: moving too fast in a jet/supercar to hear the proximity ping, or backing out of the camera lens a split second before the scan locks in. Pair WAiNK hunting with 'The Goodtime State' map defogging and 'Don't Touch My Deck' on a motorbike or low-flying chopper so you clear each neighborhood once without double-covering blocks.",
       "steps": [
-        "Sweep Leonida district by district (Vice City, Keys, Grassrivers, northern towns) at moderate speed",
-        "Listen for WAiNK phone proximity pings whenever entering new blocks, plazas, or roadside stops",
-        "Open the WAiNK app, frame the mural/statue/oddity clearly, and hold until the scan confirms",
-        "Stack WAiNK scans alongside map defogging and Collectible Card routes to eliminate backtracking",
-        "Reach 100/100 confirmed scans to unlock 'You WAiNKer!'"
+        {
+          "text": "Sweep Leonida district by district (Vice City, Keys, Grassrivers, northern towns) at moderate speed",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Listen for WAiNK phone proximity pings whenever entering new blocks, plazas, or roadside stops",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Open the WAiNK app, frame the mural/statue/oddity clearly, and hold until the scan confirms",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Stack WAiNK scans alongside map defogging and Collectible Card routes to eliminate backtracking",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Reach 100/100 confirmed scans to unlock 'You WAiNKer!'",
+          "cites": [
+            1,
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — WAiNK Locations Guide & 100% Requirement",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/100 WAiNK Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — GTA VI Silver Trophy Entry",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1345,21 +2244,46 @@
       "when": "Advances naturally throughout the campaign; clean up any remainder in Stage 4.",
       "guide": "Complete 50 individual gameplay Challenges tracked under Pause > Progress > Challenges (PSN counts 0/50). Leonida features far more than 50 total challenges across driving, combat, exploration, robberies, and side activities, so you have wide flexibility to skip tedious tiers.\n\nDon't grind Challenges in Chapter 1—30+ will clear organically while finishing the story, stunts, races, ranges, and bank vaults. Once you reach Stage 4, open the Challenges log, sort mentally for bars sitting at 70–90% complete or quick one-off combat/driving feats, and knock out the fastest remaining tiers to hit 50/50.",
       "steps": [
-        "Play through the campaign and major Stage 2–4 trophies so 30+ challenges progress naturally",
-        "Open Pause > Progress > Challenges to audit all near-complete and quick tiers",
-        "Prioritize fast driving, exploration, and combat milestones over slow grindy tiers",
-        "Verify each completed tier increments the 0/50 PSN tracker until 'One Last Thing' unlocks"
+        {
+          "text": "Play through the campaign and major Stage 2–4 trophies so 30+ challenges progress naturally",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Open Pause > Progress > Challenges to audit all near-complete and quick tiers",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Prioritize fast driving, exploration, and combat milestones over slow grindy tiers",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Verify each completed tier increments the 0/50 PSN tracker until 'One Last Thing' unlocks",
+          "cites": [
+            1,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/50 Challenges Tracker",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — GTA 6 Challenges & Trophy Overview",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1383,22 +2307,52 @@
       "when": "Easy to combine with 'Retail Therapy' or a Bank Vault heist in Stage 5.",
       "guide": "Hang out with your partner (Jason and Lucia together) in free roam, escalate police heat to at least a 4-star Wanted Level, and completely evade every cruiser, tactical squad, and helicopter until the stars disappear. This stacks effortlessly with 'Retail Therapy' or a Stage 5 Bank Vault robbery.\n\nIf your partner gets downed, arrested, or separated outside your vehicle before the heat clears, the trophy can fail to trigger. Keep both protagonists inside a fast, armored or durable getaway car, break chopper sightlines inside highway tunnels, subway entrances, or multi-level parking decks, cut off main roads, and stay hidden until the flashing search cones vanish.",
       "steps": [
-        "Meet up with your partner in free roam inside a fast, durable 2+ seat getaway vehicle",
-        "Trigger and escalate police heat up to 4 stars (easy to chain off 'Retail Therapy' or a bank vault)",
-        "Keep your partner safely inside the vehicle—avoid letting them get downed or separated",
-        "Break police and chopper line of sight via tunnels, underpasses, parking decks, or rural woods",
-        "Hold cover until all 4 wanted stars clear completely to pop 'Hot Together'"
+        {
+          "text": "Meet up with your partner in free roam inside a fast, durable 2+ seat getaway vehicle",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Trigger and escalate police heat up to 4 stars (easy to chain off 'Retail Therapy' or a bank vault)",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Keep your partner safely inside the vehicle—avoid letting them get downed or separated",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Break police and chopper line of sight via tunnels, underpasses, parking decks, or rural woods",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Hold cover until all 4 wanted stars clear completely to pop 'Hot Together'",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 2,
           "label": "Exophase — Official GTA VI Wanted Level Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Hot Together & Escape Tips",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1422,22 +2376,52 @@
       "when": "Plot a tight 3-shop Vice City loop in Stage 5 and chain straight into 'Hot Together'.",
       "guide": "With Jason and Lucia riding together, rob 3 different shops back-to-back while maintaining an unbroken Wanted Level from the first register through the third. Plot a tight triangle of three convenience stores or liquor shops along one Vice City boulevard before firing a single shot.\n\nThe classic fail here is driving too far between stores and accidentally losing your 1- or 2-star Wanted Level before entering Shop #2 or #3—which resets the chain to zero. Park nose-out facing the road, keep your heat alive by staying on main streets between stops, grab the cash quickly at Store #1, #2, and #3, and then pivot straight into 'Hot Together' once the trophy pops.",
       "steps": [
-        "Bring your partner along in a quick, agile getaway car",
-        "Scout the map and plan a tight 3-store route along one dense Vice City strip",
-        "Park nose-out at Store #1 and rob it to trigger an active Wanted Level",
-        "Sprint immediately to Store #2 and Store #3 without letting the flashing stars ever clear",
-        "Finish the 3rd holdup under active heat to unlock 'Retail Therapy'"
+        {
+          "text": "Bring your partner along in a quick, agile getaway car",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Scout the map and plan a tight 3-store route along one dense Vice City strip",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Park nose-out at Store #1 and rob it to trigger an active Wanted Level",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Sprint immediately to Store #2 and Store #3 without letting the flashing stars ever clear",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Finish the 3rd holdup under active heat to unlock 'Retail Therapy'",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 2,
           "label": "Exophase — Official Retail Therapy Description",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Retail Therapy 3-Shop Route Tips",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1461,22 +2445,52 @@
       "when": "Accumulates across the whole playthrough; mop up remaining models during Stage 3.",
       "guide": "Enter and take control of 100 distinct vehicle models across Leonida (tracked 0/100 on PS5). You do not need to buy or store them—simply climbing into the driver's seat or cockpit of an unfamiliar car, bike, truck, van, boat, jet ski, helicopter, or plane registers that model permanently.\n\nWaiting until the end of the game to hunt 100 models turns this into a chore, whereas hopping briefly into unfamiliar parked rides during Stage 3 collectible sweeps gets you past 70+ effortlessly. For the final stretch, sweep varied spawn pools: Vice City marinas (boats/jet skis), VCIA hangars (aircraft), industrial yards (utility/heavy trucks), dealerships, and Grassrivers airboats.",
       "steps": [
-        "Build the habit of hopping briefly into any unfamiliar parked car, bike, or work van during exploration",
-        "Sweep Vice City marinas and coastal docks for distinct boats, yachts, and jet skis",
-        "Visit VCIA and rural airstrips to enter parked helicopters, planes, and airport service vehicles",
-        "Check industrial yards, dealerships, and Grassrivers wetlands for unique work trucks and airboats",
-        "Reach 100/100 unique models on the PSN tracker to unlock 'Whip It Good'"
+        {
+          "text": "Build the habit of hopping briefly into any unfamiliar parked car, bike, or work van during exploration",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Sweep Vice City marinas and coastal docks for distinct boats, yachts, and jet skis",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Visit VCIA and rural airstrips to enter parked helicopters, planes, and airport service vehicles",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Check industrial yards, dealerships, and Grassrivers wetlands for unique work trucks and airboats",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Reach 100/100 unique models on the PSN tracker to unlock 'Whip It Good'",
+          "cites": [
+            1,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/100 Vehicle Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — GTA 6 Vehicles & Discovery Guide",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1500,21 +2514,46 @@
       "when": "Easiest during a gang illegal operation or street firefight in Stage 5 with a full Focus meter.",
       "guide": "Take down 5 hostile enemies inside a single activation of Combat Focus before the slow-motion gauge runs dry. Wait until your Combat Focus bar is completely full, equip a high-damage assault rifle, SMG, or semi-auto shotgun with an extended magazine, and line up a dense cluster of 5+ foes.\n\nReloading mid-Focus or spraying body shots on armored targets drains the meter before kill #5 lands. Approach an active Gang Illegal Operation (pairing nicely with 'Pest Control') or a packed police roadblock, top off your magazine first, pop Combat Focus only once 5 enemies are in clear sightlines, and snap five crisp headshots.",
       "steps": [
-        "Fill your Combat Focus meter to 100% and reload a high-capacity, accurate rifle",
-        "Locate a dense group of 5+ hostile enemies (such as a Gang Illegal Operation or roadblock)",
-        "Position yourself with unobstructed sightlines to at least five targets before triggering Focus",
-        "Activate Combat Focus and chain 5 quick headshots before the bar expires to pop 'Gunslinger'"
+        {
+          "text": "Fill your Combat Focus meter to 100% and reload a high-capacity, accurate rifle",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Locate a dense group of 5+ hostile enemies (such as a Gang Illegal Operation or roadblock)",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Position yourself with unobstructed sightlines to at least five targets before triggering Focus",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Activate Combat Focus and chain 5 quick headshots before the bar expires to pop 'Gunslinger'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Combat Focus Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Gunslinger Combat Focus Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1538,22 +2577,52 @@
       "when": "Knock out in two minutes during Stage 5 free roam.",
       "guide": "Break onto the tarmac at Vice City International Airport (VCIA), hijack one of the large commercial passenger jets parked at the boarding gates (PowerPyx highlights terminals E3 and E4 as dependable spawn gates), taxi onto the main runway, take off, and fly roughly 1 km away from the airport to pop this hidden secret trophy.\n\nBreaching VCIA immediately triggers heavy police heat, and clipping a light pole, luggage tug, or terminal wing while reversing out of the gate can cripple an engine before liftoff. Drive in with full armor, board the jet immediately rather than trading gunfire on foot, line up cleanly with the wide runway, pull up smoothly, and stay airborne until 'Catch Me If You Can' pops.",
       "steps": [
-        "Stock full body armor and drive to Vice City International Airport (VCIA)",
-        "Crash or slip past the perimeter gates onto the tarmac near terminals E3/E4",
-        "Locate a parked commercial passenger jet and climb straight into the cockpit",
-        "Clear the gate carefully, accelerate down the runway, and lift off under pursuit",
-        "Fly roughly 1 km clear of VCIA until 'Catch Me If You Can' unlocks"
+        {
+          "text": "Stock full body armor and drive to Vice City International Airport (VCIA)",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Crash or slip past the perimeter gates onto the tarmac near terminals E3/E4",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Locate a parked commercial passenger jet and climb straight into the cockpit",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear the gate carefully, accelerate down the runway, and lift off under pursuit",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Fly roughly 1 km clear of VCIA until 'Catch Me If You Can' unlocks",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Catch Me If You Can (VCIA Jet Takeoff)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — Official Hidden PS5 Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1577,21 +2646,46 @@
       "when": "Quick free-roam heist stunt during Stage 5.",
       "guide": "Travel to Mile Zero Air Station—Leonida's fortified military base on the southwestern island—infiltrate the tarmac or motor pool, hijack a military Rhino Tank, and drive it around the base. Per PowerPyx and launch guides, 'Challenging Tank' unlocks moments after you climb into the Rhino and start rolling.\n\nBase defenses escalate almost instantly once you cross the perimeter, and infantry rockets or enemy armor can shred an unarmored character while sprinting across the open runway. Approach in a fast car with maxed body armor, drop a quick-save just outside the perimeter, spot a Rhino Tank before exiting your car, jump straight into the hatch, and start driving immediately.",
       "steps": [
-        "Equip full body armor and drive or fly to Mile Zero Air Station on the southwestern island",
-        "Save manually just outside the base perimeter for instant retries",
-        "Breach the base and stay inside a fast vehicle until you spot a parked or patrolling Rhino Tank",
-        "Pull right beside the Rhino, board the driver hatch quickly, and roll out to pop 'Challenging Tank'"
+        {
+          "text": "Equip full body armor and drive or fly to Mile Zero Air Station on the southwestern island",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Save manually just outside the base perimeter for instant retries",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Breach the base and stay inside a fast vehicle until you spot a parked or patrolling Rhino Tank",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Pull right beside the Rhino, board the driver hatch quickly, and roll out to pop 'Challenging Tank'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Challenging Tank (Mile Zero Rhino Guide)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Secret Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1615,22 +2709,52 @@
       "when": "Attempt after dark during Stage 5 with stealth gear and lock/alarm bypass tools.",
       "guide": "Burglarize a Vice City jewelry store completely undetected—no tripped alarms, no alerted guards or clerks, and no police witnesses—to unlock this hidden secret trophy. Wait until after dark during Stage 5 when streets are quieter and you have stealth tools and alarm/lock bypass gear unlocked.\n\nA single spotted camera sweep, loud glass smash near a patrolling guard, or sloppy exit past a witness voids the silent condition even if you get away with the loot. Make a manual save down the block beforehand, disable exterior alarms and camera sightlines first, clear the display cases silently, and slip back out cleanly so 'Sneakthief' registers.",
       "steps": [
-        "Approach a Vice City jewelry store after closing hours and create a manual save nearby",
-        "Scout security cameras, exterior alarm boxes, and patrol timing before entering",
-        "Disable cameras and alarm panels quietly and gain silent entry",
-        "Loot the display cases without alerting guards, staff, or passing patrols",
-        "Exit the store and clear the block completely undetected to unlock 'Sneakthief'"
+        {
+          "text": "Approach a Vice City jewelry store after closing hours and create a manual save nearby",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Scout security cameras, exterior alarm boxes, and patrol timing before entering",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Disable cameras and alarm panels quietly and gain silent entry",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Loot the display cases without alerting guards, staff, or passing patrols",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Exit the store and clear the block completely undetected to unlock 'Sneakthief'",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Sneakthief Stealth Jewelry Store Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — Official Hidden PS5 Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1654,27 +2778,60 @@
       "when": "Complete in Stage 5 with maxed weapons, armor, and breaching tools; also supplies Marked Bills for 'Dime on the Dollar'.",
       "guide": "Breach and rob 5 Bank Vaults across Leonida and escape the police pursuit alive (tracked 0/5 on PS5). Bring maximum armor, breaching tools, and a fast 2-door or 4-door getaway car parked flush against the exit facing the street—every vault haul also supplies Marked Bills that feed straight into 'Dime on the Dollar'.\n\nGetting pinned inside a bank lobby when tactical squads arrive or dying during the getaway invalidates that robbery attempt. Control lobby staff quickly, crack the vault cleanly without stalling, load your bags, sprint straight to your staged car, and duck into tunnels or back-alleys to shake the Wanted Level and lock in each of the 5 vaults.",
       "steps": [
-        "Equip full armor, upgraded firearms, and vault-breaching gear before hitting a branch",
-        "Park a fast getaway car right outside the bank exit pointed toward an open escape avenue",
-        "Control lobby staff, breach the vault door, and collect the Marked Bills stacks",
-        "Fight clear to your car and lose the Wanted Level completely to register the vault",
-        "Repeat across 5 Bank Vaults (0/5) to unlock 'Maximum Withdrawal' (and launder the bills for 'Dime on the Dollar')"
+        {
+          "text": "Equip full armor, upgraded firearms, and vault-breaching gear before hitting a branch",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Park a fast getaway car right outside the bank exit pointed toward an open escape avenue",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Control lobby staff, breach the vault door, and collect the Marked Bills stacks",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Fight clear to your car and lose the Wanted Level completely to register the vault",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Repeat across 5 Bank Vaults (0/5) to unlock 'Maximum Withdrawal' (and launder the bills for 'Dime on the Dollar')",
+          "cites": [
+            1,
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Bank Vault Robberies & Escape Strategy",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/5 Bank Vaults Tracker",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — Maximum Withdrawal Entry",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1698,22 +2855,52 @@
       "when": "Knock out anytime you spot an Armored Truck event on your radar in Stage 5.",
       "guide": "Intercept a dynamic Armored Truck patrolling downtown Vice City financial strips, bank corridors, or major highways, crack the rear cargo doors open, grab the cash bag, and completely lose the police pursuit. Armored trucks spawn organically throughout free roam, especially when cruising business districts.\n\nDestroying the whole truck with excessive explosives can burn the score or draw lethal SWAT fire before you grab the bag, while letting the driver speed off into traffic makes chasing it messy. Box the van in at an intersection, take out the guards cleanly, plant a single sticky bomb or charge on the rear doors, snatch the cash case, and break line of sight to clear your stars.",
       "steps": [
-        "Cruise downtown Vice City bank strips or major highways until an Armored Truck icon spawns on radar",
-        "Cut off or disable the van quickly and neutralize the armed guards",
-        "Place a single sticky bomb/explosive charge on the rear cargo doors and detonate from cover",
-        "Collect the dropped cash bag and flee immediately",
-        "Escape your Wanted Level completely to pop 'A Classic Blitz Play'"
+        {
+          "text": "Cruise downtown Vice City bank strips or major highways until an Armored Truck icon spawns on radar",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Cut off or disable the van quickly and neutralize the armed guards",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Place a single sticky bomb/explosive charge on the rear cargo doors and detonate from cover",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Collect the dropped cash bag and flee immediately",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Escape your Wanted Level completely to pop 'A Classic Blitz Play'",
+          "cites": [
+            1,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Armored Truck Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — Armored Truck Heist Guide",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1737,22 +2924,54 @@
       "when": "Pair with WAiNK scans and Card Sets in Stage 3 using a helicopter.",
       "guide": "Defog and discover all 52 named districts, parishes, swamps, and islands across the state of Leonida (tracked 0/52 on PS5). Central Vice City zones clear naturally during the story, leaving outer Leonida Keys, Grassrivers wetlands, rural northern parishes, and tiny coastal islets for Stage 3 cleanup.\n\nFlying at max altitude in a jet can pass over tiny keys or narrow rural parcels without triggering their discovery banner. Grab a fast helicopter, zoom into the pause map to spot every remaining gray/fogged sliver or unnamed patch, and swoop low over each boundary until the district name pops on screen and your counter hits 52/52.",
       "steps": [
-        "Finish the main story first so core Vice City districts defog naturally",
-        "Inspect the pause map closely for any remaining fogged patches or unnamed rural/coastal parcels",
-        "Steal or summon a fast helicopter for rapid state-wide sweeps",
-        "Fly low over outer Leonida Keys, Grassrivers wetlands, northern hills, and small coastal islets",
-        "Combine with WAiNK scans until 52/52 areas unlock 'The Goodtime State'"
+        {
+          "text": "Finish the main story first so core Vice City districts defog naturally",
+          "cites": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Inspect the pause map closely for any remaining fogged patches or unnamed rural/coastal parcels",
+          "cites": [
+            1,
+            2
+          ]
+        },
+        {
+          "text": "Steal or summon a fast helicopter for rapid state-wide sweeps",
+          "cites": [
+            2
+          ]
+        },
+        {
+          "text": "Fly low over outer Leonida Keys, Grassrivers wetlands, northern hills, and small coastal islets",
+          "cites": [
+            2
+          ]
+        },
+        {
+          "text": "Combine with WAiNK scans until 52/52 areas unlock 'The Goodtime State'",
+          "cites": [
+            1,
+            2
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/52 Area Discovery Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — GTA VI Exploration Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1776,22 +2995,53 @@
       "when": "Great Stage 5 cleanup task — also ideal for earning 'Gunslinger' and Marked Bills.",
       "guide": "Locate and rob at least one Illegal Operation belonging to each of Leonida's 9 rival gangs (tracked 0/9 on PS5). Gang fronts—such as back-room drug labs, dock warehouses, chop shops, and stash houses—respawn across each faction's territory in post-story free roam and also generate Marked Bills for 'Dime on the Dollar'.\n\nHitting multiple hideouts belonging to the same gang won't move the 0/9 counter—you must hit one operation per distinct gang across all 9 factions. Check gang territory boundaries across Vice City and the outer counties, use these crowded sites to knock out 'Gunslinger' (5 kills in one Combat Focus), grab the stash, and escape cleanly.",
       "steps": [
-        "Review gang territories across Vice City and outlying counties so you target all 9 unique factions",
-        "Bring full armor and a high-capacity rifle (great spot to also earn 'Gunslinger')",
-        "Locate an Illegal Operation icon in a gang's turf, clear the defenders, and loot the stash/register",
-        "Escape the area cleanly so that gang's faction registers on the 0/9 counter",
-        "Repeat across all 9 distinct gangs to unlock 'Pest Control'"
+        {
+          "text": "Review gang territories across Vice City and outlying counties so you target all 9 unique factions",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Bring full armor and a high-capacity rifle (great spot to also earn 'Gunslinger')",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Locate an Illegal Operation icon in a gang's turf, clear the defenders, and loot the stash/register",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Escape the area cleanly so that gang's faction registers on the 0/9 counter",
+          "cites": [
+            1,
+            3
+          ]
+        },
+        {
+          "text": "Repeat across all 9 distinct gangs to unlock 'Pest Control'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Gang Illegal Operations Guide (All 9 Gangs)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/9 Gang Operations Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1815,21 +3065,46 @@
       "when": "Relaxed 1-minute stop along the Ocean Beach strip in Stage 5.",
       "guide": "Head down to Vice City's iconic Ocean Beach strip—a direct throwback to the original Vice City's Ocean View skyline—step into the oceanfront hotel lounge or terrace bar overlooking the sand, and order a cocktail at the bar prompt. Once you drink while taking in the Ocean Beach view, this nostalgic hidden Bronze trophy unlocks.\n\nGrabbing a drink at an inland nightclub or a random convenience store won't trigger the Easter egg—make sure you're at the Ocean Beach beachfront hotel/terrace bar with the view of the water, and wait out the full sipping animation without sprinting away or causing a brawl that closes the bar.",
       "steps": [
-        "Travel to Vice City's Ocean Beach beachfront strip during free roam",
-        "Enter the oceanfront hotel lounge or terrace bar overlooking Ocean Beach",
-        "Walk up to the bar prompt, order a cocktail, and stay put through the drink animation",
-        "Enjoy the ocean view until 'In The Beginning…' pops"
+        {
+          "text": "Travel to Vice City's Ocean Beach beachfront strip during free roam",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Enter the oceanfront hotel lounge or terrace bar overlooking Ocean Beach",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Walk up to the bar prompt, order a cocktail, and stay put through the drink animation",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Enjoy the ocean view until 'In The Beginning…' pops",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — In The Beginning… Ocean Beach Easter Egg",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — Official Hidden PS5 Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1853,21 +3128,46 @@
       "when": "Available anytime after Chapter 3 once you have the Key Cloner (Stage 5).",
       "guide": "Once you unlock the Key Cloner through Chapter 3 story progression, visit the vehicle showroom in southern Vice City that displays a classic blue Banshee behind its front plate glass (per PowerPyx). Use the Key Cloner to unlock and fire up the blue Banshee, then floor it straight through the glass storefront onto the street in classic GTA style.\n\nDriving out through an open side door or stealing a different showroom vehicle won't satisfy the 'classic style' trigger. Make sure you bring the Key Cloner, line the blue Banshee squarely up with the main front window pane, and punch the accelerator straight through the glass so 'Capital Offense' unlocks immediately.",
       "steps": [
-        "Advance past Chapter 3 to unlock the Key Cloner tool",
-        "Travel to the southern Vice City vehicle showroom displaying the classic blue Banshee",
-        "Walk up to the blue Banshee and use the Key Cloner to unlock and start it",
-        "Line up with the front plate-glass window and floor it straight out onto the street to pop the trophy"
+        {
+          "text": "Advance past Chapter 3 to unlock the Key Cloner tool",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Travel to the southern Vice City vehicle showroom displaying the classic blue Banshee",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Walk up to the blue Banshee and use the Key Cloner to unlock and start it",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Line up with the front plate-glass window and floor it straight out onto the street to pop the trophy",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Capital Offense (Blue Banshee Showroom Guide)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Secret Trophy",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1891,21 +3191,46 @@
       "when": "First visited in Chapter 2 ('Hit Kingpin Bowling'), or revisit on cooldown in Stage 5 free roam.",
       "guide": "Complete the bowling follow-through action at Kolt & Associates' bowling alley. You first pass through this venue during Chapter 2's main story mission 'Hit Kingpin Bowling', and per PowerPyx the trophy is completely unmissable: even if you bypass it during Chapter 2, the alley stays revisitable in post-story free roam.\n\nIf you return in free roam and the alley interaction isn't active right away, you likely hit the venue's cooldown window after a recent visit or commotion. Leave the block, sleep at a safehouse or advance several in-game hours to let the location reset, then step up to the lane and complete the follow-through cleanly.",
       "steps": [
-        "Visit Kolt & Associates' bowling alley during Chapter 2 ('Hit Kingpin Bowling') or anytime in free roam",
-        "If revisiting post-story and the venue is inactive, advance in-game time to clear its cooldown",
-        "Step up to the bowling lane and complete the follow-through interaction cleanly",
-        "Confirm 'Let's Go Bowling' pops right after the lane action registers"
+        {
+          "text": "Visit Kolt & Associates' bowling alley during Chapter 2 ('Hit Kingpin Bowling') or anytime in free roam",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "If revisiting post-story and the venue is inactive, advance in-game time to clear its cooldown",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Step up to the bowling lane and complete the follow-through interaction cleanly",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Confirm 'Let's Go Bowling' pops right after the lane action registers",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Let's Go Bowling (Unmissable Cooldown Note)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — Official Hidden PS5 Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1929,21 +3254,49 @@
       "when": "Work out together at Leonida fitness clubs during Stage 5.",
       "guide": "Max out the Strength stat for BOTH Jason and Lucia simultaneously (per PowerPyx and GTABase). Check both protagonists' current Strength bars under Pause > Jason & Lucia > Strength, then hit a Vice City fitness club or beachfront outdoor gym together and run strength workout sets until both gauges hit 100%.\n\nMany players max one character's Strength and wonder why 'Personal Best' didn't pop—both Jason and Lucia must hold maxed Strength at the same time. Swap between them at the gym (or work out as a pair), avoid skipping sets early, and watch the second character's bar hit 100% to trigger the hidden Bronze trophy.",
       "steps": [
-        "Open Pause > Character Stats (Jason & Lucia > Strength) to inspect both bars",
-        "Travel to a fitness club or beachfront gym in Vice City with both protagonists available",
-        "Complete lifting and strength workout sets with Jason until his Strength hits 100%",
-        "Switch to Lucia and complete workout sets until her Strength also hits 100% simultaneously"
+        {
+          "text": "Open Pause > Character Stats (Jason & Lucia > Strength) to inspect both bars",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Travel to a fitness club or beachfront gym in Vice City with both protagonists available",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Complete lifting and strength workout sets with Jason until his Strength hits 100%",
+          "cites": [
+            3,
+            4
+          ]
+        },
+        {
+          "text": "Switch to Lucia and complete workout sets until her Strength also hits 100% simultaneously",
+          "cites": [
+            3,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Personal Best (Max Strength Guide)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — GTA 6 Strength Stat & Trophy Guide",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -1967,21 +3320,46 @@
       "when": "Tracks cumulatively all game long; enable HUD notifications early and finish any remainder in Stage 5.",
       "guide": "Trigger 500 Criminal Profile actions—whether restrained/clean or ruthless/chaotic—across your playthrough (tracked 0/500 on PS5). Per PowerPyx, go into Settings > UI right at the start of the game and toggle ON 'Criminal Profile HUD Notifications' so small on-screen badges flash whenever an action registers.\n\nLeaving HUD notifications off makes it impossible to tell which free-roam acts actually count toward the 500 total. With notifications visible, you'll accumulate hundreds naturally across story decisions, stranger encounters, stealth vs. loud holdups, and NPC interactions, then easily farm quick repeatable robberies or world encounters in Stage 5 to cross 500/500.",
       "steps": [
-        "Open Settings > UI as early as possible and enable 'Criminal Profile HUD Notifications'",
-        "Watch for the HUD profile-shift icon to learn which choices and crimes increment the counter",
-        "Play through the story, Strangers & Freaks, and Stage 5 heists to build most of the 500 naturally",
-        "In Stage 5, repeat fast profile-triggering holdups or world encounters until 500/500 pops the trophy"
+        {
+          "text": "Open Settings > UI as early as possible and enable 'Criminal Profile HUD Notifications'",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Watch for the HUD profile-shift icon to learn which choices and crimes increment the counter",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Play through the story, Strangers & Freaks, and Stage 5 heists to build most of the 500 naturally",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "In Stage 5, repeat fast profile-triggering holdups or world encounters until 500/500 pops the trophy",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Actions Speak Louder (500 Profile Actions)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/500 Hidden Tracker",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -2005,21 +3383,46 @@
       "when": "Quick free-roam revisit in Stage 5.",
       "guide": "Return in free roam to the Payday Loans storefront featured in the game's opening prologue and pull off a clean repeat holdup ('second time's the charm', per PowerPyx). The shop stays open in the open world throughout post-story free roam, making this a fast, memorable Stage 5 callback.\n\nGetting busted or gunned down inside the storefront before clearing the scene spoils the clean exit. Park a fast getaway vehicle right outside the door, walk back inside Payday Loans, clean out the counter and back room efficiently, and escape the storefront cleanly so 'Bad Luck, I Guess' triggers.",
       "steps": [
-        "Locate the Payday Loans storefront tied to the opening prologue sequence",
-        "Stage a fast getaway car outside the front entrance facing the road",
-        "Re-enter the shop in free roam and pull off the repeat holdup cleanly",
-        "Clear the storefront and get away ('second time's the charm') to unlock the hidden trophy"
+        {
+          "text": "Locate the Payday Loans storefront tied to the opening prologue sequence",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Stage a fast getaway car outside the front entrance facing the road",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Re-enter the shop in free roam and pull off the repeat holdup cleanly",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Clear the storefront and get away ('second time's the charm') to unlock the hidden trophy",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Bad Luck, I Guess Secret Trophy Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — Official Hidden PS5 Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -2043,22 +3446,52 @@
       "when": "Visit Kelly County solo after 2:00 AM during Stage 5.",
       "guide": "Trigger Leonida's hidden late-night UFO encounter in Kelly County. Per PowerPyx's walkthrough, travel to the backcountry clearing northwest of the Starlet Motel in Kelly County after 2:00 AM in-game time, wait in the clearing, and watch the night sky until the UFO event activates overhead.\n\nTwo strict conditions break this spawn if ignored: arriving with your partner tagging along, or showing up before 2:00 AM. Make sure you are completely SOLO (leave your partner behind), sleep or pass time nearby until past 2:00 AM, and approach the clearing calmly without an active police chase so 'The Truth Is Out There' triggers cleanly.",
       "steps": [
-        "Confirm you are exploring SOLO—do not bring your partner along",
-        "Make sure you have no active Wanted Level and drive to Kelly County",
-        "Head into the backcountry northwest of the Starlet Motel",
-        "Pass time nearby until after 2:00 AM in-game clock time",
-        "Wait in the clearing and watch the night sky for the UFO encounter to pop the trophy"
+        {
+          "text": "Confirm you are exploring SOLO—do not bring your partner along",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Make sure you have no active Wanted Level and drive to Kelly County",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Head into the backcountry northwest of the Starlet Motel",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Pass time nearby until after 2:00 AM in-game clock time",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Wait in the clearing and watch the night sky for the UFO encounter to pop the trophy",
+          "cites": [
+            2,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — The Truth Is Out There (Kelly County UFO)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 2,
           "label": "Exophase — Official Hidden Secret Trophy",
           "domain": "exophase.com",
-          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/"
+          "url": "https://www.exophase.com/game/grand-theft-auto-vi-psn/trophies/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -2082,21 +3515,46 @@
       "when": "Quick 30-second motorcycle stunt during Stage 5.",
       "guide": "Ride any motorcycle, switch to a one-handed melee weapon (such as a baseball bat, crowbar, or machete) on your weapon wheel while mounted, and perform a vehicular melee drive-by swing to knock a target flat on the pavement. This takes under a minute anywhere in Stage 5 free roam.\n\nRunning the target over with your front tire or clipping them with the bike frame counts as a vehicle hit rather than a melee drive-by, which won't pop 'Ten Pin'. Ride parallel along a wide boardwalk or quiet street at moderate speed, keep a clean half-meter gap beside the target, and time the side melee swing so the weapon itself bowls them over.",
       "steps": [
-        "Grab a nimble motorcycle and cycle your weapon wheel to a one-handed melee weapon (bat/crowbar/machete)",
-        "Find an open boardwalk or wide sidewalk with targets in a clear line",
-        "Ride parallel at moderate speed—avoid hitting the target with your bike wheels directly",
-        "Execute the melee drive-by strike cleanly beside the target to bowl them over and unlock 'Ten Pin'"
+        {
+          "text": "Grab a nimble motorcycle and cycle your weapon wheel to a one-handed melee weapon (bat/crowbar/machete)",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Find an open boardwalk or wide sidewalk with targets in a clear line",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Ride parallel at moderate speed—avoid hitting the target with your bike wheels directly",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Execute the melee drive-by strike cleanly beside the target to bowl them over and unlock 'Ten Pin'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Ten Pin Melee Drive-By Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official Hidden Trophy Listing",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -2120,21 +3578,46 @@
       "when": "Stack with 'Maximum Withdrawal' and 'Pest Control' in Stage 5.",
       "guide": "Launder dirty Marked Bills stolen from Bank Vaults, Armored Trucks, and Gang Illegal Operations through your criminal laundering contacts until your cumulative clean payout reaches $250,000 (tracked 0/250,000 on PS5). Stacking this with 'Maximum Withdrawal' (5 vaults) and 'Pest Control' (9 gangs) supplies most of the dirty bills you need.\n\nHoarding huge stacks of unwashed Marked Bills while messing around in free roam risks losing dirty cash if you die or get busted. Deliver marked hauls to your laundering contacts right after each bank vault or gang operation, and track the 0/250,000 PSN counter so you know exactly how many more runs remain.",
       "steps": [
-        "Loot Marked Bills while completing Bank Vaults ('Maximum Withdrawal'), Armored Trucks, and Gang Operations ('Pest Control')",
-        "Deliver dirty stacks promptly to your criminal laundering contacts rather than carrying them into risky fights",
-        "Collect the converted clean cash payouts as each laundering drop clears",
-        "Keep running vaults or gang stashes until your cumulative laundered payout hits $250,000"
+        {
+          "text": "Loot Marked Bills while completing Bank Vaults ('Maximum Withdrawal'), Armored Trucks, and Gang Operations ('Pest Control')",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Deliver dirty stacks promptly to your criminal laundering contacts rather than carrying them into risky fights",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Collect the converted clean cash payouts as each laundering drop clears",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Keep running vaults or gang stashes until your cumulative laundered payout hits $250,000",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — Marked Bills & Money Laundering Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official $250,000 Laundering Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -2158,21 +3641,46 @@
       "when": "Happens effortlessly during endgame shopping/upgrades in Stage 5.",
       "guide": "Spend a cumulative $100,000 across Leonida's retail stores (tracked 0/100,000 on PS5). Purchases across Vice City clothing boutiques, Ammu-Nation weapon modifications, armor/ammo counters, jewelry/watch stores, salons, and vehicle mod shops all feed into the running total.\n\nDon't waste scarce early-game cash forcing this in Chapter 1—wait until post-story free roam after campaign payouts and bank vault laundering fill your wallet. Buying maxed firearm attachments for 'The Shootist' and full performance upgrades for your race/stunt fleet will effortlessly push you over $100,000.",
       "steps": [
-        "Save major shopping sprees for post-story Stage 5 once campaign and bank heist payouts are banked",
-        "Buy full weapon mods and extended mags at Ammu-Nation (doubling as prep for 'The Shootist')",
-        "Upgrade your race and stunt vehicles at mod shops and pick up luxury apparel/watches at Vice City boutiques",
-        "Reach $100,000 cumulative shop spend on the PSN tracker to unlock 'Treat Yo Self'"
+        {
+          "text": "Save major shopping sprees for post-story Stage 5 once campaign and bank heist payouts are banked",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Buy full weapon mods and extended mags at Ammu-Nation (doubling as prep for 'The Shootist')",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Upgrade your race and stunt vehicles at mod shops and pick up luxury apparel/watches at Vice City boutiques",
+          "cites": [
+            4
+          ]
+        },
+        {
+          "text": "Reach $100,000 cumulative shop spend on the PSN tracker to unlock 'Treat Yo Self'",
+          "cites": [
+            1,
+            4
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official $100,000 Shop Spend Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 4,
           "label": "GTABase — Economy & Shopping Trophies",
           "domain": "gtabase.com",
-          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list"
+          "url": "https://www.gtabase.com/grand-theft-auto-vi/guides/gta-6-trophy-guide-achievements-list",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -2196,21 +3704,46 @@
       "when": "Buy out all 8 garages in Stage 5 using campaign and laundered heist profits.",
       "guide": "Buy all 8 standalone garage properties across Leonida (tracked 0/8 on PS5). Filter your map for purchasable garage real-estate icons or browse property listings on your phone once your post-story bankroll is flush from campaign jobs and laundered vault hauls.\n\nTrying to buy properties mid-campaign can leave you cash-strapped for weapon and vehicle mods, whereas in Stage 5 you can sweep all 8 garages in minutes. Buying every garage bay also gives you abundant storage space to pair directly with 'On the Spot' (registering 10 vehicles in Scooter Bros).",
       "steps": [
-        "Finish the campaign and bank vault laundering so you have ample clean cash",
-        "Filter the Leonida map or realtor app for all 8 standalone purchasable garage properties",
-        "Purchase each garage bay one by one across Vice City and the outer counties",
-        "Confirm the PSN tracker hits 8/8 garages to pop 'Little Boxes'"
+        {
+          "text": "Finish the campaign and bank vault laundering so you have ample clean cash",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Filter the Leonida map or realtor app for all 8 standalone purchasable garage properties",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Purchase each garage bay one by one across Vice City and the outer counties",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Confirm the PSN tracker hits 8/8 garages to pop 'Little Boxes'",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/8 Garage Properties Tracker",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 3,
           "label": "PowerPyx — All 8 Garage Properties Guide",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     },
@@ -2234,21 +3767,46 @@
       "when": "Quick Stage 5 wrap-up alongside garage purchases.",
       "guide": "Open the Scooter Bros app on Jason or Lucia's smartphone and register 10 different owned or eligible vehicles to your delivery roster (tracked 0/10 on PS5). Pairing this right after 'Little Boxes' ensures you have plenty of garage capacity to hold ten distinct rides ready for instant on-demand delivery anywhere in Leonida.\n\nDuplicate registrations of the same car or unregistered street-stolen vehicles sitting outside your garage won't advance the 0/10 tally. Store or purchase 10 distinct eligible vehicles across your owned garages, open the Scooter Bros app, and confirm each slot shows as registered until 10/10 unlocks 'On the Spot'.",
       "steps": [
-        "Purchase garage storage first ('Little Boxes') so you have room for 10 distinct vehicles",
-        "Acquire and store 10 different eligible vehicles across your owned garages",
-        "Open the Scooter Bros app on your in-game smartphone",
-        "Register each of the 10 distinct vehicles to your Scooter Bros roster until 10/10 pops the trophy"
+        {
+          "text": "Purchase garage storage first ('Little Boxes') so you have room for 10 distinct vehicles",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Acquire and store 10 different eligible vehicles across your owned garages",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Open the Scooter Bros app on your in-game smartphone",
+          "cites": [
+            3
+          ]
+        },
+        {
+          "text": "Register each of the 10 distinct vehicles to your Scooter Bros roster until 10/10 pops the trophy",
+          "cites": [
+            1,
+            3
+          ]
+        }
       ],
       "citations": [
         {
+          "sourceNum": 3,
           "label": "PowerPyx — On the Spot (Scooter Bros App Guide)",
           "domain": "powerpyx.com",
-          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/"
+          "url": "https://www.powerpyx.com/gta-6-grand-theft-auto-vi-trophy-guide-roadmap/",
+          "readDate": "read 19 Nov 2026"
         },
         {
+          "sourceNum": 1,
           "label": "PSNProfiles — Official 0/10 Registered Vehicles Counter",
           "domain": "psnprofiles.com",
-          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi"
+          "url": "https://psnprofiles.com/trophies/43531-grand-theft-auto-vi",
+          "readDate": "read 19 Nov 2026"
         }
       ]
     }

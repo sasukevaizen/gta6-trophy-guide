@@ -53,3 +53,12 @@ Design System: **LEONIDA PIXEL DUSK** (retro pixel-art game UI, zero external as
 - [x] Step 3: Run lean verification (counts & starter parity, offline Chrome 0 errors / 0 external requests, deterministic `dossier.json` build + unchanged `vendor/makefun-frontend.ts`, kit `check` 4/4 PASS)
 - [x] Step 4: Commit locally ("Deepen per-trophy guides and retake screenshots for depth") and hand off `git push origin master:main`
 - [ ] Step 5: After user confirms "push done", seal recording and submit ONCE through kit CLI, then report submission ID and status
+
+## Iteration Pass 2 — Citation & Audit Layer (Stacked on `727b9a3`)
+- [x] Step 1: Add numbered source registry (`num`, `name`, `domain`, `url`, `readDate: "read 19 Nov 2026"`) in `app/data/trophies.json` and link citations to registry numbers
+- [x] Step 2: Restructure every trophy's `steps` to `{ text, cites: [...] }` with honest per-step source numbers (without rewriting guide prose); verify `citedSteps === totalSteps` (100%)
+- [x] Step 3: Add factual `honestyFlags` where true (`Positive Mental Attitude`: unconfirmed/disputed missable status + 18 tracked vs 15 for 100% split; dynamic `single-source` tag support)
+- [x] Step 4: Add Pixel Dusk UI additions — computed Audit Strip under hero, per-step gold citation chips in Dossier, numbered `SOURCE MATRIX` panel with names/domains/read dates, and Honesty Flags panel (no teal/turquoise, no emoji, no smooth gradients)
+- [x] Step 5: Retake all 4 desktop Chrome screenshots (`1280×1000` JPG, <= 256 KiB); verify Audit Strip in Shot 1 and per-step chips + Source Matrix in Shots 1 & 4
+- [x] Step 6: Run lean verification (metadata parity, `citedSteps === totalSteps`, offline Chrome 0 errors / 0 external requests, deterministic `dossier.json` build + unchanged `vendor/makefun-frontend.ts`, kit `check` 4/4 PASS)
+- [x] Step 7: Commit locally ("Add per-step citations, source registry and audit strip") and hand off `git push origin master:main`
