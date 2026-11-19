@@ -1,0 +1,113 @@
+{
+  "format": "agent-fun/kit/v1",
+  "competition": "gta6-trophy-guide-01",
+  "phase": "dev",
+  "bundle_sha256": "3690e4d74e7409d594c57a36d76ab808f766c051cf9e423aa49e44b19fd74d2f",
+  "dataset_sha256": null,
+  "harness_version": "harness@f894ae8bad9b27515195bf51d85a544ca56827edb8a229527d2b6c5a4d9d3bf5 node v26.13.1",
+  "scorer_version": "scorer@f27ab7f51ed04c96b521b9476b2a3c52e434fc4826f595c2d65ae9116ac98aab program@bc13a909944f5cc0e12d624f0e730834d53d8898c3fe797e3ce28a582cc7c795",
+  "pricing_rev": "6a262a9d0245fc1bb135c62775a6abd481aace3029ff2857a45310eb172ac899",
+  "protocol": "agent-fun/program/v1",
+  "files": [
+    {
+      "path": "RULES.txt",
+      "sha256": "b444acd918b84498b8d54fa4b190af060af89baed4146c0c80ea8c32586a2d07",
+      "size": 114476
+    },
+    {
+      "path": "cli/makefun.mjs",
+      "sha256": "0b281810c7839c593c4489a38de9ce22d5ad5665c15dde9f0d236710f7665508",
+      "size": 15164096
+    },
+    {
+      "path": "cli/site.json",
+      "sha256": "7f0f8c1f86bb85d07cdf8b8b5b688b08d8b86df44f66b6a7178e839f333a3274",
+      "size": 65
+    },
+    {
+      "path": "competition.yaml",
+      "sha256": "0325afe7b3f90dfaae27a8f9c0b800b97fa684cd13bee5484097bb2ef9d7df01",
+      "size": 106366
+    },
+    {
+      "path": "harness/CODE.sha256",
+      "sha256": "a8d214a544ca8d5aeea8300548ff71e320de7f23c379d8822dd21b04faeeb495",
+      "size": 16890
+    },
+    {
+      "path": "harness/SOURCES.sha256",
+      "sha256": "80b10826c0f8531bb6cecbc6c4f7daf47afdae099364cf82e1874d217cd0955b",
+      "size": 16890
+    },
+    {
+      "path": "harness/harness-src.tar.gz",
+      "sha256": "c4ebd62c5c2a5a525ee5b8edb21a1b9479248e80593a5fe1ab4a9db3a1a433bc",
+      "size": 2397280
+    },
+    {
+      "path": "harness/harness-src.tar.gz.sha256",
+      "sha256": "ffdba73db24fbf67ef015fbf8be35a2d141449bc76d483bd161333dfe531b09d",
+      "size": 85
+    },
+    {
+      "path": "starter/LICENSE",
+      "sha256": "babfa6d8ce941605e507993e42790165d6c98c48365eedbdcdd5350ed6e0ed55",
+      "size": 1095
+    },
+    {
+      "path": "starter/app/app.js",
+      "sha256": "7d80675233b80cd235c3f1c0f5b1b8abcb4703d678ad004de9caa63a3d18a73b",
+      "size": 1840
+    },
+    {
+      "path": "starter/app/data/trophies.json",
+      "sha256": "ad1c0f2aeadaa934aab06a27de182deb10ff70615007ddc070d50d7a0b4aa444",
+      "size": 9935
+    },
+    {
+      "path": "starter/app/index.html",
+      "sha256": "102484129f314919c9090d5f4d475bbc44be5918b5405535e375c9997be73223",
+      "size": 951
+    },
+    {
+      "path": "starter/app/style.css",
+      "sha256": "41f2099b45e77a594674910c273fce4b39d4726361f13c70f3fb98a73a255c55",
+      "size": 461
+    },
+    {
+      "path": "starter/main.ts",
+      "sha256": "1955d5f961bc5874438dd6f874ab547ecfd42a3aa5c1d574c1d96fbf12a71774",
+      "size": 2450
+    },
+    {
+      "path": "starter/screenshots/1-checklist.jpg",
+      "sha256": "0e9d85a6a478e5fea69b071de76f6ae595db9cfcb15dce5c5bb9a4d0e3016490",
+      "size": 112547
+    },
+    {
+      "path": "starter/screenshots/2-silver.jpg",
+      "sha256": "4bc32ecde467817ad61cb0409ee7a77e5d03782ded2d82ead8427002195bd453",
+      "size": 75122
+    },
+    {
+      "path": "starter/screenshots/3-bronze.jpg",
+      "sha256": "5dd4ad8833a471701f5272aef573a41e06140f1381c1e46d1d886cd787a0ec20",
+      "size": 145812
+    },
+    {
+      "path": "starter/serve.ts",
+      "sha256": "661a87fefc96ab7817f5f8b825f217cf1e8094c3fd351a4146f4cb8e1c4f7977",
+      "size": 2417
+    },
+    {
+      "path": "starter/shots.json",
+      "sha256": "a93d0302e16dbc30c0de557fb009c9e8456fe5f3b1e7f16e48c673fd00fd4813",
+      "size": 327
+    },
+    {
+      "path": "starter/vendor/makefun-frontend.ts",
+      "sha256": "4c8da1c8e76490b3a847670f49137d3ec23953e3c988fe6a6cb320fce5739240",
+      "size": 85533
+    }
+  ]
+}
