@@ -112,13 +112,20 @@ export function renderDossier(container, trophy, state, callbacks, options = {})
       })
       .join('');
 
+    const guideParagraphsHtml = String(trophy.guide || '')
+      .split(/\n\n+/)
+      .map((para) => para.trim())
+      .filter(Boolean)
+      .map((para) => `<p class="guide-text ${options.justRevealed ? 'is-just-revealed' : ''}">${escapeHtml(para)}</p>`)
+      .join('');
+
     bodyContent = `
       ${alertHtml}
       ${psnHtml}
       <div class="dossier-section-label">CITED SOURCES</div>
       <div class="sources-list">${citationsHtml}</div>
       <div class="dossier-section-label">HOW TO UNLOCK &mdash; ORIGINAL GUIDE</div>
-      <p class="guide-text ${options.justRevealed ? 'is-just-revealed' : ''}">${escapeHtml(trophy.guide)}</p>
+      ${guideParagraphsHtml}
       <p class="guide-when">TIMING: ${escapeHtml(trophy.when)}</p>
       <div class="dossier-section-label">STEP-BY-STEP CHECKLIST</div>
       <ul class="steps-list" id="dossierStepsList">${stepsHtml}</ul>

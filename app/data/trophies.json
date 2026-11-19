@@ -45,7 +45,11 @@
       "title": "Story Playthrough & Chapter 1 Missable Watch",
       "scene": "stg1",
       "summary": "Play through Chapters 1 to 5 at your own pace without activating cheat codes (cheats disable trophies). Right after the Chapter 1 mission 'Down to Earth', accept Lucia's morning balcony meditation at Jason's house — it is the sole unconfirmed missable window in the entire list.",
-      "featuredIds": [2, 3, 28],
+      "featuredIds": [
+        2,
+        3,
+        28
+      ],
       "tip": "Never activate cheats on your Platinum save, and keep a manual backup save in Chapter 1 right after 'Down to Earth'."
     },
     {
@@ -53,7 +57,11 @@
       "title": "Strangers & Freaks Character Strands",
       "scene": "stg2",
       "summary": "Clear all 8 Strangers & Freaks arcs across Leonida in post-story free roam — wrapping the five named character finales (Andy, Kenton, Billy, Randy, Tyrone) alongside Bret's unique-animal hunting request. None of these strands lock out after credits.",
-      "featuredIds": [25, 22, 29],
+      "featuredIds": [
+        25,
+        22,
+        29
+      ],
       "tip": "Sleep or advance in-game time between stranger encounters when waiting for follow-up phone texts."
     },
     {
@@ -61,7 +69,11 @@
       "title": "Collectibles, Map Discovery & Meditations",
       "scene": "stg3",
       "summary": "Sweep Leonida district by district to clear all 52 map zones, scan 100 WAiNK curiosities, complete 3 full Collectible Card decks, sample 100 unique vehicles, and finish the remaining 17 meditation sessions across the state's 10 meditation spots.",
-      "featuredIds": [31, 30, 42],
+      "featuredIds": [
+        31,
+        30,
+        42
+      ],
       "tip": "Grab a helicopter after credits to defog outer islands and rooftops while chaining WAiNK scans."
     },
     {
@@ -69,7 +81,11 @@
       "title": "Activities, Ranges & Races",
       "scene": "stg4",
       "summary": "Tackle Leonida's skill block: earn Gold on all 42 Shooting Range challenges, land 250 stunts, win Top Fun drone races at all 14 venues, win 20 unique races, clear 50 Challenges, sample all 9 activity types, finish an arcade cabinet, and out-fish Cal.",
-      "featuredIds": [15, 17, 18],
+      "featuredIds": [
+        15,
+        17,
+        18
+      ],
       "tip": "Work through Shooting Range weapons after maxing character handling and focus stats for easier Gold scores."
     },
     {
@@ -77,7 +93,11 @@
       "title": "Heists, Secrets & Economy",
       "scene": "stg5",
       "summary": "Knock out bank vault escapes, stealth jewelry heists, armored trucks, all 9 gang illegal operations, hidden Easter eggs (VCIA jet takeoff, Rhino tank, UFO, showroom smash, bowling, drive-by), and the marked-bill laundering, shop spend, garage, and Scooter Bros economy goals.",
-      "featuredIds": [40, 39, 50],
+      "featuredIds": [
+        40,
+        39,
+        50
+      ],
       "tip": "Use endgame gear, silencers, and Key Cloner upgrades to breeze through vaults, gang stashes, and secret feats."
     },
     {
@@ -85,7 +105,10 @@
       "title": "100% Completion & The Platinum",
       "scene": "stg6",
       "summary": "Tie off every remaining bar on the in-game Progress > Total Completion checklist to unlock 'A Long Road'. The instant 100% pops alongside your other 53 trophies, 'Vice Got a Price!' unlocks automatically.",
-      "featuredIds": [14, 1],
+      "featuredIds": [
+        14,
+        1
+      ],
       "tip": "Audit the pause menu's Total Completion ledger regularly so side tasks and collectibles stack together."
     }
   ],
@@ -97,7 +120,12 @@
       "grade": "platinum",
       "hidden": false,
       "kind": "misc",
-      "focus": ["collectibles", "activities", "strangers", "heists"],
+      "focus": [
+        "collectibles",
+        "activities",
+        "strangers",
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 6,
       "missable": false,
@@ -106,12 +134,14 @@
       "targetCount": 54,
       "targetUnit": "other trophies",
       "when": "Triggers immediately when the 54th base-game trophy unlocks.",
-      "guide": "Collect every single other trophy in Grand Theft Auto VI's PlayStation 5 base list — 2 Gold, 6 Silver, and 46 Bronze — to claim the Platinum. Every trophy in the list is strictly single-player with zero multiplayer or online components required. Keep a clean save with cheats turned off, secure the opening Chapter 1 balcony meditation for Positive Mental Attitude early, and then finish Strangers & Freaks, collectibles, activities, heists, secrets, and 100% completion in post-story free roam.",
+      "guide": "Unlock every other trophy in Grand Theft Auto VI's PlayStation 5 base list—2 Gold, 6 Silver, and 46 Bronze—to claim the Platinum automatically. Every requirement is strictly single-player with zero multiplayer or online components, so the entire hunt can be completed on a single clean offline save across the campaign and post-story free roam.\n\nTwo pitfalls can derail a Platinum run: activating any cheat code disables trophies on that save session, and skipping Lucia's Chapter 1 balcony meditation after 'Down to Earth' risks locking out 'Positive Mental Attitude' since GTA VI has no mission replay. Keep a permanent manual backup save in Chapter 1, never enter cheats, and track 100% progress via Pause > Progress > Total Completion.",
       "steps": [
-        "Complete all 12 story campaign trophies without enabling cheat codes",
-        "Secure the Chapter 1 balcony meditation at Jason's house after 'Down to Earth'",
-        "Finish all Strangers & Freaks, collectible sweeps, activities, heists, and secrets",
-        "Unlock 'A Long Road' (100% Completion) to trigger the Platinum"
+        "Start a clean single-player save and keep cheat codes completely disabled throughout the playthrough",
+        "Finish all 12 story campaign trophies across Chapters 1 through 5",
+        "Lock in the Chapter 1 balcony meditation at Jason's house right after 'Down to Earth' and keep a manual backup save",
+        "Clear all 8 Strangers & Freaks strands, all collectible sweeps, activities, shooting ranges, races, and stunts",
+        "Complete the free-roam heist, economy, and secret trophies before finishing the final bars of 'A Long Road' (100% Completion)",
+        "Let the 54th trophy register so 'Vice Got a Price!' unlocks immediately"
       ],
       "citations": [
         {
@@ -147,11 +177,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically upon finishing the opening Chapter 1 mission 'Gone Fishing'.",
-      "guide": "Progress through the opening hours of Chapter 1 in the Leonida Keys and complete the story mission 'Gone Fishing'. Follow the yellow objective markers to learn basic movement, partner interaction, and early boat/coastal mechanics; the trophy pops as soon as the mission completion screen triggers. No special medal rank or optional objective is required.",
+      "guide": "Complete the opening Chapter 1 campaign mission 'Gone Fishing' in the Leonida Keys. Follow the yellow main-story markers during the introductory hours to learn core movement, partner handoffs, and early coastal boat handling; the Bronze trophy pops as soon as the mission-passed banner appears.\n\nNo gold medal, accuracy threshold, or optional mission objective is required, so play naturally without stressing over retries. The only thing that can block this unlock is turning on cheat codes before finishing the job—keep cheats off and avoid skipping mission checkpoints if prompted after a fail.",
       "steps": [
-        "Start a new single-player campaign without enabling any cheats",
-        "Follow main story markers in Chapter 1 until 'Gone Fishing' begins",
-        "Finish all objectives in 'Gone Fishing' to trigger the unlock"
+        "Launch a new campaign without activating any cheat codes",
+        "Follow the Chapter 1 story markers in the Leonida Keys until 'Gone Fishing' starts",
+        "Complete every primary objective through the coastal sequence",
+        "Wait for the mission-passed screen to confirm the Bronze unlock"
       ],
       "citations": [
         {
@@ -182,11 +213,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically upon clearing the final mission of Chapter 1.",
-      "guide": "Play through every main story job in Chapter 1 until the narrative shifts out of the opening Keys arc into Chapter 2. Before wrapping Chapter 1, double-check that you accepted Lucia's morning balcony meditation at Jason's house right after 'Down to Earth' so you protect your 'Positive Mental Attitude' progress. Once Chapter 1 concludes, this trophy unlocks automatically regardless of choices.",
+      "guide": "Finish every mandatory main-story mission in Chapter 1 to close out the opening Leonida Keys arc and transition into Chapter 2. Follow the golden campaign icons on your map at your own pace; story decisions and mission ratings do not affect this automatic progression trophy.\n\nBefore launching the Chapter 1 finale, double-check that you accepted Lucia's morning balcony meditation at Jason's house right after 'Down to Earth'. Because GTA VI lacks mission replay, leaving Chapter 1 without that opening 1/18 meditation is the sole unconfirmed missable risk on the road to Platinum—make a dedicated manual save slot beforehand.",
       "steps": [
-        "Complete all mandatory Chapter 1 main story missions",
-        "Take the balcony meditation prompt after 'Down to Earth' before advancing",
-        "Finish the Chapter 1 finale to unlock the trophy"
+        "Play through the Chapter 1 story missions in the Leonida Keys without cheats",
+        "Immediately after 'Down to Earth', create a manual backup save and accept Lucia's balcony meditation",
+        "Complete the remaining mandatory Chapter 1 jobs",
+        "Clear the Chapter 1 finale so the transition to Chapter 2 pops the trophy"
       ],
       "citations": [
         {
@@ -217,11 +249,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically upon finishing the final mission of Chapter 2.",
-      "guide": "Continue following Jason and Lucia's primary story markers through Chapter 2 until the chapter transition triggers. While in Chapter 2 you will also pass through key venues like Kingpin Bowling and unlock wider map activities, though every side task remains available afterward. Clear the Chapter 2 finale to earn this trophy automatically.",
+      "guide": "Advance Jason and Lucia's campaign through all mandatory Chapter 2 missions until the narrative shifts into Chapter 3. Chapter 2 widens your access to Leonida's venues—including the story visit to Kolt & Associates' bowling alley during 'Hit Kingpin Bowling'—while keeping every side activity open afterward.\n\nIf you get hung up on a multi-stage shootout, restock body armor and snacks between story icons rather than rushing in under-geared. Don't worry about optional banter or missing the bowling trophy during 'Hit Kingpin Bowling'; the venue respawns on cooldown in free roam, and this chapter trophy unlocks automatically upon completion.",
       "steps": [
-        "Follow main mission icons across Leonida throughout Chapter 2",
-        "Keep cheats disabled and let autosave record chapter completion",
-        "Finish the Chapter 2 climax to earn the trophy"
+        "Restock body armor, health items, and primary ammo between Chapter 2 story markers",
+        "Follow all mandatory Chapter 2 mission icons across Leonida",
+        "Watch for the bowling alley moment in 'Hit Kingpin Bowling' (also revisit-safe later)",
+        "Finish the Chapter 2 climax to trigger the trophy automatically"
       ],
       "citations": [
         {
@@ -252,11 +285,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically upon clearing the final mission of Chapter 3.",
-      "guide": "Advance through the Vice City core storyline in Chapter 3, completing every required mission for Jason and Lucia. Clearing Chapter 3 also opens key mid-game heist gear such as the Key Cloner needed for later showroom and vault trophies. Finish the closing Chapter 3 mission and the trophy unlocks automatically.",
+      "guide": "Complete every required main-story mission across Vice City during Chapter 3 to advance into Chapter 4. Along the way you unlock essential mid-game heist gear—most notably the Key Cloner—which opens up post-story showroom and vault scores like 'Capital Offense'.\n\nHeavy urban police responses begin escalating in Chapter 3, so keep a fast getaway vehicle topped up and use alleys or garages to break line of sight during mission escapes. Make sure autosave stays enabled and avoid any cheat input so the Chapter 3 completion flag registers cleanly.",
       "steps": [
-        "Complete all mandatory Vice City missions in Chapter 3",
-        "Note newly unlocked tools like the Key Cloner for later free-roam cleanup",
-        "Trigger the transition into Chapter 4 for the trophy pop"
+        "Follow the golden campaign markers throughout Vice City in Chapter 3",
+        "Keep a reliable rifle, shotgun, and spare armor equipped for urban gunfights",
+        "Unlock key Chapter 3 tools (including the Key Cloner) as the plot progresses",
+        "Complete the Chapter 3 finale to pop 'Vice City, Baby!'"
       ],
       "citations": [
         {
@@ -287,11 +321,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically upon completing the final mission of Chapter 4.",
-      "guide": "Push through the late-game escalations of Chapter 4 by following the golden main-story markers across Vice City and surrounding counties. Stock up on armor and rifle ammo before major set-piece shootouts so you clear them cleanly on the first run. Completing Chapter 4's finale pops this trophy automatically.",
+      "guide": "Push through the late-game escalations of Chapter 4 by completing every mandatory story mission across Vice City and the outlying counties. Expect larger multi-wave set-pieces, tighter vehicle pursuits, and heavier enemy armor than earlier chapters.\n\nWhat usually trips players up here is starting a major mission with half-empty magazines or no spare armor—always swing by Ammu-Nation before stepping into a main icon, and lean on Combat Focus during dense flanks to avoid checkpoint loops. The trophy unlocks automatically when Chapter 4 hands off to Chapter 5.",
       "steps": [
-        "Resupply body armor and primary weapons before Chapter 4 set-pieces",
-        "Complete every mandatory Chapter 4 story mission",
-        "Reach the Chapter 5 transition to unlock the trophy"
+        "Refill body armor, medical supplies, and upgraded rifle ammo before launching Chapter 4 icons",
+        "Complete all required Chapter 4 missions across Vice City and surrounding regions",
+        "Use hard cover and Combat Focus during multi-wave set-piece firefights",
+        "Trigger the transition into Chapter 5 to earn the Bronze trophy"
       ],
       "citations": [
         {
@@ -322,11 +357,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically upon completing the final main story mission.",
-      "guide": "See Jason and Lucia's campaign all the way through Chapter 5 and finish the final story mission. Any approach or narrative decision works for this Gold trophy, and once the credits finish rolling you are dropped straight into unrestricted post-story free roam with full access to Strangers & Freaks, collectibles, heists, activities, and 100% completion.",
+      "guide": "Play through Chapter 5 and complete the final main-story mission to earn this Gold campaign trophy. Every narrative branch and tactical choice counts toward 'You Gotta Know When to Get Off', and finishing the credits drops you straight into unrestricted post-story free roam with full access to every remaining trophy.\n\nTreat the finale like a full heist: buy maximum armor, upgrade your primary rifle and sniper with extended magazines, and top off explosives before triggering the point of no return. Keep a manual pre-finale save just in case a game crash interrupts the end credits before the Gold trophy registers.",
       "steps": [
-        "Stock maximum health items, armor, and upgraded firearms for the finale",
-        "Complete all remaining Chapter 5 main story missions",
-        "Finish the final mission and roll into post-story free roam"
+        "Create a clean manual save before launching the final Chapter 5 mission",
+        "Stock full armor, healing items, explosives, and maxed rifle/shotgun ammo",
+        "Complete all remaining Chapter 5 story missions leading into the finale",
+        "Finish the final mission and let the credits conclude to unlock the Gold trophy and post-story free roam"
       ],
       "citations": [
         {
@@ -362,11 +398,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically when the main story mission 'Breakfast Run' ends.",
-      "guide": "Play along the main campaign path until the story mission 'Breakfast Run' activates, then follow all objectives to completion. This milestone is tied directly to Jason and Lucia's main plotline and cannot be skipped; finishing the mission immediately awards the Bronze trophy.",
+      "guide": "Advance along the main campaign path until the story mission 'Breakfast Run' appears on your map, then complete every objective through to the mission-passed banner. Because this is a mandatory plot job for Jason and Lucia, you cannot bypass it on a normal playthrough.\n\nNo special stealth rating or optional checklist is required—focus on keeping your partner covered during transitions and staying inside the mission vehicle path so you don't trigger an out-of-bounds fail. Once the closing escape clears, 'Trust' pops automatically.",
       "steps": [
-        "Advance the main campaign until 'Breakfast Run' appears on the map",
-        "Complete every mission objective and escape sequence",
-        "Verify the trophy pops at the mission-passed banner"
+        "Progress the main storyline until 'Breakfast Run' unlocks on the map",
+        "Check your weapon wheel and armor before entering the mission trigger",
+        "Complete all scripted sequences, combat beats, and getaway objectives",
+        "Confirm 'Trust' unlocks on the mission-passed screen"
       ],
       "citations": [
         {
@@ -388,7 +425,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "story",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 1,
       "missable": false,
@@ -397,11 +436,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically after finishing the story mission 'The Cartel Heist'.",
-      "guide": "Complete the preparatory setups leading up to 'The Cartel Heist' and finish the main score itself. No matter which tactical approach you choose, clearing the heist and getting clear of pursuit pops 'Break the Bank' automatically at mission completion.",
+      "guide": "Finish all preparatory setup missions leading into 'The Cartel Heist', then execute the main heist itself and escape the pursuit. Every tactical approach and crew/take configuration unlocks 'Break the Bank' identically upon mission completion.\n\nCartel enforcers hit hard in tight interiors, so carry a high-capacity rifle plus a shotgun for close breaches and don't get greedy lingering in open doorways while looting. Keep your getaway vehicle intact on the exit run—wrecking it under heavy fire is the easiest way to lose time on a checkpoint reset.",
       "steps": [
-        "Finish all required prep jobs leading into 'The Cartel Heist'",
-        "Equip armor and reliable midrange weapons before launching the heist",
-        "Execute the vault score and escape to unlock the trophy"
+        "Complete every mandatory setup job required to unlock 'The Cartel Heist'",
+        "Stock full body armor, medical items, and both midrange and close-quarters firearms",
+        "Execute your chosen vault approach and clear cartel defenders from cover",
+        "Secure the take and escape pursuit to trigger 'Break the Bank'"
       ],
       "citations": [
         {
@@ -432,11 +472,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically upon completing the main mission 'Child's Play'.",
-      "guide": "Follow the campaign mission chain until 'Child's Play' becomes available and play it through to the end. There are no secret conditions or rank thresholds attached — completing the mission objectives unlocks 'Family Matters' right away.",
+      "guide": "Follow the primary campaign track until the story mission 'Child's Play' becomes active, then finish all of its objectives to unlock 'Family Matters'. This is a mandatory narrative milestone with no hidden rank, timer, or bonus condition attached.\n\nKeep an eye on mission prompts when switching roles or escorting objectives so you don't accidentally abandon a key character or vehicle. As soon as the final scripted beat wraps and the mission-passed banner appears, the Bronze trophy pops automatically.",
       "steps": [
-        "Reach 'Child's Play' along the primary story track",
-        "Clear all mission phases and scripted sequences",
-        "Receive the trophy upon mission completion"
+        "Continue the main story mission chain until 'Child's Play' appears",
+        "Trigger the mission with full health and standard combat gear ready",
+        "Follow all primary objectives and character handoffs without straying out of bounds",
+        "Clear the closing sequence to unlock 'Family Matters'"
       ],
       "citations": [
         {
@@ -467,11 +508,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically upon finishing the story mission 'Headliners'.",
-      "guide": "Progress through the story arc until 'Headliners' opens on your map and finish the mission from start to finish. Use cover and Combat Focus during crowded gunfights to keep the pace brisk; the trophy triggers automatically once the mission clears.",
+      "guide": "Progress the main storyline until 'Headliners' opens on your map and play it straight through to completion. This mission features crowded combat arenas where flanking enemies can melt your armor quickly if you fight in the open.\n\nUse hard cover, save Combat Focus for high-density pushes, and watch the minimap for rear spawns so you clear the set-piece cleanly on one pass. No gold medal or optional constraint is required—finishing the final objective awards 'DWNFALL' immediately.",
       "steps": [
-        "Trigger 'Headliners' via the main story marker",
-        "Play through all objectives using Combat Focus in heavy firefights",
-        "Complete the mission to pop the trophy"
+        "Reach 'Headliners' along the main campaign progression path",
+        "Equip full armor and a steady midrange rifle before starting the mission",
+        "Clear crowded firefights using cover and Combat Focus bursts",
+        "Finish the final objective to pop 'DWNFALL'"
       ],
       "citations": [
         {
@@ -493,7 +535,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "story",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 1,
       "missable": false,
@@ -502,11 +546,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically upon completing 'VCIA Takedown'.",
-      "guide": "Play through the campaign until the Vice City International Airport set-piece mission 'VCIA Takedown' begins. Complete the airport infiltration, tarmac combat, and getaway sequence; the Bronze trophy triggers automatically at the mission-complete screen.",
+      "guide": "Play through the campaign until the Vice City International Airport set-piece 'VCIA Takedown' unlocks, then complete the infiltration, runway/tarmac combat, and extraction. Because airport tarmacs offer long sightlines with sparse cover, bring a scoped rifle alongside a fast-reloading automatic.\n\nDon't sprint across open aprons while security vehicles and choppers are converging—advance behind luggage carts, hangars, and fuel trucks while picking off gunners first. Finishing the VCIA extraction unlocks 'Hi-Jacked' automatically with no rank requirement.",
       "steps": [
-        "Follow main campaign missions to unlock 'VCIA Takedown'",
-        "Bring full armor and a high-capacity rifle for open tarmac firefights",
-        "Complete the VCIA extraction to unlock the trophy"
+        "Advance the main story until 'VCIA Takedown' activates",
+        "Bring full armor, a high-capacity rifle, and a long-range option for tarmac sightlines",
+        "Push through the airport infiltration using hangars and vehicles for cover",
+        "Complete the extraction sequence to unlock 'Hi-Jacked'"
       ],
       "citations": [
         {
@@ -528,7 +573,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "story",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 1,
       "missable": false,
@@ -537,11 +584,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Unlocks automatically after finishing 'Operation Savage Glory'.",
-      "guide": "Continue through the late campaign chapters until 'Operation Savage Glory' starts. Keep explosive ordnance and sniper/rifle ammo topped up for the heavy assault phase, then complete the getaway to earn 'Snow Storm' automatically.",
+      "guide": "Continue through the late campaign chapters until 'Operation Savage Glory' unlocks, then finish the entire assault and getaway sequence. Expect armored opposition and vehicle reinforcements during the climax, making explosives and high-penetration rifles far more effective than sidearms.\n\nPrioritize neutralizing heavy threats and keeping your partner's health intact during defensive holds so you avoid mid-battle fails. Once you shake pursuit and reach the mission-complete screen, 'Snow Storm' triggers automatically.",
       "steps": [
-        "Prepare armor and heavy weapons before starting 'Operation Savage Glory'",
-        "Clear all assault objectives and protect your partner",
-        "Finish the escape sequence to unlock the trophy"
+        "Stock full armor, explosives, and maxed rifle/sniper ammo before starting 'Operation Savage Glory'",
+        "Clear the opening assault waves from solid cover while watching flank angles",
+        "Eliminate armored reinforcements and protect your partner during holdouts",
+        "Finish the getaway sequence to pop 'Snow Storm'"
       ],
       "citations": [
         {
@@ -563,7 +611,12 @@
       "grade": "gold",
       "hidden": false,
       "kind": "misc",
-      "focus": ["collectibles", "activities", "strangers", "heists"],
+      "focus": [
+        "collectibles",
+        "activities",
+        "strangers",
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 6,
       "missable": false,
@@ -572,12 +625,13 @@
       "targetCount": 100,
       "targetUnit": "percent",
       "when": "Usually your final trophy before the Platinum in Stage 6.",
-      "guide": "Reach 100% on the pause menu's Progress > Total Completion tracker. PowerPyx's 100% breakdown shows that Total Completion bundles the full main story, Strangers & Freaks strands, key world collectibles (including 100 WAiNK scans, card decks, and 15 meditations), activities, races, shooting ranges, stunts, robberies, and miscellaneous world interactions. Use the pause menu ledger as your live checklist so every single missing sliver is accounted for cleanly.",
+      "guide": "Fill every required category in Pause > Progress > Total Completion to reach 100% and unlock this Gold trophy. Per PowerPyx's 100% breakdown, Total Completion combines the full main story, Strangers & Freaks strands, major world collectibles (including 100 WAiNK scans, Collectible Card sets, and 15 of the 18 meditations), activities, races, shooting ranges, stunts, robberies, and miscellaneous world interactions.\n\nTreat the in-game Total Completion ledger as your master audit screen during Stage 6—if you stall at 98–99%, inspect which individual sub-bar is short rather than guessing. Note that because only 15 of 18 meditations count toward 100%, 'A Long Road' itself stays fully reachable in post-story free roam even if the Chapter 1 balcony meditation were missed.",
       "steps": [
-        "Open Pause > Progress > Total Completion to audit every required category",
-        "Finish all campaign missions, Strangers & Freaks strands, and world activities",
-        "Complete the required collectibles, stunts, races, ranges, and robbery milestones",
-        "Fill every remaining miscellaneous task until the meter hits 100%"
+        "Open Pause > Progress > Total Completion and note every sub-category percentage",
+        "Complete all main story chapters and the required Strangers & Freaks strands",
+        "Finish the required collectible totals (100 WAiNK scans, card decks, and at least 15 meditations)",
+        "Clear the required activities, races, shooting ranges, stunts, and robbery milestones",
+        "Audit any bar still under 100% and knock out remaining miscellaneous tasks until the Gold trophy unlocks"
       ],
       "citations": [
         {
@@ -604,7 +658,10 @@
       "grade": "silver",
       "hidden": false,
       "kind": "misc",
-      "focus": ["activities", "collectibles"],
+      "focus": [
+        "activities",
+        "collectibles"
+      ],
       "online": false,
       "roadmapStage": 4,
       "missable": false,
@@ -613,12 +670,13 @@
       "targetCount": 250,
       "targetUnit": "stunts",
       "when": "Best knocked out systematically during Stage 4 with a fast motorbike and nimble helicopter.",
-      "guide": "Complete 250 unique Stunts across Leonida (tracked live to 250 on PS5). Stunts span vehicle stunt jumps, under-the-bridge passes, knife flights, and district trick spots. Use a tuned sportbike for tight alley and ramp jumps so you can stick flat landings cleanly, and switch to an agile helicopter or stunt plane for bridge passes. Clear one county at a time while checking off your map progress.",
+      "guide": "Complete 250 unique Stunts across Leonida (tracked live 0/250 on PS5). The stunt pool spans vehicle stunt jumps, under-the-bridge passes, knife flights, and district trick spots scattered from the Leonida Keys through downtown Vice City and the northern counties.\n\nTwo things waste the most time on stunts: using an overly heavy car that nose-dives off ramps, and retrying jumps after wrecking without a quick-save. Tune a nimble sportbike for ground ramps so you can level out mid-air and stick clean four-point/two-wheel landings, use a compact helicopter for bridge passes, and quick-save right before any water-gap or rooftop ramp.",
       "steps": [
-        "Upgrade a lightweight sportbike for crisp jump landings and quick restarts",
-        "Quick-save before tricky water-gap or rooftop stunt jumps",
-        "Clear stunts county by county using the in-game Progress tracker",
-        "Reach 250/250 completed stunts to unlock the Silver trophy"
+        "Fully upgrade a lightweight, responsive sportbike for ramp stunts and keep a nimble helicopter handy for bridge passes",
+        "Work systematically county by county so you don't lose track of uncompleted ramps",
+        "Drop a quick-save right before tight water-gap, alley, or rooftop stunt jumps",
+        "Approach ramps straight at the target speed—over-shooting often fails the landing zone",
+        "Verify each stunt registers on the HUD and in-game Progress tracker until 250/250 unlocks"
       ],
       "citations": [
         {
@@ -640,7 +698,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "side",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 4,
       "missable": false,
@@ -649,12 +709,12 @@
       "targetCount": 9,
       "targetUnit": "activity types",
       "when": "Track under Progress > Activities during Stage 4 cleanup.",
-      "guide": "Participate in at least one session of each of the 9 distinct activity categories tracked under Pause > Progress > Activities (PSN tracks 0/9). Per PowerPyx's guide, you only need to finish one round of each activity type — such as shooting range, drone racing, street/water races, fishing, arcade games, gym workouts, bowling, and local pastimes — rather than winning every variant, though several overlap with dedicated trophies.",
+      "guide": "Complete at least one full session of each of the 9 activity categories listed under Pause > Progress > Activities (tracked 0/9 on PS5). Per PowerPyx, you only need to finish one round of each category—covering shooting ranges, Top Fun drone races, standard races, fishing, arcade cabinets, gym workouts, bowling, and local pastimes—rather than winning every single variant.\n\nQuitting mid-session or backing out before the results screen prevents an activity from registering on the 0/9 tracker. Always play through to the final scorecard, and stack this naturally while working on 'The Shootist', 'Top Fun', 'Baited My Tackle', 'Stick Fiddler', 'Personal Best', and 'Let's Go Bowling'.",
       "steps": [
-        "Open Pause > Progress > Activities to view all 9 tracked activity types",
-        "Play at least one complete session of each unchecked activity type",
-        "Combine this with 'Stick Fiddler', 'Baited My Tackle', 'Top Fun', and 'The Shootist'",
-        "Reach 9/9 activity types completed to pop the trophy"
+        "Open Pause > Progress > Activities to see which of the 9 activity types remain unchecked",
+        "Knock out trophy-overlapping activities first (shooting range, drone race, standard race, fishing, arcade, gym, bowling)",
+        "Finish any remaining unchecked local pastimes on the map through to their final results screen",
+        "Never quit an activity early—confirm the checkmark appears until 9/9 pops 'Master of None'"
       ],
       "citations": [
         {
@@ -676,7 +736,9 @@
       "grade": "silver",
       "hidden": false,
       "kind": "side",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 4,
       "missable": false,
@@ -685,12 +747,13 @@
       "targetCount": 42,
       "targetUnit": "gold medals",
       "when": "Best tackled in Stage 4 once your shooting skill and extended weapon magazines are upgraded.",
-      "guide": "Earn a Gold medal across all 42 Shooting Range challenges (tracked 0/42 on PS5). Visit Leonida's Ammu-Nation and licensed shooting ranges and clear every weapon tier's Bronze, Silver, and Gold score thresholds. Equip extended magazines, low-recoil attachments, and keep multiplier streaks alive by prioritizing headshots/bullseyes and avoiding stray misses that reset your accuracy bonus.",
+      "guide": "Earn a Gold medal in all 42 Shooting Range challenges across Leonida's licensed ranges and Ammu-Nation venues (tracked 0/42 on PS5). Each weapon class has tiered targets where Gold requires sustained accuracy multipliers and fast target transitions rather than spray-and-pray fire.\n\nDo not grind this early in Chapter 1 with base stats and tiny magazines—wait until Stage 4 when your shooting handling is maxed and you own extended magazines and low-recoil barrels/grips for every weapon tier. Missing a stray shot breaks your score multiplier, so prioritize steady bullseye/headshot rhythms and reload only during brief target-flip pauses.",
       "steps": [
-        "Max out shooting handling and buy extended mags for every range weapon class",
-        "Focus on uninterrupted bullseye streaks to keep your score multiplier high",
-        "Track completed Gold medals across all range locations in the Progress menu",
-        "Reach 42/42 Gold medals to claim the Silver trophy"
+        "Wait until late game/Stage 4 when character shooting handling is maxed",
+        "Buy extended magazines and recoil-reducing attachments for every range weapon class",
+        "Focus on unbroken bullseye/headshot streaks to keep the score multiplier maxed",
+        "Check the Progress menu to track remaining Gold medals at every range venue",
+        "Clear all 42/42 Gold thresholds to unlock 'The Shootist'"
       ],
       "citations": [
         {
@@ -712,7 +775,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "side",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 4,
       "missable": false,
@@ -721,12 +786,13 @@
       "targetCount": 14,
       "targetUnit": "drone locations",
       "when": "Sweep all 14 drone course markers during Stage 4.",
-      "guide": "Place first in a Top Fun Drone Race at every one of Leonida's 14 drone race locations (tracked 0/14 on PS5). Feather throttle into tight urban gates rather than holding full boost, cut corners tightly through checkpoint rings, and restart immediately if a collision costs you first place. Winning at all 14 distinct courses unlocks 'Top Fun' and advances both 'Master of None' and 100% completion.",
+      "guide": "Win a Top Fun Drone Race (1st place finish) at every one of Leonida's 14 drone race locations (tracked 0/14 on PS5). Courses weave through urban alleys, piers, parking structures, and coastal overlooks, and every completed win also contributes toward 'Master of None' and 100% completion.\n\nHolding full boost nonstop is the #1 reason players clip gate frames and spin out into 3rd place. Treat your first run at an unfamiliar venue as a sight-reading lap, feather throttle before sharp 90-degree gates, bank early into the next ring, and hit instant restart the moment a crash drops you behind the pack.",
       "steps": [
-        "Locate all 14 Top Fun Drone Race icons across the Leonida map",
-        "Learn tight gate angles on a practice lap before pushing full boost",
-        "Finish 1st at each of the 14 unique venues",
-        "Confirm 14/14 locations checked on the PSN tracker"
+        "Reveal all 14 Top Fun Drone Race icons across Leonida (easiest after defogging the map)",
+        "Run a quick scouting lap on tight urban courses to memorize sharp elevation drops",
+        "Feather throttle through narrow checkpoint rings and reserve boost for clean straightaways",
+        "Finish 1st at every distinct venue—2nd place does not advance the 0/14 tracker",
+        "Verify all 14/14 locations register on the PSN counter"
       ],
       "citations": [
         {
@@ -748,7 +814,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "side",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 4,
       "missable": false,
@@ -757,12 +825,13 @@
       "targetCount": 20,
       "targetUnit": "races",
       "when": "Combine with Top Fun and 100% activity sweeps in Stage 4.",
-      "guide": "Finish in 1st place across 20 unique races in Leonida (repeating the same event does not add to the 0/20 counter). Mix street circuits, dirt/swamp tracks, sea races, and air courses using fully upgraded garage vehicles so you easily outpace AI rivals on straightaways. Check off each race marker once you see the gold winner checkmark on the map.",
+      "guide": "Finish 1st across 20 unique race events in Leonida (tracked 0/20 on PS5). The roster includes street circuits, off-road/swamp tracks, sea races, and air courses; replaying a race you already won will not add to the counter.\n\nShow up with fully upgraded custom rides from your garages (street supercar, sportbike, off-roader) so you can pull away cleanly on straightaways and recover from traffic bumps. Watch the map legend for the gold winner checkmark after each race so you never waste time repeating a completed circuit.",
       "steps": [
-        "Upgrade a top-tier street car, off-road vehicle, and motorbike at a mod shop",
-        "Enter distinct race events across Vice City and the outer counties",
-        "Finish 1st in 20 different races (no repeats)",
-        "Verify the 20/20 PSN counter triggers the Bronze trophy"
+        "Upgrade a top street car, motorbike, and off-road vehicle at a mod shop before starting",
+        "Filter the map for uncompleted race events across Vice City, Keys, swamps, and water/air courses",
+        "Brake smoothly into hairpins rather than wall-riding to stay ahead of rubber-banding AI",
+        "Confirm the gold winner checkmark appears on each unique event (no repeats count)",
+        "Win 20/20 distinct races to unlock 'Earn Cash, Not Kudos'"
       ],
       "citations": [
         {
@@ -784,7 +853,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "side",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 4,
       "missable": false,
@@ -793,12 +864,13 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Available from Chapter 1 after 'Feng Shui' (once Cal sends his text) all the way through post-story free roam.",
-      "guide": "After completing the Chapter 1 main mission 'Feng Shui', wait for Cal to message your phone inviting you to go fishing (per PowerPyx and TrueAchievements). Head to Cal's fishing marker on the map, enter a head-to-head fishing challenge, and out-score him by hooking larger fish — ease off reeling when the line tension spikes, then pull steadily while the fish tires. Beat Cal's total to pop the trophy.",
+      "guide": "After finishing the Chapter 1 story mission 'Feng Shui', wait for Cal to send a text message inviting you out fishing (per PowerPyx and GTABase), then travel to his map marker and beat his total score in a head-to-head fishing challenge. The challenge remains available and replayable all the way into post-story free roam.\n\nSnapping your line by mashing reel while a heavy fish is thrashing is the fastest way to lose to Cal. Watch the rod bend and line-tension indicator: pause reeling and steer against the fish's run whenever tension spikes red, then reel steadily the instant it tires so you bank high-weight catches cleanly.",
       "steps": [
-        "Complete Chapter 1's 'Feng Shui' and watch for Cal's phone text",
-        "Travel to Cal's fishing icon on the map and start the challenge",
-        "Manage line tension carefully to reel in bigger catches without snapping",
-        "Finish ahead of Cal's score to unlock 'Baited My Tackle'"
+        "Complete Chapter 1's 'Feng Shui' and wait for Cal's phone text invitation",
+        "Drive to Cal's fishing icon on the map and initiate the fishing challenge",
+        "Cast toward deeper ripple pockets for larger, higher-scoring fish",
+        "Stop reeling whenever line tension spikes red, then pull steadily while the fish rests",
+        "Out-score Cal before the challenge ends to unlock 'Baited My Tackle'"
       ],
       "citations": [
         {
@@ -820,7 +892,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "side",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 4,
       "missable": false,
@@ -829,11 +903,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Anytime you find a playable arcade cabinet in Vice City or the Keys (Stage 4).",
-      "guide": "Walk up to any playable retro arcade cabinet inside Vice City bars, piers, or strip malls and play one cabinet all the way through its final stage/ending rather than quitting early or dying out. Pick the shortest, most forgiving cabinet you spot and keep feeding quarters if continues are allowed until you hit the game's completion screen.",
+      "guide": "Find any playable retro arcade cabinet inside Vice City bars, boardwalk arcades, piers, or hangouts and beat it all the way through its final stage and ending screen. Simply launching a cabinet or setting a high score without finishing the final stage will not pop 'Stick Fiddler'.\n\nSample a couple of cabinets to pick the shortest, most predictable game whose enemy patterns click for you, and keep extra pocket cash on hand in case the cabinet permits continues. Backing out early or letting the continue countdown expire resets your run, so finish the final boss/level in one sitting.",
       "steps": [
-        "Locate a playable arcade machine in a boardwalk arcade, bar, or hangout",
-        "Start a game and learn its pattern through the final level",
-        "Clear the final stage/boss to reach the arcade ending screen"
+        "Visit a boardwalk arcade, bar, or hangout in Vice City or the Keys with playable cabinets",
+        "Test available cabinets and pick the shortest game with clean, learnable patterns",
+        "Keep extra cash on hand to use continues if the cabinet allows them",
+        "Clear every stage and defeat the final boss/goal to reach the ending screen and unlock the trophy"
       ],
       "citations": [
         {
@@ -855,7 +930,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "side",
-      "focus": ["strangers"],
+      "focus": [
+        "strangers"
+      ],
       "online": false,
       "roadmapStage": 2,
       "missable": false,
@@ -864,11 +941,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Complete Andy's full Strangers & Freaks chain during Stage 2.",
-      "guide": "Find Andy's question-mark Strangers & Freaks marker in Leonida and follow his complete multi-part side strand from start to finish. If the next mission does not appear right away, sleep at a safehouse or advance a few in-game hours for his follow-up message. Completing Andy's final mission unlocks this hidden Bronze trophy and counts toward 'Strangers & Freaks'.",
+      "guide": "Locate Andy's '?' Strangers & Freaks icon in Leonida and complete every installment in his character chain through to his final mission. Andy's entire strand remains open in post-story free roam and directly ticks off one of the 8 strands required for 'Strangers & Freaks'.\n\nIf Andy's next marker does not pop up right after finishing a part, don't assume it's bugged—multi-part stranger chains often require in-game time to pass or a protagonist swap before the next phone text arrives. Sleep at a safehouse once or twice, check both Jason and Lucia's messages, and finish Andy's closing job.",
       "steps": [
-        "Locate Andy's initial Strangers & Freaks marker on the map",
-        "Complete each mission in Andy's strand, advancing time between parts if needed",
-        "Finish Andy's finale to pop 'Road to Rehabilitation'"
+        "Find Andy's opening '?' Strangers & Freaks marker on the map",
+        "Complete each mission in Andy's chain as it unlocks",
+        "Sleep at a safehouse or swap protagonists if a follow-up text/marker pauses",
+        "Finish Andy's final mission to pop 'Road to Rehabilitation'"
       ],
       "citations": [
         {
@@ -890,7 +968,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "side",
-      "focus": ["strangers"],
+      "focus": [
+        "strangers"
+      ],
       "online": false,
       "roadmapStage": 2,
       "missable": false,
@@ -899,11 +979,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Finish Kenton's Strangers & Freaks strand during Stage 2.",
-      "guide": "Meet Kenton at his Strangers & Freaks marker and work through every mission in his storyline until his closing job becomes available. Bring water-ready gear and solid weaponry for coastal encounters, and rest at a safehouse if you need to trigger his final call. Clearing Kenton's finale pops this trophy and ticks off one of the 8 strands for 'Strangers & Freaks'.",
+      "guide": "Meet Kenton at his Strangers & Freaks '?' marker and play through every job in his multi-part strand until his finale concludes. Kenton's storyline never locks out after credits and counts toward both this hidden Bronze trophy and the 8-strand 'Strangers & Freaks' Silver.\n\nBecause Kenton's encounters lean coastal, stock armor and versatile mid-to-long-range weapons before triggering each stage so open-water or dock fights don't catch you short. If his next mission takes a moment to spawn, pass 6–12 in-game hours at a safehouse and check your phone inbox.",
       "steps": [
-        "Trigger Kenton's opening Strangers & Freaks encounter on the map",
-        "Clear all intermediate jobs in Kenton's chain",
-        "Complete Kenton's final mission to earn the hidden Bronze trophy"
+        "Locate and trigger Kenton's opening Strangers & Freaks encounter",
+        "Bring body armor and reliable midrange weaponry for coastal objectives",
+        "Clear all intermediate missions, sleeping at a safehouse between parts if needed",
+        "Complete Kenton's final mission to unlock 'This Was No Boat Accident'"
       ],
       "citations": [
         {
@@ -925,7 +1006,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "side",
-      "focus": ["strangers"],
+      "focus": [
+        "strangers"
+      ],
       "online": false,
       "roadmapStage": 2,
       "missable": false,
@@ -934,11 +1017,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Complete Billy's Strangers & Freaks arc during Stage 2.",
-      "guide": "Track down Billy's Strangers & Freaks marker and finish each installment of his side arc. As with other multi-part character chains, switch protagonists or pass time at a safehouse if a follow-up icon pauses before appearing. Finishing Billy's concluding job awards 'The Lone Rider' and increments your 8-strand 'Strangers & Freaks' tally.",
+      "guide": "Track down Billy's Strangers & Freaks '?' marker in Leonida and complete his full sequence of side missions through to the finale. Like the other four named stranger arcs, Billy's chain stays fully accessible after the main campaign and counts toward 'Strangers & Freaks'.\n\nSome stranger follow-ups only show up on the radar for the specific protagonist who handles that arc or after a brief narrative cooldown. Check both Jason and Lucia on the map and advance time at a safehouse if Billy's next icon isn't immediately visible, then wrap his concluding job for 'The Lone Rider'.",
       "steps": [
-        "Start Billy's Strangers & Freaks chain from its map marker",
-        "Complete every follow-up mission as Billy contacts you",
-        "Clear Billy's final mission to unlock the trophy"
+        "Start Billy's Strangers & Freaks strand from his initial map icon",
+        "Complete every intermediate job in Billy's progression chain",
+        "Swap between Jason and Lucia or sleep at a safehouse if the next icon is delayed",
+        "Finish Billy's final mission to unlock 'The Lone Rider'"
       ],
       "citations": [
         {
@@ -960,7 +1044,9 @@
       "grade": "silver",
       "hidden": false,
       "kind": "side",
-      "focus": ["strangers"],
+      "focus": [
+        "strangers"
+      ],
       "online": false,
       "roadmapStage": 2,
       "missable": false,
@@ -969,12 +1055,13 @@
       "targetCount": 8,
       "targetUnit": "strands",
       "when": "Completes at the end of Stage 2 once all 8 stranger chains are wrapped.",
-      "guide": "Complete 8 full Strangers & Freaks mission strands across Leonida (tracked 0/8 on PS5). Five of those strands have their own dedicated finale trophies (Andy, Kenton, Billy, Randy, and Tyrone), and you will wrap three additional stranger arcs (including Bret's hunting encounters) to hit 8/8. Check both Jason and Lucia when scanning the map, since certain stranger icons are protagonist-specific.",
+      "guide": "Complete 8 full Strangers & Freaks mission strands across Leonida (tracked 0/8 on PS5). Five strands have dedicated finale trophies—Andy, Kenton, Billy, Randy, and Tyrone—leaving three additional complete strands (such as Bret's hunting encounters and other regional '?' characters) to reach 8/8.\n\nThe biggest reason players think they are stuck at 6/8 or 7/8 is forgetting that several '?' markers are protagonist-specific or only appear after advancing in-game time. Alternate between Jason and Lucia while scanning the full map, read unread phone texts, and finish every strand all the way to its final mission—partial strands don't count.",
       "steps": [
-        "Switch between Jason and Lucia to spot all protagonist-specific '?' icons",
-        "Finish the 5 named finale strands (Andy, Kenton, Billy, Randy, Tyrone)",
-        "Complete 3 additional full stranger strands across Leonida",
-        "Reach 8/8 completed strands for the Silver trophy"
+        "Switch between both Jason and Lucia to uncover all protagonist-specific '?' icons",
+        "Complete all 5 named finale strands: Andy, Kenton, Billy, Randy, and Tyrone",
+        "Clear 3 additional complete stranger strands across Leonida (including Bret's line)",
+        "Sleep at safehouses and read phone texts to trigger delayed final parts",
+        "Confirm 8/8 finished strands on the PSN tracker to unlock the Silver trophy"
       ],
       "citations": [
         {
@@ -996,7 +1083,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "side",
-      "focus": ["strangers"],
+      "focus": [
+        "strangers"
+      ],
       "online": false,
       "roadmapStage": 2,
       "missable": false,
@@ -1005,11 +1094,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Wrap Randy's Strangers & Freaks storyline during Stage 2.",
-      "guide": "Pick up Randy's Strangers & Freaks marker and complete every mission in his side strand. Watch your phone messages between steps so you don't overlook his next meet-up location. Finishing Randy's closing job unlocks 'Supply & Demand' and advances your overall 'Strangers & Freaks' count.",
+      "guide": "Visit Randy's initial '?' Strangers & Freaks icon and finish every mission in his side storyline through to his finale. Randy's strand stays permanently available in post-story free roam and advances your 0/8 'Strangers & Freaks' Silver progress.\n\nKeep an eye on incoming smartphone texts after each part, since Randy's follow-up meeting points won't appear until his message clears or a few in-game hours elapse. Complete his closing mission cleanly to unlock 'Supply & Demand'.",
       "steps": [
-        "Visit Randy's initial '?' Strangers & Freaks icon",
-        "Complete each mission in Randy's progression chain",
-        "Finish Randy's finale to pop the hidden Bronze trophy"
+        "Locate Randy's opening '?' Strangers & Freaks marker on the map",
+        "Play through every intermediate job in Randy's chain",
+        "Check your phone messages and advance time at a safehouse between stages if needed",
+        "Complete Randy's final mission to earn 'Supply & Demand'"
       ],
       "citations": [
         {
@@ -1031,7 +1121,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "side",
-      "focus": ["strangers"],
+      "focus": [
+        "strangers"
+      ],
       "online": false,
       "roadmapStage": 2,
       "missable": false,
@@ -1040,11 +1132,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Finish Tyrone's Strangers & Freaks questline during Stage 2.",
-      "guide": "Locate Tyrone's Strangers & Freaks marker and play through his entire sequence of jobs until his concluding mission appears. Rest or switch characters if there is a short cooldown between steps. Completing Tyrone's final mission unlocks 'Spin On This!' and counts toward 'Strangers & Freaks'.",
+      "guide": "Find Tyrone's Strangers & Freaks '?' marker and work through his entire string of missions until his final job wraps up. None of Tyrone's missions are missable—you can leave the entire arc for Stage 2 post-story cleanup while knocking out 'Strangers & Freaks'.\n\nIf Tyrone's next waypoint stalls after an earlier job, switch protagonists briefly or sleep at a safehouse to flush the cooldown timer. Finishing Tyrone's closing mission pops 'Spin On This!' automatically.",
       "steps": [
-        "Meet Tyrone at his starting Strangers & Freaks marker",
+        "Trigger Tyrone's starting Strangers & Freaks encounter on the map",
         "Complete each intermediate task in Tyrone's storyline",
-        "Finish Tyrone's final job to unlock the trophy"
+        "Advance in-game time or check phone texts if the finale icon hasn't spawned yet",
+        "Clear Tyrone's final mission to unlock 'Spin On This!'"
       ],
       "citations": [
         {
@@ -1066,7 +1159,10 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["missable", "collectibles"],
+      "focus": [
+        "missable",
+        "collectibles"
+      ],
       "online": false,
       "roadmapStage": 1,
       "missable": true,
@@ -1075,12 +1171,13 @@
       "targetCount": 18,
       "targetUnit": "meditations",
       "when": "Start in Chapter 1 right after 'Down to Earth' (meditation #1), then finish the remaining 17 in Stage 3 free roam.",
-      "guide": "Complete all 18 tracked meditation sessions across Leonida's 10 scenic meditation spots (PSN tracks 0/18; 15 of the 18 also count toward 100% completion). The single critical watchpoint is meditation #1: in Chapter 1, the morning after 'Down to Earth', Lucia invites you to meditate on the balcony at Jason's house. Because GTA VI has no mission replay, PowerPyx and GTABase flag this opening session as POSSIBLY MISSABLE — UNCONFIRMED. Accept that Chapter 1 prompt immediately, then sweep the remaining 17 sessions across beaches, overlooks, and sanctuaries in post-story free roam.",
+      "guide": "Complete all 18 tracked meditation sessions across Leonida's 10 scenic meditation spots (PSN tracks 0/18; 15 of the 18 also count toward 100% completion). The single critical watchpoint in the entire GTA VI trophy list is meditation #1: in Chapter 1, the morning after 'Down to Earth', Lucia invites you to meditate on the balcony at Jason's house.\n\nBecause GTA VI has no mission replay, PowerPyx and GTABase flag that Chapter 1 balcony meditation as POSSIBLY MISSABLE — UNCONFIRMED. Never rush past Lucia's prompt or overwrite your Chapter 1 save: drop a dedicated manual backup right after 'Down to Earth', finish the balcony session immediately (1/18), and then sweep the remaining 17 sessions across beaches, overlooks, and sanctuaries in Stage 3 free roam.",
       "steps": [
-        "Make a manual Chapter 1 backup save right after finishing 'Down to Earth'",
-        "Accept Lucia's morning balcony meditation at Jason's house immediately (1/18)",
-        "Visit all remaining Leonida meditation spots during Stage 3 map cleanup",
-        "Complete every variant session until the PSN counter hits 18/18"
+        "Right after completing Chapter 1's 'Down to Earth', create a dedicated manual backup save",
+        "Accept Lucia's morning balcony meditation prompt at Jason's house immediately (1/18)",
+        "Verify the PSN tracker increments to 1/18 before advancing Chapter 1",
+        "In Stage 3 free roam, visit all 10 scenic meditation spots across Leonida's coasts, overlooks, and sanctuaries",
+        "Complete every remaining meditation session/variant at each spot until 18/18 pops 'Positive Mental Attitude'"
       ],
       "citations": [
         {
@@ -1107,7 +1204,10 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "side",
-      "focus": ["strangers", "activities"],
+      "focus": [
+        "strangers",
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 2,
       "missable": false,
@@ -1116,12 +1216,13 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Tackle during Stage 2 while sweeping Strangers & Freaks.",
-      "guide": "Meet Bret in Leonida's wilderness regions to unlock his hunting request line and track down one of his rare unique animals. Bring a high-powered scoped rifle, move slowly into the hunting zone, inspect tracks/clues to flush the target beast, and land a clean kill before it bolts. Completing a unique animal hunt for Bret pops 'Fair Game' right away.",
+      "guide": "Meet Bret in Leonida's wilderness regions via his Strangers & Freaks marker to open his hunting requests, then track and bag one of his rare unique animals. Bret's hunting line stays open permanently after the campaign and pairs naturally with Stage 2 Strangers & Freaks cleanup.\n\nCharging into a unique animal's territory on a noisy ATV or firing wild hip-shots will spook the target before you get a clean angle. Approach on foot with a high-powered scoped rifle, crouch while inspecting tracks and wildlife clues, and wait for a clean vital shot to drop the beast and confirm the hunt with Bret.",
       "steps": [
-        "Unlock Bret's hunting quests via his Strangers & Freaks marker",
-        "Equip a scoped hunting rifle and enter the unique animal's marked territory",
-        "Follow wildlife clues carefully to spot and down the unique animal",
-        "Confirm the hunt with Bret to unlock 'Fair Game'"
+        "Visit Bret's '?' Strangers & Freaks marker in the wilderness to unlock his hunting requests",
+        "Equip a high-powered scoped hunting rifle before entering the unique animal's zone",
+        "Leave loud vehicles outside the perimeter and crouch-track clues quietly",
+        "Line up a clean scoped shot to down the unique animal before it bolts",
+        "Complete the turn-in/confirmation for Bret to unlock 'Fair Game'"
       ],
       "citations": [
         {
@@ -1143,7 +1244,9 @@
       "grade": "silver",
       "hidden": false,
       "kind": "misc",
-      "focus": ["collectibles"],
+      "focus": [
+        "collectibles"
+      ],
       "online": false,
       "roadmapStage": 3,
       "missable": false,
@@ -1152,12 +1255,13 @@
       "targetCount": 3,
       "targetUnit": "card sets",
       "when": "Sweep region by region during Stage 3 collectible cleanup.",
-      "guide": "Find every card in three complete Collectible Card sets scattered across Leonida (such as the Ed Comics Universe decks and themed regional sets; PSN tracks 0/3 finished sets). Cards sit on shop counters, bleachers, motel ledges, piers, and back-alley crates. Sweep one county at a time with a fast helicopter or bike and monitor your pause menu's Collectibles binder to spot the last missing cards in each deck.",
+      "guide": "Collect every single card in 3 complete Collectible Card sets scattered across Leonida—such as the Ed Comics Universe decks and themed regional sets (PSN tracks 0/3 finished sets). Cards rest on shop counters, motel ledges, stadium bleachers, piers, and back-alley crates, with zero missable locations.\n\nRandomly grabbing stray cards from ten different decks makes the 0/3 counter look stuck at 0/3 even after dozens of pickups. Open your in-game Collectibles binder first, pick three specific decks to target end-to-end, and sweep one Leonida district at a time with a fast helicopter or bike while pairing the sweep with WAiNK scans.",
       "steps": [
-        "Open the Collectibles binder to choose 3 card sets to prioritize first",
-        "Sweep one Leonida district at a time for storefronts, piers, and rooftops",
-        "Finish every single card in Set 1, Set 2, and Set 3",
-        "Watch the PSN counter reach 3/3 sets for the Silver trophy"
+        "Open the Pause > Collectibles binder and select 3 specific card sets to finish first",
+        "Sweep one Leonida county/district at a time using a nimble bike or helicopter",
+        "Check counters, piers, bleachers, ledges, and alleys thoroughly to avoid backtracking",
+        "Complete every card in Deck 1, Deck 2, and Deck 3—partial decks do not increment the counter",
+        "Confirm 3/3 completed card sets on the PSN tracker to earn the Silver trophy"
       ],
       "citations": [
         {
@@ -1184,7 +1288,9 @@
       "grade": "silver",
       "hidden": false,
       "kind": "misc",
-      "focus": ["collectibles"],
+      "focus": [
+        "collectibles"
+      ],
       "online": false,
       "roadmapStage": 3,
       "missable": false,
@@ -1193,12 +1299,13 @@
       "targetCount": 100,
       "targetUnit": "WAiNK locations",
       "when": "Pair with map defogging and card hunting across Stage 3 (also required for 100%).",
-      "guide": "Use your phone's WAiNK app to scan 100 distinct landmarks, murals, sculptures, roadside oddities, and tags throughout Leonida (PSN tracks 0/100, and this milestone also feeds directly into 100% completion). Whenever your phone chimes or flashes a proximity ping while cruising a neighborhood, pull up WAiNK and frame the curiosity until the scan confirms. Combine WAiNK sweeps with 'The Goodtime State' so you never backtrack across the same block twice.",
+      "guide": "Use your smartphone's WAiNK app to scan 100 distinct landmarks, street murals, sculptures, roadside oddities, and tags across Leonida (tracked 0/100 on PS5, and also required for 100% completion). Whenever you cruise near an unscanned curiosity, your phone chimes or pulses with a proximity ping—pull up WAiNK and frame the subject until the confirmation chime registers.\n\nTwo common snags slow WAiNK sweeps down: moving too fast in a jet/supercar to hear the proximity ping, or backing out of the camera lens a split second before the scan locks in. Pair WAiNK hunting with 'The Goodtime State' map defogging and 'Don't Touch My Deck' on a motorbike or low-flying chopper so you clear each neighborhood once without double-covering blocks.",
       "steps": [
-        "Keep an ear out for WAiNK proximity chimes while exploring every district",
-        "Open the phone's WAiNK app and snap each landmark, mural, or sculpture",
-        "Sweep Vice City, Leonida Keys, Grassrivers, and northern towns systematically",
-        "Reach 100/100 confirmed scans to unlock the Silver trophy"
+        "Sweep Leonida district by district (Vice City, Keys, Grassrivers, northern towns) at moderate speed",
+        "Listen for WAiNK phone proximity pings whenever entering new blocks, plazas, or roadside stops",
+        "Open the WAiNK app, frame the mural/statue/oddity clearly, and hold until the scan confirms",
+        "Stack WAiNK scans alongside map defogging and Collectible Card routes to eliminate backtracking",
+        "Reach 100/100 confirmed scans to unlock 'You WAiNKer!'"
       ],
       "citations": [
         {
@@ -1225,7 +1332,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 4,
       "missable": false,
@@ -1234,12 +1343,12 @@
       "targetCount": 50,
       "targetUnit": "challenges",
       "when": "Advances naturally throughout the campaign; clean up any remainder in Stage 4.",
-      "guide": "Complete 50 individual in-game Challenges listed in your pause menu's Progress > Challenges log (PSN tracks 0/50). Challenges span driving milestones, gunplay streaks, exploration goals, robberies, and side activities, so most players knock out 30+ naturally on the road to 100%. Review the easiest near-complete bars in the Challenges menu during Stage 4 and knock out quick ones until 50/50 pops.",
+      "guide": "Complete 50 individual gameplay Challenges tracked under Pause > Progress > Challenges (PSN counts 0/50). Leonida features far more than 50 total challenges across driving, combat, exploration, robberies, and side activities, so you have wide flexibility to skip tedious tiers.\n\nDon't grind Challenges in Chapter 1—30+ will clear organically while finishing the story, stunts, races, ranges, and bank vaults. Once you reach Stage 4, open the Challenges log, sort mentally for bars sitting at 70–90% complete or quick one-off combat/driving feats, and knock out the fastest remaining tiers to hit 50/50.",
       "steps": [
-        "Open Pause > Progress > Challenges to inspect active challenge tiers",
-        "Let campaign, stunts, races, and robberies fill the bulk naturally",
-        "Target short combat, driving, and exploration tiers to finish the remaining count",
-        "Hit 50/50 completed challenges for the Bronze unlock"
+        "Play through the campaign and major Stage 2–4 trophies so 30+ challenges progress naturally",
+        "Open Pause > Progress > Challenges to audit all near-complete and quick tiers",
+        "Prioritize fast driving, exploration, and combat milestones over slow grindy tiers",
+        "Verify each completed tier increments the 0/50 PSN tracker until 'One Last Thing' unlocks"
       ],
       "citations": [
         {
@@ -1261,7 +1370,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1270,12 +1381,13 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Easy to combine with 'Retail Therapy' or a Bank Vault heist in Stage 5.",
-      "guide": "Meet up with your partner (Jason + Lucia together) in free roam, escalate police pursuit until you reach at least a 4-star Wanted Level, and then evade every patrol unit and helicopter until the stars clear completely. The cleanest escape route is tearing down a highway tunnel, subway entrance, or parking garage roof, cutting headlights, and ducking out of search cones until the wanted indicator vanishes.",
+      "guide": "Hang out with your partner (Jason and Lucia together) in free roam, escalate police heat to at least a 4-star Wanted Level, and completely evade every cruiser, tactical squad, and helicopter until the stars disappear. This stacks effortlessly with 'Retail Therapy' or a Stage 5 Bank Vault robbery.\n\nIf your partner gets downed, arrested, or separated outside your vehicle before the heat clears, the trophy can fail to trigger. Keep both protagonists inside a fast, armored or durable getaway car, break chopper sightlines inside highway tunnels, subway entrances, or multi-level parking decks, cut off main roads, and stay hidden until the flashing search cones vanish.",
       "steps": [
-        "Link up with your partner in free roam inside a fast, durable getaway car",
-        "Push the Wanted Level up to 4 stars (pair with 'Retail Therapy' or a vault job)",
-        "Break line of sight inside tunnels, underpasses, or rural backroads",
-        "Clear the 4-star heat completely while still with your partner"
+        "Meet up with your partner in free roam inside a fast, durable 2+ seat getaway vehicle",
+        "Trigger and escalate police heat up to 4 stars (easy to chain off 'Retail Therapy' or a bank vault)",
+        "Keep your partner safely inside the vehicle—avoid letting them get downed or separated",
+        "Break police and chopper line of sight via tunnels, underpasses, parking decks, or rural woods",
+        "Hold cover until all 4 wanted stars clear completely to pop 'Hot Together'"
       ],
       "citations": [
         {
@@ -1297,7 +1409,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1306,12 +1420,13 @@
       "targetCount": 3,
       "targetUnit": "back-to-back shops",
       "when": "Plot a tight 3-shop Vice City loop in Stage 5 and chain straight into 'Hot Together'.",
-      "guide": "With Jason and Lucia riding together, rob three separate stores in rapid succession while keeping your Wanted Level continuously active between all three holdups. Before starting, drop waypoints on three tightly clustered gas stations or convenience stores along the same boulevard, park pointing toward the street, hold up Clerk #1, race immediately to Shop #2 and Shop #3 before the flashing stars ever clear, and the Bronze trophy pops on the third register.",
+      "guide": "With Jason and Lucia riding together, rob 3 different shops back-to-back while maintaining an unbroken Wanted Level from the first register through the third. Plot a tight triangle of three convenience stores or liquor shops along one Vice City boulevard before firing a single shot.\n\nThe classic fail here is driving too far between stores and accidentally losing your 1- or 2-star Wanted Level before entering Shop #2 or #3—which resets the chain to zero. Park nose-out facing the road, keep your heat alive by staying on main streets between stops, grab the cash quickly at Store #1, #2, and #3, and then pivot straight into 'Hot Together' once the trophy pops.",
       "steps": [
-        "Bring your partner along in a fast getaway vehicle",
-        "Pick 3 closely spaced convenience stores on the map before starting",
-        "Rob Store #1 to trigger a Wanted Level, then rush to Store #2 and Store #3",
-        "Keep the Wanted Level active across all 3 holdups to unlock the trophy"
+        "Bring your partner along in a quick, agile getaway car",
+        "Scout the map and plan a tight 3-store route along one dense Vice City strip",
+        "Park nose-out at Store #1 and rob it to trigger an active Wanted Level",
+        "Sprint immediately to Store #2 and Store #3 without letting the flashing stars ever clear",
+        "Finish the 3rd holdup under active heat to unlock 'Retail Therapy'"
       ],
       "citations": [
         {
@@ -1333,7 +1448,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["collectibles"],
+      "focus": [
+        "collectibles"
+      ],
       "online": false,
       "roadmapStage": 3,
       "missable": false,
@@ -1342,12 +1459,13 @@
       "targetCount": 100,
       "targetUnit": "vehicles",
       "when": "Accumulates across the whole playthrough; mop up remaining models during Stage 3.",
-      "guide": "Enter and drive/pilot 100 distinct vehicle models across Leonida (tracked 0/100 on PS5). Make a habit of hopping briefly into any unfamiliar car, truck, van, bike, boat, jet ski, helicopter, or service vehicle you pass during exploration — simply climbing into the driver's seat registers the model. Visit VCIA ramps, Vice marinas, industrial yards, and rural highways if you need quick variety at the end.",
+      "guide": "Enter and take control of 100 distinct vehicle models across Leonida (tracked 0/100 on PS5). You do not need to buy or store them—simply climbing into the driver's seat or cockpit of an unfamiliar car, bike, truck, van, boat, jet ski, helicopter, or plane registers that model permanently.\n\nWaiting until the end of the game to hunt 100 models turns this into a chore, whereas hopping briefly into unfamiliar parked rides during Stage 3 collectible sweeps gets you past 70+ effortlessly. For the final stretch, sweep varied spawn pools: Vice City marinas (boats/jet skis), VCIA hangars (aircraft), industrial yards (utility/heavy trucks), dealerships, and Grassrivers airboats.",
       "steps": [
-        "Hop briefly into unfamiliar parked cars, bikes, and work trucks as you explore",
-        "Visit marinas for distinct boats/jet skis and airports for aircraft models",
-        "Check industrial districts, dealerships, and swampland airboats for rarer classes",
-        "Reach 100/100 discovered vehicles on the PSN tracker"
+        "Build the habit of hopping briefly into any unfamiliar parked car, bike, or work van during exploration",
+        "Sweep Vice City marinas and coastal docks for distinct boats, yachts, and jet skis",
+        "Visit VCIA and rural airstrips to enter parked helicopters, planes, and airport service vehicles",
+        "Check industrial yards, dealerships, and Grassrivers wetlands for unique work trucks and airboats",
+        "Reach 100/100 unique models on the PSN tracker to unlock 'Whip It Good'"
       ],
       "citations": [
         {
@@ -1369,7 +1487,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1378,11 +1498,12 @@
       "targetCount": 5,
       "targetUnit": "kills in one Focus",
       "when": "Easiest during a gang illegal operation or street firefight in Stage 5 with a full Focus meter.",
-      "guide": "Eliminate five hostile targets inside a single activation of Combat Focus without letting the meter expire. Wait until your Combat Focus bar is completely full, equip a high-damage rifle or shotgun with a large magazine, approach a tightly bunched gang operation or police roadblock, pop Combat Focus, and snap five quick headshots in slow motion.",
+      "guide": "Take down 5 hostile enemies inside a single activation of Combat Focus before the slow-motion gauge runs dry. Wait until your Combat Focus bar is completely full, equip a high-damage assault rifle, SMG, or semi-auto shotgun with an extended magazine, and line up a dense cluster of 5+ foes.\n\nReloading mid-Focus or spraying body shots on armored targets drains the meter before kill #5 lands. Approach an active Gang Illegal Operation (pairing nicely with 'Pest Control') or a packed police roadblock, top off your magazine first, pop Combat Focus only once 5 enemies are in clear sightlines, and snap five crisp headshots.",
       "steps": [
-        "Fill your Combat Focus meter completely and equip a high-capacity rifle",
-        "Locate a cluster of 5+ gang enemies (such as an Illegal Operation site)",
-        "Activate Combat Focus and chain 5 rapid headshots before slow-mo ends"
+        "Fill your Combat Focus meter to 100% and reload a high-capacity, accurate rifle",
+        "Locate a dense group of 5+ hostile enemies (such as a Gang Illegal Operation or roadblock)",
+        "Position yourself with unobstructed sightlines to at least five targets before triggering Focus",
+        "Activate Combat Focus and chain 5 quick headshots before the bar expires to pop 'Gunslinger'"
       ],
       "citations": [
         {
@@ -1404,7 +1525,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1413,12 +1536,13 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Knock out in two minutes during Stage 5 free roam.",
-      "guide": "Infiltrate Vice City International Airport (VCIA) by crashing or sneaking past the perimeter gates onto the tarmac, hijack one of the large commercial passenger jets parked at the boarding gates (PowerPyx notes terminals E3/E4 are reliable spots), climb into the cockpit, throttle down the runway, take off into the sky, and fly roughly 1 km clear of the airport until the hidden trophy unlocks.",
+      "guide": "Break onto the tarmac at Vice City International Airport (VCIA), hijack one of the large commercial passenger jets parked at the boarding gates (PowerPyx highlights terminals E3 and E4 as dependable spawn gates), taxi onto the main runway, take off, and fly roughly 1 km away from the airport to pop this hidden secret trophy.\n\nBreaching VCIA immediately triggers heavy police heat, and clipping a light pole, luggage tug, or terminal wing while reversing out of the gate can cripple an engine before liftoff. Drive in with full armor, board the jet immediately rather than trading gunfire on foot, line up cleanly with the wide runway, pull up smoothly, and stay airborne until 'Catch Me If You Can' pops.",
       "steps": [
-        "Drive to Vice City International Airport and breach the tarmac perimeter",
-        "Locate a large passenger jet docked near terminals E3/E4",
-        "Enter the cockpit, taxi onto the runway, and lift off under pursuit",
-        "Fly about 1 km away from VCIA until 'Catch Me If You Can' pops"
+        "Stock full body armor and drive to Vice City International Airport (VCIA)",
+        "Crash or slip past the perimeter gates onto the tarmac near terminals E3/E4",
+        "Locate a parked commercial passenger jet and climb straight into the cockpit",
+        "Clear the gate carefully, accelerate down the runway, and lift off under pursuit",
+        "Fly roughly 1 km clear of VCIA until 'Catch Me If You Can' unlocks"
       ],
       "citations": [
         {
@@ -1440,7 +1564,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1449,11 +1575,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Quick free-roam heist stunt during Stage 5.",
-      "guide": "Travel to Mile Zero Air Station — Leonida's fortified military base on the southwestern island — and break onto the base perimeter with full body armor. Locate a parked or patrolling Rhino Tank, board the driver hatch, and roll out inside the Rhino; per PowerPyx and launch guides, driving the stolen Rhino Tank triggers 'Challenging Tank' moments after you get moving.",
+      "guide": "Travel to Mile Zero Air Station—Leonida's fortified military base on the southwestern island—infiltrate the tarmac or motor pool, hijack a military Rhino Tank, and drive it around the base. Per PowerPyx and launch guides, 'Challenging Tank' unlocks moments after you climb into the Rhino and start rolling.\n\nBase defenses escalate almost instantly once you cross the perimeter, and infantry rockets or enemy armor can shred an unarmored character while sprinting across the open runway. Approach in a fast car with maxed body armor, drop a quick-save just outside the perimeter, spot a Rhino Tank before exiting your car, jump straight into the hatch, and start driving immediately.",
       "steps": [
-        "Head to Mile Zero Air Station on the southwestern island with full armor",
-        "Infiltrate the tarmac or motor pool to spot a military Rhino Tank",
-        "Hijack the Rhino Tank and drive it around the base to pop the trophy"
+        "Equip full body armor and drive or fly to Mile Zero Air Station on the southwestern island",
+        "Save manually just outside the base perimeter for instant retries",
+        "Breach the base and stay inside a fast vehicle until you spot a parked or patrolling Rhino Tank",
+        "Pull right beside the Rhino, board the driver hatch quickly, and roll out to pop 'Challenging Tank'"
       ],
       "citations": [
         {
@@ -1475,7 +1602,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1484,12 +1613,13 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Attempt after dark during Stage 5 with stealth gear and lock/alarm bypass tools.",
-      "guide": "Pull off a completely undetected jewelry store burglary without tripping alarms, alerting guards, or drawing witnesses. Scout a Vice City jewelry shop after closing hours, disable security cameras and alarm panels quietly, use stealth takedowns or silent entry tools to clear display cases cleanly, and slip back outside undetected so the silent heist resolves into 'Sneakthief'.",
+      "guide": "Burglarize a Vice City jewelry store completely undetected—no tripped alarms, no alerted guards or clerks, and no police witnesses—to unlock this hidden secret trophy. Wait until after dark during Stage 5 when streets are quieter and you have stealth tools and alarm/lock bypass gear unlocked.\n\nA single spotted camera sweep, loud glass smash near a patrolling guard, or sloppy exit past a witness voids the silent condition even if you get away with the loot. Make a manual save down the block beforehand, disable exterior alarms and camera sightlines first, clear the display cases silently, and slip back out cleanly so 'Sneakthief' registers.",
       "steps": [
-        "Scout a jewelry store at night and save beforehand for fast retries",
-        "Bypass or disable exterior alarms and camera sightlines quietly",
-        "Loot display cases without alerting staff, guards, or patrolling police",
-        "Exit the shop completely undetected to pop the hidden trophy"
+        "Approach a Vice City jewelry store after closing hours and create a manual save nearby",
+        "Scout security cameras, exterior alarm boxes, and patrol timing before entering",
+        "Disable cameras and alarm panels quietly and gain silent entry",
+        "Loot the display cases without alerting guards, staff, or passing patrols",
+        "Exit the store and clear the block completely undetected to unlock 'Sneakthief'"
       ],
       "citations": [
         {
@@ -1511,7 +1641,9 @@
       "grade": "silver",
       "hidden": false,
       "kind": "misc",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1520,12 +1652,13 @@
       "targetCount": 5,
       "targetUnit": "bank vaults",
       "when": "Complete in Stage 5 with maxed weapons, armor, and breaching tools; also supplies Marked Bills for 'Dime on the Dollar'.",
-      "guide": "Successfully crack 5 Bank Vaults across Leonida and escape the resulting police heat alive (tracked 0/5 on PS5). Bring full armor, breaching equipment, and a fast getaway car parked right outside the exit. Control lobby staff, breach the vault door, grab the marked cash stacks, and shake the police search radius to lock in each vault — the haul also feeds straight into 'Dime on the Dollar'.",
+      "guide": "Breach and rob 5 Bank Vaults across Leonida and escape the police pursuit alive (tracked 0/5 on PS5). Bring maximum armor, breaching tools, and a fast 2-door or 4-door getaway car parked flush against the exit facing the street—every vault haul also supplies Marked Bills that feed straight into 'Dime on the Dollar'.\n\nGetting pinned inside a bank lobby when tactical squads arrive or dying during the getaway invalidates that robbery attempt. Control lobby staff quickly, crack the vault cleanly without stalling, load your bags, sprint straight to your staged car, and duck into tunnels or back-alleys to shake the Wanted Level and lock in each of the 5 vaults.",
       "steps": [
-        "Equip full armor, breaching gear, and park a fast getaway vehicle outside",
-        "Hit a bank branch, breach the vault, and secure the cash haul",
-        "Escape the police Wanted Level cleanly to register the robbery",
-        "Repeat across 5 Bank Vaults (0/5) to unlock the Silver trophy"
+        "Equip full armor, upgraded firearms, and vault-breaching gear before hitting a branch",
+        "Park a fast getaway car right outside the bank exit pointed toward an open escape avenue",
+        "Control lobby staff, breach the vault door, and collect the Marked Bills stacks",
+        "Fight clear to your car and lose the Wanted Level completely to register the vault",
+        "Repeat across 5 Bank Vaults (0/5) to unlock 'Maximum Withdrawal' (and launder the bills for 'Dime on the Dollar')"
       ],
       "citations": [
         {
@@ -1552,7 +1685,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1561,12 +1696,13 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Knock out anytime you spot an Armored Truck event on your radar in Stage 5.",
-      "guide": "Watch your minimap for dynamic Armored Truck icons patrolling downtown Vice City, banks, or major highways. Box the van in or disable the driver, blow the rear doors open with a sticky bomb or explosive charge, grab the dropped cash bag, and outrun the ensuing police pursuit until your Wanted Level disappears completely.",
+      "guide": "Intercept a dynamic Armored Truck patrolling downtown Vice City financial strips, bank corridors, or major highways, crack the rear cargo doors open, grab the cash bag, and completely lose the police pursuit. Armored trucks spawn organically throughout free roam, especially when cruising business districts.\n\nDestroying the whole truck with excessive explosives can burn the score or draw lethal SWAT fire before you grab the bag, while letting the driver speed off into traffic makes chasing it messy. Box the van in at an intersection, take out the guards cleanly, plant a single sticky bomb or charge on the rear doors, snatch the cash case, and break line of sight to clear your stars.",
       "steps": [
-        "Cruise financial districts or highways until an Armored Truck icon spawns",
-        "Stop the truck and neutralize its guards before they speed off",
-        "Blast open the rear cargo doors and collect the cash case",
-        "Lose your Wanted Level completely to unlock the trophy"
+        "Cruise downtown Vice City bank strips or major highways until an Armored Truck icon spawns on radar",
+        "Cut off or disable the van quickly and neutralize the armed guards",
+        "Place a single sticky bomb/explosive charge on the rear cargo doors and detonate from cover",
+        "Collect the dropped cash bag and flee immediately",
+        "Escape your Wanted Level completely to pop 'A Classic Blitz Play'"
       ],
       "citations": [
         {
@@ -1588,7 +1724,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["collectibles"],
+      "focus": [
+        "collectibles"
+      ],
       "online": false,
       "roadmapStage": 3,
       "missable": false,
@@ -1597,12 +1735,13 @@
       "targetCount": 52,
       "targetUnit": "Leonida areas",
       "when": "Pair with WAiNK scans and Card Sets in Stage 3 using a helicopter.",
-      "guide": "Discover all 52 named regions and districts across the state of Leonida (PSN tracks 0/52). Most central Vice City districts defog automatically during the campaign; after credits, grab a helicopter or fast aircraft and sweep the outer keys, Grassrivers wetlands, northern rural parishes, and coastal islets until every fogged patch on the map reveals its district name.",
+      "guide": "Defog and discover all 52 named districts, parishes, swamps, and islands across the state of Leonida (tracked 0/52 on PS5). Central Vice City zones clear naturally during the story, leaving outer Leonida Keys, Grassrivers wetlands, rural northern parishes, and tiny coastal islets for Stage 3 cleanup.\n\nFlying at max altitude in a jet can pass over tiny keys or narrow rural parcels without triggering their discovery banner. Grab a fast helicopter, zoom into the pause map to spot every remaining gray/fogged sliver or unnamed patch, and swoop low over each boundary until the district name pops on screen and your counter hits 52/52.",
       "steps": [
-        "Inspect the pause map for any remaining fogged patches or unnamed zones",
-        "Grab a fast helicopter to sweep outer Leonida Keys, swamps, and northern hills",
-        "Fly low enough over small islands and rural districts to register discovery",
-        "Hit 52/52 discovered areas to unlock 'The Goodtime State'"
+        "Finish the main story first so core Vice City districts defog naturally",
+        "Inspect the pause map closely for any remaining fogged patches or unnamed rural/coastal parcels",
+        "Steal or summon a fast helicopter for rapid state-wide sweeps",
+        "Fly low over outer Leonida Keys, Grassrivers wetlands, northern hills, and small coastal islets",
+        "Combine with WAiNK scans until 52/52 areas unlock 'The Goodtime State'"
       ],
       "citations": [
         {
@@ -1624,7 +1763,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1633,12 +1774,13 @@
       "targetCount": 9,
       "targetUnit": "gang operations",
       "when": "Great Stage 5 cleanup task — also ideal for earning 'Gunslinger' and Marked Bills.",
-      "guide": "Hit and rob at least one Illegal Operation stash belonging to each of Leonida's 9 rival gangs (tracked 0/9 on PS5). Gang fronts appear across distinct territories (back-room drug labs, dock warehouses, chop shops, and stash houses). Clear the guards, crack the stash or register, and get away with the loot for each of the 9 distinct factions to unlock 'Pest Control'.",
+      "guide": "Locate and rob at least one Illegal Operation belonging to each of Leonida's 9 rival gangs (tracked 0/9 on PS5). Gang fronts—such as back-room drug labs, dock warehouses, chop shops, and stash houses—respawn across each faction's territory in post-story free roam and also generate Marked Bills for 'Dime on the Dollar'.\n\nHitting multiple hideouts belonging to the same gang won't move the 0/9 counter—you must hit one operation per distinct gang across all 9 factions. Check gang territory boundaries across Vice City and the outer counties, use these crowded sites to knock out 'Gunslinger' (5 kills in one Combat Focus), grab the stash, and escape cleanly.",
       "steps": [
-        "Check gang territory boundaries across Vice City and surrounding counties",
-        "Locate an Illegal Operation icon for each of the 9 distinct gangs",
-        "Clear defenders, rob the stash, and escape to mark that gang complete",
-        "Reach 9/9 rival gangs robbed to pop the Bronze trophy"
+        "Review gang territories across Vice City and outlying counties so you target all 9 unique factions",
+        "Bring full armor and a high-capacity rifle (great spot to also earn 'Gunslinger')",
+        "Locate an Illegal Operation icon in a gang's turf, clear the defenders, and loot the stash/register",
+        "Escape the area cleanly so that gang's faction registers on the 0/9 counter",
+        "Repeat across all 9 distinct gangs to unlock 'Pest Control'"
       ],
       "citations": [
         {
@@ -1660,7 +1802,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1669,11 +1813,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Relaxed 1-minute stop along the Ocean Beach strip in Stage 5.",
-      "guide": "Head over to Vice City's iconic Ocean Beach strip — a classic homage to the original Vice City's Ocean View era — and visit the oceanfront hotel/terrace bar overlooking the beach. Order a cocktail at the bar prompt and take in the Ocean Beach view until the hidden nostalgic Bronze trophy pops.",
+      "guide": "Head down to Vice City's iconic Ocean Beach strip—a direct throwback to the original Vice City's Ocean View skyline—step into the oceanfront hotel lounge or terrace bar overlooking the sand, and order a cocktail at the bar prompt. Once you drink while taking in the Ocean Beach view, this nostalgic hidden Bronze trophy unlocks.\n\nGrabbing a drink at an inland nightclub or a random convenience store won't trigger the Easter egg—make sure you're at the Ocean Beach beachfront hotel/terrace bar with the view of the water, and wait out the full sipping animation without sprinting away or causing a brawl that closes the bar.",
       "steps": [
-        "Travel to the Ocean Beach beachfront strip in Vice City",
-        "Enter the beachfront hotel lounge / patio overlooking Ocean Beach",
-        "Order and drink a cocktail overlooking the water to unlock the trophy"
+        "Travel to Vice City's Ocean Beach beachfront strip during free roam",
+        "Enter the oceanfront hotel lounge or terrace bar overlooking Ocean Beach",
+        "Walk up to the bar prompt, order a cocktail, and stay put through the drink animation",
+        "Enjoy the ocean view until 'In The Beginning…' pops"
       ],
       "citations": [
         {
@@ -1695,7 +1840,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1704,12 +1851,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Available anytime after Chapter 3 once you have the Key Cloner (Stage 5).",
-      "guide": "Per PowerPyx's walkthrough, once you have unlocked the Key Cloner after Chapter 3, head to the vehicle showroom in southern Vice City where a classic blue Banshee is displayed behind plate glass (a nod to classic GTA showroom escapes). Use the Key Cloner to unlock and start the blue Banshee, then floor it straight through the front showroom glass window onto the street to pop 'Capital Offense'.",
+      "guide": "Once you unlock the Key Cloner through Chapter 3 story progression, visit the vehicle showroom in southern Vice City that displays a classic blue Banshee behind its front plate glass (per PowerPyx). Use the Key Cloner to unlock and fire up the blue Banshee, then floor it straight through the glass storefront onto the street in classic GTA style.\n\nDriving out through an open side door or stealing a different showroom vehicle won't satisfy the 'classic style' trigger. Make sure you bring the Key Cloner, line the blue Banshee squarely up with the main front window pane, and punch the accelerator straight through the glass so 'Capital Offense' unlocks immediately.",
       "steps": [
-        "Ensure you have the Key Cloner (unlocked via Chapter 3 progression)",
-        "Visit the southern Vice City vehicle showroom displaying the blue Banshee",
-        "Use the Key Cloner to steal the blue Banshee off the showroom floor",
-        "Smash straight out through the glass storefront to trigger the trophy"
+        "Advance past Chapter 3 to unlock the Key Cloner tool",
+        "Travel to the southern Vice City vehicle showroom displaying the classic blue Banshee",
+        "Walk up to the blue Banshee and use the Key Cloner to unlock and start it",
+        "Line up with the front plate-glass window and floor it straight out onto the street to pop the trophy"
       ],
       "citations": [
         {
@@ -1731,7 +1878,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1740,11 +1889,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "First visited in Chapter 2 ('Hit Kingpin Bowling'), or revisit on cooldown in Stage 5 free roam.",
-      "guide": "This hidden trophy is tied to the bowling lanes at Kolt & Associates' alley (first encountered during the Chapter 2 main mission 'Hit Kingpin Bowling', per PowerPyx). Bowl a frame and follow through cleanly at the alley's lanes. If you missed triggering it during Chapter 2, simply return to Kolt & Associates' bowling alley in free roam once its location cooldown resets — it is completely unmissable.",
+      "guide": "Complete the bowling follow-through action at Kolt & Associates' bowling alley. You first pass through this venue during Chapter 2's main story mission 'Hit Kingpin Bowling', and per PowerPyx the trophy is completely unmissable: even if you bypass it during Chapter 2, the alley stays revisitable in post-story free roam.\n\nIf you return in free roam and the alley interaction isn't active right away, you likely hit the venue's cooldown window after a recent visit or commotion. Leave the block, sleep at a safehouse or advance several in-game hours to let the location reset, then step up to the lane and complete the follow-through cleanly.",
       "steps": [
-        "Visit Kolt & Associates' bowling alley during Chapter 2 ('Hit Kingpin Bowling') or in free roam",
-        "Step up to the lane and complete the bowling follow-through prompt",
-        "If returning post-story, wait out the venue cooldown if recently triggered"
+        "Visit Kolt & Associates' bowling alley during Chapter 2 ('Hit Kingpin Bowling') or anytime in free roam",
+        "If revisiting post-story and the venue is inactive, advance in-game time to clear its cooldown",
+        "Step up to the bowling lane and complete the follow-through interaction cleanly",
+        "Confirm 'Let's Go Bowling' pops right after the lane action registers"
       ],
       "citations": [
         {
@@ -1766,7 +1916,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1775,12 +1927,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Work out together at Leonida fitness clubs during Stage 5.",
-      "guide": "Max out the Strength stat for BOTH Jason and Lucia at the same time (per PowerPyx and GTABase). Check both characters' bars under Pause > Jason & Lucia > Strength, then head to a local gym or outdoor fitness club with your partner and run lifting/workout sets until both Strength gauges hit 100% simultaneously, popping 'Personal Best'.",
+      "guide": "Max out the Strength stat for BOTH Jason and Lucia simultaneously (per PowerPyx and GTABase). Check both protagonists' current Strength bars under Pause > Jason & Lucia > Strength, then hit a Vice City fitness club or beachfront outdoor gym together and run strength workout sets until both gauges hit 100%.\n\nMany players max one character's Strength and wonder why 'Personal Best' didn't pop—both Jason and Lucia must hold maxed Strength at the same time. Swap between them at the gym (or work out as a pair), avoid skipping sets early, and watch the second character's bar hit 100% to trigger the hidden Bronze trophy.",
       "steps": [
-        "Open Pause > Character Stats (Jason & Lucia > Strength) to check current levels",
-        "Visit a fitness club or beach gym with your partner",
-        "Complete strength workout sets for both Jason and Lucia",
-        "Reach maximum Strength on both protagonists simultaneously to unlock"
+        "Open Pause > Character Stats (Jason & Lucia > Strength) to inspect both bars",
+        "Travel to a fitness club or beachfront gym in Vice City with both protagonists available",
+        "Complete lifting and strength workout sets with Jason until his Strength hits 100%",
+        "Switch to Lucia and complete workout sets until her Strength also hits 100% simultaneously"
       ],
       "citations": [
         {
@@ -1802,7 +1954,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1811,12 +1965,12 @@
       "targetCount": 500,
       "targetUnit": "profile actions",
       "when": "Tracks cumulatively all game long; enable HUD notifications early and finish any remainder in Stage 5.",
-      "guide": "Perform 500 actions that shift your Criminal Profile — whether clean/restrained or ruthless/chaotic (PSN tracks 0/500). Per PowerPyx, toggle ON 'Criminal Profile HUD Notifications' in the game's UI Settings right away so small profile-shift icons flash on screen whenever an action counts (such as sparing or robbing NPCs, stealth vs. loud holdups, helping or ignoring world encounters). Keep tallying actions across robberies and encounters until 500/500 pops.",
+      "guide": "Trigger 500 Criminal Profile actions—whether restrained/clean or ruthless/chaotic—across your playthrough (tracked 0/500 on PS5). Per PowerPyx, go into Settings > UI right at the start of the game and toggle ON 'Criminal Profile HUD Notifications' so small on-screen badges flash whenever an action registers.\n\nLeaving HUD notifications off makes it impossible to tell which free-roam acts actually count toward the 500 total. With notifications visible, you'll accumulate hundreds naturally across story decisions, stranger encounters, stealth vs. loud holdups, and NPC interactions, then easily farm quick repeatable robberies or world encounters in Stage 5 to cross 500/500.",
       "steps": [
-        "Turn ON 'Criminal Profile HUD Notifications' in Settings > UI",
-        "Watch for the small HUD badge confirming actions that count toward 500",
-        "Accumulate choices naturally during story, strangers, and free-roam crimes",
-        "Farm quick repeatable encounters/holdups in Stage 5 until 500/500 unlocks"
+        "Open Settings > UI as early as possible and enable 'Criminal Profile HUD Notifications'",
+        "Watch for the HUD profile-shift icon to learn which choices and crimes increment the counter",
+        "Play through the story, Strangers & Freaks, and Stage 5 heists to build most of the 500 naturally",
+        "In Stage 5, repeat fast profile-triggering holdups or world encounters until 500/500 pops the trophy"
       ],
       "citations": [
         {
@@ -1838,7 +1992,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1847,11 +2003,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Quick free-roam revisit in Stage 5.",
-      "guide": "Return to the Payday Loans storefront from the opening prologue sequence and pull off a successful revisit/robbery ('second time's the charm', per PowerPyx and community tracking). Walk back inside the shop in free roam, clean out the counter/back area, and get clear of the storefront cleanly to pop this wry callback trophy.",
+      "guide": "Return in free roam to the Payday Loans storefront featured in the game's opening prologue and pull off a clean repeat holdup ('second time's the charm', per PowerPyx). The shop stays open in the open world throughout post-story free roam, making this a fast, memorable Stage 5 callback.\n\nGetting busted or gunned down inside the storefront before clearing the scene spoils the clean exit. Park a fast getaway vehicle right outside the door, walk back inside Payday Loans, clean out the counter and back room efficiently, and escape the storefront cleanly so 'Bad Luck, I Guess' triggers.",
       "steps": [
-        "Locate the Payday Loans shop tied to the opening prologue",
-        "Revisit the store in free roam with your getaway car ready outside",
-        "Complete the repeat holdup cleanly ('second time's the charm') to unlock"
+        "Locate the Payday Loans storefront tied to the opening prologue sequence",
+        "Stage a fast getaway car outside the front entrance facing the road",
+        "Re-enter the shop in free roam and pull off the repeat holdup cleanly",
+        "Clear the storefront and get away ('second time's the charm') to unlock the hidden trophy"
       ],
       "citations": [
         {
@@ -1873,7 +2030,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["collectibles"],
+      "focus": [
+        "collectibles"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1882,12 +2041,13 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Visit Kelly County solo after 2:00 AM during Stage 5.",
-      "guide": "Trigger Leonida's secret UFO Easter egg. Per PowerPyx's walkthrough, travel SOLO (without your partner tagging along) to the backcountry northwest of the Starlet Motel in Kelly County late at night — specifically after 2:00 AM in-game time. Wait in the clearing and watch the night sky until the UFO encounter activates overhead, popping 'The Truth Is Out There'.",
+      "guide": "Trigger Leonida's hidden late-night UFO encounter in Kelly County. Per PowerPyx's walkthrough, travel to the backcountry clearing northwest of the Starlet Motel in Kelly County after 2:00 AM in-game time, wait in the clearing, and watch the night sky until the UFO event activates overhead.\n\nTwo strict conditions break this spawn if ignored: arriving with your partner tagging along, or showing up before 2:00 AM. Make sure you are completely SOLO (leave your partner behind), sleep or pass time nearby until past 2:00 AM, and approach the clearing calmly without an active police chase so 'The Truth Is Out There' triggers cleanly.",
       "steps": [
-        "Ensure you are exploring SOLO (leave your partner behind)",
-        "Travel northwest of the Starlet Motel in Kelly County",
-        "Arrive after 2:00 AM in-game time (sleep/wait nearby if needed)",
-        "Witness the overhead UFO sequence to pop the hidden trophy"
+        "Confirm you are exploring SOLO—do not bring your partner along",
+        "Make sure you have no active Wanted Level and drive to Kelly County",
+        "Head into the backcountry northwest of the Starlet Motel",
+        "Pass time nearby until after 2:00 AM in-game clock time",
+        "Wait in the clearing and watch the night sky for the UFO encounter to pop the trophy"
       ],
       "citations": [
         {
@@ -1909,7 +2069,9 @@
       "grade": "bronze",
       "hidden": true,
       "kind": "secret",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1918,11 +2080,12 @@
       "targetCount": 0,
       "targetUnit": "",
       "when": "Quick 30-second motorcycle stunt during Stage 5.",
-      "guide": "Hop onto a motorcycle, equip a close-range melee weapon (such as a baseball bat, crowbar, or machete) from the weapon wheel while riding, and cruise past a sidewalk crowd or rival gang member. Hold the melee-swing/kick drive-by input as you ride right beside a target to send them flying cleanly off the bike — landing a clean melee drive-by knockdown pops 'Ten Pin'.",
+      "guide": "Ride any motorcycle, switch to a one-handed melee weapon (such as a baseball bat, crowbar, or machete) on your weapon wheel while mounted, and perform a vehicular melee drive-by swing to knock a target flat on the pavement. This takes under a minute anywhere in Stage 5 free roam.\n\nRunning the target over with your front tire or clipping them with the bike frame counts as a vehicle hit rather than a melee drive-by, which won't pop 'Ten Pin'. Ride parallel along a wide boardwalk or quiet street at moderate speed, keep a clean half-meter gap beside the target, and time the side melee swing so the weapon itself bowls them over.",
       "steps": [
-        "Grab any motorcycle and equip a one-handed melee weapon (bat/machete)",
-        "Ride along a wide boardwalk or quiet street next to a target",
-        "Execute a vehicular melee drive-by strike to bowl the target over"
+        "Grab a nimble motorcycle and cycle your weapon wheel to a one-handed melee weapon (bat/crowbar/machete)",
+        "Find an open boardwalk or wide sidewalk with targets in a clear line",
+        "Ride parallel at moderate speed—avoid hitting the target with your bike wheels directly",
+        "Execute the melee drive-by strike cleanly beside the target to bowl them over and unlock 'Ten Pin'"
       ],
       "citations": [
         {
@@ -1944,7 +2107,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["heists"],
+      "focus": [
+        "heists"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1953,11 +2118,12 @@
       "targetCount": 250000,
       "targetUnit": "dollars laundered",
       "when": "Stack with 'Maximum Withdrawal' and 'Pest Control' in Stage 5.",
-      "guide": "Take dirty Marked Bills looted from bank vaults, armored trucks, and gang illegal operations and wash them into clean cash via your criminal laundering contacts until your cumulative laundered payout hits $250,000 (tracked 0/250,000 on PS5). Always deposit marked hauls promptly after each bank or gang raid rather than risking loss on death, and chain your 5 Bank Vaults directly into laundering runs.",
+      "guide": "Launder dirty Marked Bills stolen from Bank Vaults, Armored Trucks, and Gang Illegal Operations through your criminal laundering contacts until your cumulative clean payout reaches $250,000 (tracked 0/250,000 on PS5). Stacking this with 'Maximum Withdrawal' (5 vaults) and 'Pest Control' (9 gangs) supplies most of the dirty bills you need.\n\nHoarding huge stacks of unwashed Marked Bills while messing around in free roam risks losing dirty cash if you die or get busted. Deliver marked hauls to your laundering contacts right after each bank vault or gang operation, and track the 0/250,000 PSN counter so you know exactly how many more runs remain.",
       "steps": [
-        "Collect Marked Bills from Bank Vaults, Armored Trucks, and Gang Operations",
-        "Contact your money-laundering network to convert dirty stacks into clean cash",
-        "Track cumulative laundered earnings until the PSN counter hits $250,000"
+        "Loot Marked Bills while completing Bank Vaults ('Maximum Withdrawal'), Armored Trucks, and Gang Operations ('Pest Control')",
+        "Deliver dirty stacks promptly to your criminal laundering contacts rather than carrying them into risky fights",
+        "Collect the converted clean cash payouts as each laundering drop clears",
+        "Keep running vaults or gang stashes until your cumulative laundered payout hits $250,000"
       ],
       "citations": [
         {
@@ -1979,7 +2145,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["activities"],
+      "focus": [
+        "activities"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -1988,11 +2156,12 @@
       "targetCount": 100000,
       "targetUnit": "dollars spent",
       "when": "Happens effortlessly during endgame shopping/upgrades in Stage 5.",
-      "guide": "Spend a cumulative $100,000 across Leonida's retail stores (PSN tracks 0/100,000). High-end Vice City boutiques, Ammu-Nation weapon customizations, jewelry/watch counters, and vehicle mod shops burn through $100,000 quickly once you finish the campaign and bank vault scores. Buy luxury outfits and full firearm upgrades until the Bronze trophy unlocks.",
+      "guide": "Spend a cumulative $100,000 across Leonida's retail stores (tracked 0/100,000 on PS5). Purchases across Vice City clothing boutiques, Ammu-Nation weapon modifications, armor/ammo counters, jewelry/watch stores, salons, and vehicle mod shops all feed into the running total.\n\nDon't waste scarce early-game cash forcing this in Chapter 1—wait until post-story free roam after campaign payouts and bank vault laundering fill your wallet. Buying maxed firearm attachments for 'The Shootist' and full performance upgrades for your race/stunt fleet will effortlessly push you over $100,000.",
       "steps": [
-        "Build up endgame cash from story payouts and bank vault laundering",
-        "Purchase weapon upgrades, armor, luxury apparel, and vehicle mods across shops",
-        "Reach $100,000 total shop spend to unlock 'Treat Yo Self'"
+        "Save major shopping sprees for post-story Stage 5 once campaign and bank heist payouts are banked",
+        "Buy full weapon mods and extended mags at Ammu-Nation (doubling as prep for 'The Shootist')",
+        "Upgrade your race and stunt vehicles at mod shops and pick up luxury apparel/watches at Vice City boutiques",
+        "Reach $100,000 cumulative shop spend on the PSN tracker to unlock 'Treat Yo Self'"
       ],
       "citations": [
         {
@@ -2014,7 +2183,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["collectibles"],
+      "focus": [
+        "collectibles"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -2023,11 +2194,12 @@
       "targetCount": 8,
       "targetUnit": "garages",
       "when": "Buy out all 8 garages in Stage 5 using campaign and laundered heist profits.",
-      "guide": "Purchase every one of the 8 standalone garage properties located across Leonida (PSN tracks 0/8). Filter your map for purchasable garage real-estate icons or browse property listings on your phone once your post-story bankroll is flush, then buy all 8 bays to unlock 'Little Boxes' and expand storage for your race and stunt vehicles.",
+      "guide": "Buy all 8 standalone garage properties across Leonida (tracked 0/8 on PS5). Filter your map for purchasable garage real-estate icons or browse property listings on your phone once your post-story bankroll is flush from campaign jobs and laundered vault hauls.\n\nTrying to buy properties mid-campaign can leave you cash-strapped for weapon and vehicle mods, whereas in Stage 5 you can sweep all 8 garages in minutes. Buying every garage bay also gives you abundant storage space to pair directly with 'On the Spot' (registering 10 vehicles in Scooter Bros).",
       "steps": [
-        "Filter the map or in-game realtor app for all 8 purchasable garage properties",
-        "Accumulate sufficient clean cash from story missions and bank vaults",
-        "Purchase every single garage bay until the counter hits 8/8"
+        "Finish the campaign and bank vault laundering so you have ample clean cash",
+        "Filter the Leonida map or realtor app for all 8 standalone purchasable garage properties",
+        "Purchase each garage bay one by one across Vice City and the outer counties",
+        "Confirm the PSN tracker hits 8/8 garages to pop 'Little Boxes'"
       ],
       "citations": [
         {
@@ -2049,7 +2221,9 @@
       "grade": "bronze",
       "hidden": false,
       "kind": "misc",
-      "focus": ["collectibles"],
+      "focus": [
+        "collectibles"
+      ],
       "online": false,
       "roadmapStage": 5,
       "missable": false,
@@ -2058,11 +2232,12 @@
       "targetCount": 10,
       "targetUnit": "registered vehicles",
       "when": "Quick Stage 5 wrap-up alongside garage purchases.",
-      "guide": "Open the Scooter Bros app on your in-game smartphone and register 10 different owned or eligible vehicles to your delivery roster (PSN tracks 0/10). Pair this with 'Little Boxes' so you have plenty of garage slots to store and register ten distinct rides, unlocking quick on-demand delivery across Leonida and popping 'On the Spot'.",
+      "guide": "Open the Scooter Bros app on Jason or Lucia's smartphone and register 10 different owned or eligible vehicles to your delivery roster (tracked 0/10 on PS5). Pairing this right after 'Little Boxes' ensures you have plenty of garage capacity to hold ten distinct rides ready for instant on-demand delivery anywhere in Leonida.\n\nDuplicate registrations of the same car or unregistered street-stolen vehicles sitting outside your garage won't advance the 0/10 tally. Store or purchase 10 distinct eligible vehicles across your owned garages, open the Scooter Bros app, and confirm each slot shows as registered until 10/10 unlocks 'On the Spot'.",
       "steps": [
-        "Open the Scooter Bros app on Jason or Lucia's smartphone",
-        "Store or purchase 10 eligible vehicles across your owned garages",
-        "Register each vehicle inside the Scooter Bros app until 10/10 unlocks"
+        "Purchase garage storage first ('Little Boxes') so you have room for 10 distinct vehicles",
+        "Acquire and store 10 different eligible vehicles across your owned garages",
+        "Open the Scooter Bros app on your in-game smartphone",
+        "Register each of the 10 distinct vehicles to your Scooter Bros roster until 10/10 pops the trophy"
       ],
       "citations": [
         {

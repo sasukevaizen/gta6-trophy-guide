@@ -46,3 +46,10 @@ Design System: **LEONIDA PIXEL DUSK** (retro pixel-art game UI, zero external as
 ## Phase 6 — Submit (after user push confirmation)
 - [ ] Seal recording and submit ONCE through `/tmp/gta6-kit-tools/cli/makefun.mjs`
 - [ ] Report submission ID and status
+
+## Improvement Pass (Post-`3b066d7` Depth & Screenshot Upgrade)
+- [x] Step 1: Deepen every trophy's `guide` (2 short original paragraphs: where, when, what to do, what can go wrong), expand `steps` (3–6 concrete ordered steps), preserve/ensure >=2 citations per trophy, and verify counts & starter parity
+- [x] Step 2: Retake all 4 desktop Chrome screenshots (1280×1000 JPG, <= 256 KiB) showing deep guide + steps in `1-overview-guide.jpg` and scrolled guide + cited sources in `4-filters-cited-guide.jpg`
+- [x] Step 3: Run lean verification (counts & starter parity, offline Chrome 0 errors / 0 external requests, deterministic `dossier.json` build + unchanged `vendor/makefun-frontend.ts`, kit `check` 4/4 PASS)
+- [x] Step 4: Commit locally ("Deepen per-trophy guides and retake screenshots for depth") and hand off `git push origin master:main`
+- [ ] Step 5: After user confirms "push done", seal recording and submit ONCE through kit CLI, then report submission ID and status
