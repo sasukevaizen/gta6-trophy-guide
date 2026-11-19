@@ -1,68 +1,80 @@
-// Filtering, spoiler visibility rules, search matching, and progress aggregations.
+// Pure filter, search, spoiler-shield, and progress aggregation utilities.
 
-export function isTrophySpoiled(trophy, state) {
+export function isTrophyShielded(trophy, state) {
   if (!state.spoilerShield) return false;
-  if (state.earned.has(trophy.id)) return false;
-  if (state.peekedIds.has(trophy.id)) return false;
-  return trophy.kind === 'story' || trophy.hidden;
+  if (state.earnedIds.includes(trophy.id)) return false;
+  if (state.revealedIds.includes(trophy.id)) return false;
+  return trophy.kind === 'story' || trophy.hidden === true;
 }
 
-export function matchesFilters(trophy, state) {
-  const { grade, kind, category, hiddenOnly, status, search } = state.filters;
-
-  if (grade !== 'all' && trophy.grade !== grade) return false;
-  if (kind !== 'all' && trophy.kind !== kind) return false;
-  if (hiddenOnly && !trophy.hidden) return false;
-
-  const earned = state.earned.has(trophy.id);
-  if (status === 'earned' && !earned) return false;
-  if (status === 'unearned' && earned) return false;
-
-  if (category !== 'all') {
-    if (category === 'missable' && !trophy.missable) return false;
-    else if (category === 'online') return false;
-    else if (category !== 'missable' && !(trophy.categories || []).includes(category)) return false;
+export function getEffectiveCounter(trophy, state) {
+  if (!trophy.targetCount) return 0;
+  if (trophy.id === 1) {
+    // Platinum tracks all 54 other trophies live
+    return state.earnedIds.filter((id) => id !== 1).length;
   }
-
-  const query = search.trim().toLowerCase();
-  if (query) {
-    const haystack = [
-      trophy.name,
-      trophy.description,
-      trophy.guide,
-      trophy.kind,
-      trophy.grade,
-      ...(trophy.categories || []),
-    ]
-      .join(' ')
-      .toLowerCase();
-    if (!haystack.includes(query)) return false;
+  if (state.earnedIds.includes(trophy.id)) {
+    return trophy.targetCount;
   }
-
-  return true;
+  const saved = Number(state.counters[trophy.id] || 0);
+  return Math.max(0, Math.min(trophy.targetCount, saved));
 }
 
-export function filterTrophies(trophies, state) {
-  return trophies.filter((trophy) => matchesFilters(trophy, state));
+export function filterTrophies(trophies, filters, state) {
+  const query = (filters.search || '').trim().toLowerCase();
+
+  return trophies.filter((trophy) => {
+    const earned = state.earnedIds.includes(trophy.id);
+
+    if (filters.grade !== 'all' && trophy.grade !== filters.grade) return false;
+    if (filters.status === 'earned' && !earned) return false;
+    if (filters.status === 'unearned' && earned) return false;
+    if (filters.kind !== 'all' && trophy.kind !== filters.kind) return false;
+    if (filters.hiddenOnly && !trophy.hidden) return false;
+
+    if (filters.focus !== 'all') {
+      if (filters.focus === 'missable') {
+        if (!trophy.missable) return false;
+      } else if (filters.focus === 'online') {
+        if (!trophy.online) return false;
+      } else if (!Array.isArray(trophy.focus) || !trophy.focus.includes(filters.focus)) {
+        return false;
+      }
+    }
+
+    if (query) {
+      const shielded = isTrophyShielded(trophy, state);
+      const haystack = shielded
+        ? `${trophy.kind} ${trophy.grade} hidden stage ${trophy.roadmapStage}`
+        : `${trophy.name} ${trophy.description} ${trophy.guide} ${trophy.kind} ${trophy.grade} ${(trophy.focus || []).join(' ')}`;
+      if (!haystack.toLowerCase().includes(query)) return false;
+    }
+
+    return true;
+  });
 }
 
-export function computeGradeCounts(trophies, earnedSet) {
-  const counts = {
+export function countProgressByGrade(trophies, earnedIds) {
+  const earnedSet = new Set(earnedIds);
+  const totals = {
     platinum: { earned: 0, total: 0 },
     gold: { earned: 0, total: 0 },
     silver: { earned: 0, total: 0 },
     bronze: { earned: 0, total: 0 },
   };
   for (const t of trophies) {
-    if (!counts[t.grade]) continue;
-    counts[t.grade].total += 1;
-    if (earnedSet.has(t.id)) counts[t.grade].earned += 1;
+    if (!totals[t.grade]) continue;
+    totals[t.grade].total += 1;
+    if (earnedSet.has(t.id)) totals[t.grade].earned += 1;
   }
-  return counts;
+  return totals;
 }
 
-export function computeStageProgress(stage, earnedSet) {
-  const uniqueIds = [...new Set(stage.trophyIds)];
-  const earned = uniqueIds.filter((id) => earnedSet.has(id)).length;
-  return { earned, total: uniqueIds.length };
+export function computeStageProgress(trophies, stageId, earnedIds) {
+  const earnedSet = new Set(earnedIds);
+  const stageTrophies = trophies.filter((t) => t.roadmapStage === stageId);
+  const done = stageTrophies.filter((t) => earnedSet.has(t.id)).length;
+  const total = stageTrophies.length;
+  const percent = total > 0 ? Math.round((done / total) * 100) : 0;
+  return { done, total, percent, trophies: stageTrophies };
 }

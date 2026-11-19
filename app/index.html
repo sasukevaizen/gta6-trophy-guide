@@ -1,110 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Leonida Trophy Ledger — GTA VI PS5 Trophy Guide & Offline Tracker</title>
-  <link rel="stylesheet" href="styles/theme.css">
-  <link rel="stylesheet" href="styles/layout.css">
-  <link rel="stylesheet" href="styles/components.css">
+  <title>Leonida Trophy Ledger — GTA VI PS5 Pixel Trophy Guide</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8' shape-rendering='crispEdges'%3E%3Crect x='2' y='0' width='4' height='8' fill='%23a87408'/%3E%3Crect x='0' y='2' width='8' height='4' fill='%23a87408'/%3E%3Crect x='1' y='1' width='6' height='6' fill='%23f5bc1f'/%3E%3Crect x='3' y='2' width='2' height='4' fill='%236e4a04'/%3E%3Crect x='2' y='3' width='4' height='2' fill='%236e4a04'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./styles/theme.css">
+  <link rel="stylesheet" href="./styles/layout.css">
+  <link rel="stylesheet" href="./styles/motion.css">
 </head>
 <body>
-  <div class="app-shell">
-    <header class="top-header" id="app-header">
-      <div class="brand-progress">
-        <div class="ring-wrap" aria-label="Overall trophy completion">
-          <svg class="ring-svg" viewBox="0 0 68 68" role="img" aria-label="Completion ring">
-            <circle class="ring-track" cx="34" cy="34" r="28"></circle>
-            <circle class="ring-fill" id="progress-ring-arc" cx="34" cy="34" r="28" stroke-dasharray="175.93" stroke-dashoffset="175.93"></circle>
-          </svg>
-          <div class="ring-center">
-            <span class="ring-pct" id="progress-pct">0%</span>
-            <span class="ring-frac" id="progress-frac">0/55</span>
+  <div class="ledger-shell">
+    <!-- HERO -->
+    <header class="hero-banner" id="heroBanner">
+      <canvas class="hero-scene" id="heroScene" width="256" height="46" aria-hidden="true"></canvas>
+      <div class="hero-content">
+        <div class="hero-main">
+          <div class="hero-kicker">GTA VI &middot; PS5 &middot; OFFLINE TRACKER</div>
+          <h1 class="sr-only">Leonida Trophy Ledger</h1>
+          <canvas class="hero-title" id="heroTitle" width="630" height="39" aria-label="LEONIDA TROPHY LEDGER"></canvas>
+          <p class="hero-sub">55 Official Trophies &middot; 28 Hidden &middot; 0 Online &mdash; every guide cited, progress saved in your browser</p>
+          <div class="hero-progress" id="heroProgress">
+            <strong id="heroCount">0/55</strong>
+            <span id="heroPercent">0% OF LEONIDA CLAIMED</span>
+          </div>
+          <div class="seg-bar hero-bar" role="progressbar" aria-valuemin="0" aria-valuemax="55" aria-valuenow="0" id="heroBarWrap">
+            <span class="seg-fill" id="heroBarFill"></span>
+          </div>
+          <div class="grade-strip" id="gradeStrip">
+            <div class="grade-chip" data-grade="platinum"><span class="medal-slot" data-medal="platinum" data-size="24"></span><span class="grade-text">PLT 0/1</span></div>
+            <div class="grade-chip" data-grade="gold"><span class="medal-slot" data-medal="gold" data-size="24"></span><span class="grade-text">GLD 0/2</span></div>
+            <div class="grade-chip" data-grade="silver"><span class="medal-slot" data-medal="silver" data-size="24"></span><span class="grade-text">SLV 0/6</span></div>
+            <div class="grade-chip" data-grade="bronze"><span class="medal-slot" data-medal="bronze" data-size="24"></span><span class="grade-text">BRZ 0/46</span></div>
           </div>
         </div>
-        <div class="title-block">
-          <h1>Leonida Trophy Ledger</h1>
-          <p class="subtitle">GTA VI (PS5) · 55 Official Trophies · 28 Hidden · 0 Online · Offline Tracker</p>
-        </div>
-      </div>
-
-      <div class="grade-summary-bar" id="grade-summary" aria-label="Counts per trophy grade"></div>
-
-      <div class="header-actions">
-        <button id="btn-spoiler" class="btn btn-spoiler-on" type="button" aria-pressed="true">Spoiler Shield: ON</button>
-        <button id="btn-export" class="btn" type="button">Export JSON</button>
-        <label class="btn" for="input-import">
-          Import JSON
-          <input id="input-import" class="sr-only" type="file" accept="application/json,.json">
-        </label>
-        <button id="btn-reset" class="btn btn-danger" type="button">Reset</button>
+        <figure class="hero-postcard" id="heroPostcard">
+          <canvas id="postcardCanvas" width="320" height="88" aria-label="Pixel sunset over Leonida beach and skyline"></canvas>
+          <figcaption class="postcard-caption">
+            <span>GREETINGS FROM LEONIDA</span>
+            <span class="icon-slot postcard-star" data-icon="star-dark" data-size="11" aria-hidden="true"></span>
+          </figcaption>
+        </figure>
       </div>
     </header>
 
-    <nav class="nav-bar" aria-label="Primary views">
-      <div class="tab-group" role="tablist">
-        <button id="tab-checklist" class="tab-btn is-active" type="button" role="tab" aria-selected="true">Checklist &amp; Guides (55)</button>
-        <button id="tab-roadmap" class="tab-btn" type="button" role="tab" aria-selected="false">Platinum Roadmap &amp; Missables</button>
+    <!-- 100% PLATINUM CLAIMED BANNER -->
+    <div class="platinum-band" id="platinumBand" hidden role="status" aria-live="polite">
+      <span class="icon-slot" data-icon="star-dark" data-size="13" aria-hidden="true"></span>
+      <span>PLATINUM CLAIMED &mdash; LEONIDA COMPLETE</span>
+      <span class="icon-slot" data-icon="star-dark" data-size="13" aria-hidden="true"></span>
+    </div>
+
+    <div class="checker-strip" aria-hidden="true"></div>
+
+    <!-- TOOLBAR -->
+    <section class="action-toolbar" aria-label="Tracker controls">
+      <button type="button" class="px-btn spoiler-toggle" id="spoilerToggleBtn" aria-pressed="false">
+        <span class="btn-icon-slot" id="spoilerBtnIcon" aria-hidden="true"></span>
+        <span id="spoilerBtnLabel">SPOILER SHIELD: OFF</span>
+      </button>
+      <button type="button" class="px-btn" id="exportBtn">EXPORT JSON</button>
+      <button type="button" class="px-btn" id="importBtn">IMPORT JSON</button>
+      <input type="file" id="importFileInput" accept=".json,application/json" hidden>
+      <button type="button" class="px-btn px-btn-danger" id="resetBtn">RESET</button>
+    </section>
+
+    <!-- PIXEL TOAST BAND -->
+    <div class="toast-band" id="toastBand" hidden role="status" aria-live="polite"></div>
+
+    <!-- NAVIGATION TABS + SPOILER INDICATOR -->
+    <div class="tabs-row">
+      <nav class="nav-tabs" role="tablist" aria-label="Guide views">
+        <button type="button" class="px-tab is-active" id="tabChecklist" role="tab" aria-selected="true" aria-controls="viewChecklist">Checklist &amp; Guides (55)</button>
+        <button type="button" class="px-tab" id="tabRoadmap" role="tab" aria-selected="false" aria-controls="viewRoadmap">Platinum Roadmap &amp; Missables</button>
+      </nav>
+      <div class="spoiler-status-flag" id="spoilerStatusFlag" hidden>SPOILER SHIELD ON</div>
+    </div>
+
+    <!-- VIEW 1: CHECKLIST & DOSSIER -->
+    <main class="view-pane is-visible" id="viewChecklist" role="tabpanel" aria-labelledby="tabChecklist">
+      <div class="workspace-grid">
+        <!-- LEFT COLUMN: TROPHY CHECKLIST -->
+        <section class="px-panel checklist-panel" aria-label="Trophy checklist">
+          <div class="panel-header">
+            <span class="panel-bullet" aria-hidden="true"></span>
+            <canvas class="panel-title-canvas" data-pixel-heading="TROPHY CHECKLIST" aria-label="TROPHY CHECKLIST"></canvas>
+            <span class="panel-meta" id="checklistCountMeta">55 entries</span>
+          </div>
+          <div class="panel-body">
+            <div class="filter-bar">
+              <input type="search" class="px-input" id="searchInput" placeholder="Search trophy name, description, guide..." aria-label="Search trophies">
+              <select class="px-select" id="gradeSelect" aria-label="Filter by trophy grade">
+                <option value="all">All Grades (55)</option>
+                <option value="platinum">Platinum (1)</option>
+                <option value="gold">Gold (2)</option>
+                <option value="silver">Silver (6)</option>
+                <option value="bronze">Bronze (46)</option>
+              </select>
+              <select class="px-select" id="statusSelect" aria-label="Filter by earned status">
+                <option value="all">All Status</option>
+                <option value="earned">Earned</option>
+                <option value="unearned">Unearned</option>
+              </select>
+            </div>
+
+            <div class="chip-bar" id="kindChipBar" role="group" aria-label="Filter by trophy kind">
+              <button type="button" class="px-filter-chip is-active" data-kind="all">All</button>
+              <button type="button" class="px-filter-chip" data-kind="story">Story (12)</button>
+              <button type="button" class="px-filter-chip" data-kind="side">Side (13)</button>
+              <button type="button" class="px-filter-chip" data-kind="secret">Secret (11)</button>
+              <button type="button" class="px-filter-chip" data-kind="misc">Misc (19)</button>
+              <button type="button" class="px-filter-chip" data-focus-shortcut="missable">Missable (1)</button>
+              <button type="button" class="px-filter-chip" id="hiddenOnlyChip" aria-pressed="false">Hidden Only (28)</button>
+            </div>
+
+            <div class="focus-bar" id="focusChipBar" role="group" aria-label="Filter by focus category">
+              <span class="focus-label">FOCUS:</span>
+              <button type="button" class="px-focus-chip is-active" data-focus="all">Any</button>
+              <button type="button" class="px-focus-chip" data-focus="collectibles">Collectibles</button>
+              <button type="button" class="px-focus-chip" data-focus="activities">Activities</button>
+              <button type="button" class="px-focus-chip" data-focus="strangers">Strangers</button>
+              <button type="button" class="px-focus-chip" data-focus="heists">Heists</button>
+              <button type="button" class="px-focus-chip" data-focus="online">Online (0)</button>
+            </div>
+
+            <div class="showing-bar">
+              <span id="showingCountText">Showing 55 of 55 trophies</span>
+              <span id="spoilerHintText">Spoiler Shield OFF &middot; all names visible</span>
+            </div>
+
+            <div class="trophy-list" id="trophyList" role="list"></div>
+          </div>
+        </section>
+
+        <!-- RIGHT COLUMN: TROPHY DOSSIER -->
+        <section class="px-panel dossier-panel" aria-label="Trophy dossier">
+          <div class="panel-header">
+            <span class="panel-bullet" aria-hidden="true"></span>
+            <canvas class="panel-title-canvas" data-pixel-heading="TROPHY DOSSIER" aria-label="TROPHY DOSSIER"></canvas>
+            <span class="panel-meta">guide + sources</span>
+          </div>
+          <div class="panel-body dossier-body" id="dossierBody"></div>
+        </section>
       </div>
-      <div id="status-toast" class="status-toast" role="status" aria-live="polite"></div>
-    </nav>
-
-    <main id="view-checklist" class="workspace-grid">
-      <section class="list-column" aria-label="Trophy checklist and filters">
-        <div class="filter-panel">
-          <div class="filter-row">
-            <input id="search-input" class="search-input" type="search" placeholder="Search trophy name, description, or guide… (Press /)" aria-label="Search trophies">
-            <select id="filter-grade" class="filter-select" aria-label="Filter by grade">
-              <option value="all">All Grades (55)</option>
-              <option value="platinum">Platinum (1)</option>
-              <option value="gold">Gold (2)</option>
-              <option value="silver">Silver (6)</option>
-              <option value="bronze">Bronze (46)</option>
-            </select>
-            <select id="filter-status" class="filter-select" aria-label="Filter by earned status">
-              <option value="all">All Status</option>
-              <option value="earned">Earned Only</option>
-              <option value="unearned">Not Earned</option>
-            </select>
-            <button id="btn-clear-filters" class="btn" type="button">Clear Filters</button>
-          </div>
-
-          <div class="chip-bar" id="kind-chips" aria-label="Filter by kind">
-            <span class="chip-label">Kind:</span>
-            <button class="chip is-active" type="button" data-kind="all">All</button>
-            <button class="chip" type="button" data-kind="story">Story (12)</button>
-            <button class="chip" type="button" data-kind="side">Side (13)</button>
-            <button class="chip" type="button" data-kind="secret">Secret (11)</button>
-            <button class="chip" type="button" data-kind="misc">Misc (19)</button>
-          </div>
-
-          <div class="chip-bar" id="category-chips" aria-label="Quick category filters">
-            <span class="chip-label">Focus:</span>
-            <button class="chip is-active" type="button" data-category="all">Everything</button>
-            <button class="chip chip-warn" type="button" data-category="missable">Missable (1)</button>
-            <button class="chip" type="button" data-category="collectibles">Collectibles</button>
-            <button class="chip" type="button" data-category="activities">Activities</button>
-            <button class="chip" type="button" data-category="strangers">Strangers</button>
-            <button class="chip" type="button" data-category="heists">Heists &amp; Crime</button>
-            <button class="chip" type="button" data-category="online">Online (0)</button>
-            <button class="chip chip-hidden" id="btn-hidden-only" type="button" aria-pressed="false">Hidden Only (28)</button>
-          </div>
-        </div>
-
-        <div class="results-meta">
-          <span id="results-count">Showing 55 of 55 trophies</span>
-          <span id="spoiler-hint">Story &amp; hidden trophies blurred until earned</span>
-        </div>
-
-        <div id="trophy-list" class="trophy-list" role="list"></div>
-      </section>
-
-      <aside id="trophy-detail" class="detail-column" aria-label="Selected trophy guide"></aside>
     </main>
 
-    <section id="view-roadmap" class="roadmap-view is-hidden" aria-label="Platinum roadmap and missables"></section>
+    <!-- VIEW 2: PLATINUM ROADMAP & MISSABLES -->
+    <section class="view-pane" id="viewRoadmap" role="tabpanel" aria-labelledby="tabRoadmap" hidden>
+      <div id="roadmapRoot"></div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="ledger-footer">
+      <span>Data sources: PSNProfiles &middot; Exophase &middot; PowerPyx &middot; GTABase</span>
+      <span class="footer-sep">&mdash;</span>
+      <span>Unofficial fan-made guide. Not affiliated with Rockstar Games or Take-Two Interactive.</span>
+    </footer>
   </div>
 
-  <script type="module" src="js/app.js"></script>
+  <!-- SPARKLE OVERLAY CONTAINER -->
+  <div class="sparkle-layer" id="sparkleLayer" aria-hidden="true"></div>
+
+  <script type="module" src="./js/main.js"></script>
 </body>
 </html>

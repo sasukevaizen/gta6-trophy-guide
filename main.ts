@@ -1,39 +1,38 @@
-// Leonida Trophy Ledger — make.fun entry program (Node 22, standard library only).
-// Copies the offline static app/ and real browser screenshots/ to MAKEFUN_OUTPUT_DIR (default /output)
-// and emits a deterministic dossier.json via the unmodified vendored makefun-frontend library.
+// Leonida Trophy Ledger (Pixel Dusk Edition) — make.fun entry builder.
+// Runs on Node 22+ standard library only; produces deterministic out/ + dossier.json.
 
 import { cpSync, existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDossier } from './vendor/makefun-frontend.ts';
 
-const REPO_ROOT = fileURLToPath(new URL('.', import.meta.url));
-const OUTPUT_DIR = process.env.MAKEFUN_OUTPUT_DIR ?? '/output';
+const ROOT_DIR = fileURLToPath(new URL('.', import.meta.url));
+const TARGET_OUT = process.env.MAKEFUN_OUTPUT_DIR || '/output';
 
-const DOSSIER_LIMITS = {
+const GATE_LIMITS = {
   text_max_bytes: 163840,
   screenshots: { max: 4, max_bytes: 262144 },
   app_max_files: 993,
   app_max_bytes: 50331648,
 } as const;
 
-function copyCleanDirectory(sourceDir: string, targetDir: string): void {
-  if (existsSync(targetDir)) {
-    rmSync(targetDir, { recursive: true, force: true });
+function mirrorDirectory(src: string, dest: string): void {
+  if (existsSync(dest)) {
+    rmSync(dest, { recursive: true, force: true });
   }
-  mkdirSync(targetDir, { recursive: true });
-  if (existsSync(sourceDir)) {
-    cpSync(sourceDir, targetDir, { recursive: true });
+  mkdirSync(dest, { recursive: true });
+  if (existsSync(src)) {
+    cpSync(src, dest, { recursive: true });
   }
 }
 
-function main(): void {
-  mkdirSync(OUTPUT_DIR, { recursive: true });
-  copyCleanDirectory(join(REPO_ROOT, 'app'), join(OUTPUT_DIR, 'app'));
-  copyCleanDirectory(join(REPO_ROOT, 'screenshots'), join(OUTPUT_DIR, 'screenshots'));
+function buildEntry(): void {
+  mkdirSync(TARGET_OUT, { recursive: true });
+  mirrorDirectory(join(ROOT_DIR, 'app'), join(TARGET_OUT, 'app'));
+  mirrorDirectory(join(ROOT_DIR, 'screenshots'), join(TARGET_OUT, 'screenshots'));
 
-  const dossierJson = buildDossier(OUTPUT_DIR, DOSSIER_LIMITS);
-  writeFileSync(join(OUTPUT_DIR, 'dossier.json'), dossierJson);
+  const dossierPayload = buildDossier(TARGET_OUT, GATE_LIMITS);
+  writeFileSync(join(TARGET_OUT, 'dossier.json'), dossierPayload);
 }
 
-main();
+buildEntry();

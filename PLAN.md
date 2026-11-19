@@ -1,174 +1,48 @@
-# PLAN.md — GTA VI Trophy Guide & Offline Tracker (`gta6-trophy-guide-01`)
+# Leonida Trophy Ledger — Pixel Dusk Build Plan
 
-Target bounty: **Build the best GTA 6 trophy guide** (`https://make.fun/bounty/gta6-trophy-guide-01`)
-Deadline: `2026-11-21T11:00:00Z` (Sat Nov 21, 2026, 11:00 AM UTC)
+Competition: `gta6-trophy-guide-01` ("Build the best GTA 6 trophy guide")  
+Design System: **LEONIDA PIXEL DUSK** (retro pixel-art game UI, zero external assets, zero build step)
 
-## 1. Deliverables List
+## Phase 0 — Plan
+- [x] Inspect workspace, starter trophy list, competition rules, and approved Leonida Pixel Dusk design references
+- [x] Author this phased checkbox plan (`PLAN.md`) before writing application code
 
-1. **Public GitHub repository** (under entrant account, created after competition opening) carrying:
-   - `LICENSE` — OSI-approved MIT license (with `SPDX-License-Identifier: MIT`).
-   - `main.ts` — Node 22 entrypoint (stdlib only) that copies `app/` and `screenshots/` to `MAKEFUN_OUTPUT_DIR` (default `/output`) and writes deterministic `dossier.json` via `buildDossier`.
-   - `serve.ts` — Node 22 local static file server for `app/` (dev/testing convenience).
-   - `vendor/makefun-frontend.ts` — byte-for-byte unmodified copy from kit `starter/vendor/makefun-frontend.ts`.
-   - `app/` — static offline web app (zero external requests, zero build step, desktop Chrome):
-     - `app/index.html`
-     - `app/styles/theme.css`, `app/styles/layout.css`, `app/styles/components.css`
-     - `app/js/state.js` (localStorage persistence, earned set, spoiler toggle, filters, export/import)
-     - `app/js/filters.js` (grade, kind, category/quick filters, hidden-only, earned status, search)
-     - `app/js/render-header.js` (SVG progress ring, per-grade counters, spoiler toggle, export/import)
-     - `app/js/render-list.js` (trophy rows, grade colors, spoiler blur/reveal, checkboxes)
-     - `app/js/render-detail.js` (trophy detail drawer: full guide, step list, missable banner, named source links)
-     - `app/js/render-roadmap.js` (ordered Platinum roadmap stages, Chapter 1 missable warning, completion stats)
-     - `app/js/app.js` (boot, data load, event wiring)
-     - `app/data/trophies.json` (all 55 official PS5 trophies, verified against Exophase & PSNProfiles, original cited guides)
-   - `screenshots/` — 4 real desktop Chrome screenshots (`1280×800`, JPEG ≤ 256 KiB each, cover first by name).
-   - `README.md` — app overview, features, data sources, run instructions, and live make.fun badges (if GitHub submission).
-   - `.makefun/owner.json` (if needed for GitHub owner verification).
-2. **Verified output** (`out/dossier.json`, `out/app/`, `out/screenshots/`).
-3. **Single submission** via `makefun.mjs` after all Phase 4 checks pass.
+## Phase 1 — Data (`app/data/trophies.json`)
+- [x] Cross-check all 55 official GTA VI PS5 trophies against kit starter, PSNProfiles, Exophase, PowerPyx, and GTABase
+- [x] Write original walkthroughs (what to do, where/how, when, step-by-step checklists) and clickable source citations for all 55 trophies in `app/data/trophies.json`
+- [x] Flag ONLY `Positive Mental Attitude` as `POSSIBLY MISSABLE — UNCONFIRMED` (Chapter 1 balcony meditation at Jason's house, no mission replay) and mark all other 54 trophies earnable in post-story free roam
+- [x] Hard-verify dataset counts: 55 total = 1 Platinum (`Vice Got a Price!`), 2 Gold, 6 Silver, 46 Bronze; 28 hidden / 27 visible; 0 online; 6 roadmap stages
 
-## 2. Target Repository File Tree
+## Phase 2 — App Features (`app/`)
+- [x] Replace `app/` wholesale with static offline HTML + ES modules (`index.html`, `styles/`, `js/`, `data/trophies.json`) with zero external requests and no build step
+- [x] Implement `localStorage` persistence for earned trophies, PSN progress counters, dossier checklist steps, spoiler settings, and per-trophy reveals
+- [x] Implement full checklist & filter suite: grade, status, kind (`story`/`side`/`secret`/`misc`), focus (`missable`, `collectibles`, `activities`, `strangers`, `heists`, `online`), hidden-only toggle, and instant full-text search
+- [x] Implement Spoiler Shield (ON blurs unearned story/hidden names & descriptions + blocks dossier walkthrough until earned or individually revealed; OFF reveals all)
+- [x] Implement Trophy Dossier detail panel: official quote, pixel medal, metadata chips, missable alert banner, PSN counter (`-1`, `+1`, `MAX`, segmented bar), clickable cited sources, original guide, step-by-step pixel checklist, Mark Earned
+- [x] Implement 6-stage Platinum Roadmap & Missables view with early missable alert banner, stat summary, per-stage progress, and clickable trophy chips
+- [x] Implement Export JSON, Import JSON with validation, and inline 2-click 3-second Reset (no native `confirm()`)
 
-```text
-.
-├── LICENSE
-├── PLAN.md
-├── README.md
-├── main.ts
-├── serve.ts
-├── vendor/
-│   └── makefun-frontend.ts          # byte-for-byte copy from starter/vendor/makefun-frontend.ts
-├── screenshots/
-│   ├── 1-overview-guide.jpg         # Cover: progress ring, checklist, filters, open cited guide
-│   ├── 2-roadmap-missables.jpg      # Ordered Platinum roadmap + Chapter 1 missable callout
-│   ├── 3-spoiler-shield.jpg         # Spoiler Shield ON blurring unearned story/hidden trophies
-│   └── 4-collectibles-filter.jpg    # Filtered view + secondary cited guide + export/import state
-└── app/
-    ├── index.html
-    ├── data/
-    │   └── trophies.json
-    ├── styles/
-    │   ├── theme.css
-    │   ├── layout.css
-    │   └── components.css
-    └── js/
-        ├── app.js
-        ├── state.js
-        ├── filters.js
-        ├── render-header.js
-        ├── render-list.js
-        ├── render-detail.js
-        └── render-roadmap.js
-```
+## Phase 3 — Design: "LEONIDA PIXEL DUSK"
+- [x] Implement palette (`#0a0918` indigo dither, `#100d29` panels, `#372d75` violet borders, `#ff5e7a`/`#ff8a3c`/`#ffd23c` flat sunset accents, warm gold earned, amber missables, zero teal/turquoise, zero smooth UI gradients, zero border-radius, stair-stepped pixel corners)
+- [x] Draw pixel-art hero sunset scene (`256x46`), 5x7 bitmap pixel title `"LEONIDA TROPHY LEDGER"`, tilted `"GREETINGS FROM LEONIDA"` postcard (`320x88`), and 6 stage postcard thumbnails (`88x50`) on canvas
+- [x] Draw 24x24 pixel coin medal sprites (platinum, gold, silver, bronze, dimmed unearned) and pixel UI sprites (purple/gold spoiler shield, warning triangle, checkmark, star) with `shape-rendering="crispEdges"` and zero emoji
+- [x] Build small states: empty-results pixel panel with clear button, pixel toast band under toolbar, dossier step checkboxes, 55/55 Platinum Claimed gold banner, and single-line mono footer with sources + unofficial disclaimer
+- [x] Add frame-stepped retro animations (`steps()` / 8–12 fps JS cadence) across boot, hero scene, checklist, dossier, tabs, roadmap, spoiler shield, toasts, and Platinum celebration while respecting `prefers-reduced-motion`
+- [x] Add responsive stacking breakpoints (`<=1100px`, `<=640px`, >=44px tap targets) without altering the primary desktop layout
 
-> Note: Before final commit/submission, pre-existing kit files (`RULES.txt`, `cli/`, `competition.yaml`, `harness/`, `kit.json`, `starter/`) must be removed from the submitted git tree so `transcripts_witnessed` and size checks pass cleanly.
+## Phase 4 — Package & Screenshots
+- [x] Author/refresh `main.ts` (Node 22 stdlib only) and `serve.ts`; verify `vendor/makefun-frontend.ts` stays byte-for-byte identical to the kit
+- [x] Update `README.md` (preserving the 3 live make.fun badges at top) and verify MIT `LICENSE` stays intact
+- [x] Run local server and capture 4 real desktop Chrome screenshots in `screenshots/` (`1-overview-guide.jpg`, `2-roadmap-missables.jpg`, `3-spoiler-shield.jpg`, `4-filters-cited-guide.jpg`), each <= 256 KiB and <= 1280px long side
+- [x] Build `out/` via `MAKEFUN_OUTPUT_DIR=out node main.ts`
 
-## 3. Data Model (`app/data/trophies.json`)
+## Phase 5 — Verify & Commit
+- [x] Verify `trophies.json` hard counts (55 / 1P / 2G / 6S / 46B / 28 hidden / 0 online / 1 possibly missable)
+- [x] Verify offline load in Chrome: zero console errors, zero external network requests
+- [x] Run automated interactive click-through verification (earn/reset, counters, every filter, search, spoiler on/off + per-trophy reveal, export/import, roadmap, 55/55 state)
+- [x] Run `node /tmp/gta6-kit-tools/cli/makefun.mjs check` and confirm 4/4 PASS
+- [x] Commit all changes cleanly and pause for user to run `git push origin master:main`
 
-Top-level JSON object:
-
-```json
-{
-  "game": "Grand Theft Auto VI",
-  "platform": "PlayStation 5",
-  "version": "1.0",
-  "summary": {
-    "total": 55,
-    "platinum": 1,
-    "gold": 2,
-    "silver": 6,
-    "bronze": 46,
-    "hidden": 28,
-    "visible": 27,
-    "online": 0,
-    "missableNote": "Only 'Positive Mental Attitude' is flagged as possibly missable (unconfirmed; Chapter 1 meditation). All other 54 trophies are earnable in post-story free roam."
-  },
-  "roadmap": [
-    {
-      "stage": 1,
-      "title": "Stage 1 — Story Campaign (Chapters 1–5) & Early Missable Watch",
-      "goal": "...",
-      "warning": "...",
-      "trophyIds": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 28]
-    }
-  ],
-  "trophies": [
-    {
-      "id": 1,
-      "name": "Vice Got a Price!",
-      "description": "Congratulations! You're a Leonida Legend.",
-      "grade": "platinum",
-      "hidden": false,
-      "kind": "misc",
-      "categories": ["completion"],
-      "targetCount": 54,
-      "roadmapStage": 6,
-      "missable": false,
-      "missableStatus": "earnable-post-story",
-      "missableNote": "Earnable in post-story free roam once all 54 other trophies are unlocked.",
-      "when": "After completing all 54 other trophies",
-      "guide": "Original multi-sentence walkthrough covering what to do, where/how, and when...",
-      "steps": ["Step 1...", "Step 2..."],
-      "sources": [
-        { "title": "PSNProfiles — Grand Theft Auto VI Trophies", "url": "https://psnprofiles.com/..." },
-        { "title": "Exophase — Grand Theft Auto VI Trophies", "url": "https://www.exophase.com/..." }
-      ]
-    }
-  ]
-}
-```
-
-### Hard Data Constraints
-- Total trophies: **55** (`1` Platinum, `2` Gold, `6` Silver, `46` Bronze)
-- Visibility split: **28** `hidden: true`, **27** `hidden: false`
-- Known anchors:
-  - Platinum: `"Vice Got a Price!"` (visible)
-  - Gold: `"A Long Road"` (visible), `"You Gotta Know When to Get Off"` (hidden)
-  - Silver: `"Cunning Stunts"`, `"The Shootist"`, `"Strangers & Freaks"`, `"Don't Touch My Deck"`, `"You WAiNKer!"`, `"Maximum Withdrawal"`
-- Missable flag: ONLY `"Positive Mental Attitude"` flagged as `"possibly missable — unconfirmed"` (Chapter 1 meditation, per PowerPyx/GTABase). All other 54 trophies marked earnable in post-story free roam.
-- Guide text: 100% original wording, never copied from any guide site; every trophy cites verified source URLs.
-
-## 4. Phase Checklist
-
-### Phase 0 — PLAN
-- [x] Read the bounty brief twice (`RULES.txt` & `requirements.json`).
-- [x] Create `PLAN.md` with deliverables list, file tree, data model, and checkbox steps.
-
-### Phase 1 — DATA (`app/data/trophies.json`)
-- [x] Cross-check all 55 official GTA VI PS5 trophies against Exophase and PSNProfiles (trusting PSNProfiles on any discrepancy), including exact hidden flags (`28 hidden`, `27 visible`) and target counts.
-- [x] Research PowerPyx, GTABase, and other public guides for verified source URLs and facts (including the Chapter 1 meditation missable note for *Positive Mental Attitude*).
-- [x] Author `app/data/trophies.json` with original guides (what to do, where/how, when), cited source URLs per trophy, roadmap stages, and exact missable flags.
-- [x] Run hard validation check: 55 entries = 1P / 2G / 6S / 46B, 28 hidden / 27 visible, all anchors exact, zero blank guides, every trophy has source citations.
-
-### Phase 2 — APP (`app/`)
-- [x] Build static offline web app inside `app/` with ZERO external requests (no CDN, no external fonts, no analytics).
-- [x] Implement trophy list (all 55, grade colors, hidden trophies obscured/indicated until revealed).
-- [x] Implement trophy detail panel (click a trophy -> guide, steps, sources, missable flag).
-- [x] Implement checklist (mark earned, localStorage persistence, progress % and per-grade counts, Export JSON, Import JSON, Reset).
-- [x] Implement filters (by grade, by kind `story/side/secret/misc`, by category `missable/collectibles/activities`, hidden only, earned/not earned, plus text search).
-- [x] Implement Spoiler Shield setting (ON = story & hidden trophies' names/descriptions blurred until earned; OFF = all readable).
-- [x] Implement Platinum Roadmap section (ordered stages: story first, early Chapter 1 missable warning, side/collectibles/activities, 100% completion last).
-- [x] Design custom clean dark UI with big readable rows and one SVG progress ring on the first screen (NO Rockstar logo, NO official artwork, NO game screenshots).
-- [x] Keep code clean and modular (data in `trophies.json` only, small single-purpose JS functions, no duplicated logic, no dead code, no TODO stubs).
-
-### Phase 3 — PACKAGE (repo root)
-- [x] Copy `vendor/makefun-frontend.ts` byte-for-byte from `starter/vendor/makefun-frontend.ts` (do not edit).
-- [x] Author `main.ts` (Node 22, stdlib only) at repo root writing `out/` (`app/`, `screenshots/`, `dossier.json`).
-- [x] Add OSI-approved `LICENSE` (MIT) and `serve.ts`.
-- [x] Capture 3–4 real desktop Chrome screenshots of the running app into `screenshots/` (≤ 256 KiB each, 1280×800).
-- [x] Write `README.md` explaining the app, features, data sources, run instructions, and live make.fun badges.
-- [x] Clean pre-existing kit files out of the repo tree and publish to a public GitHub repo under entrant account (`https://github.com/sasukevaizen/gta6-trophy-guide`).
-
-### Phase 4 — VERIFY (all must pass before submitting)
-- [x] Check 1: `app/data/trophies.json` parses; counts = 55 / 1P / 2G / 6S / 46B / 28 hidden / 27 visible.
-- [x] Check 2: App opened from a fresh browser profile with network OFF: list renders, zero failed requests.
-- [x] Check 3: Mark 3 trophies earned, reload: still marked. Export, reset, Import: marks restored.
-- [x] Check 4: Spoiler ON: story trophies blurred; OFF: readable.
-- [x] Check 5: Every filter returns sensible results; search finds `"Vice Got a Price!"`.
-- [x] Check 6: `node main.ts` runs deterministically and produces `out/` without errors.
-- [x] Check 7: `vendor/makefun-frontend.ts` unchanged (diff against kit copy is empty).
-- [ ] Run `makefun.mjs check` against repo.
-
-### Phase 5 — SUBMIT
-- [ ] Seal recording and submit the entry through the kit ONCE (only after all Phase 4 checks PASS).
-- [ ] Report back: repo URL, submission confirmation, and Phase 4 checklist results.
+## Phase 6 — Submit (after user push confirmation)
+- [ ] Seal recording and submit ONCE through `/tmp/gta6-kit-tools/cli/makefun.mjs`
+- [ ] Report submission ID and status

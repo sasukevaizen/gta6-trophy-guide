@@ -1,14 +1,14 @@
-// Local static HTTP server for app/ (Node 22, standard library only).
-// Run `node serve.ts` (or `node serve.ts --port 8080`) and open http://127.0.0.1:8080 in Chrome.
+// Local offline static preview server for app/ (Node 22+ standard library only).
+// Usage: node serve.ts [--port 8080]
 
 import { createReadStream, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, join, normalize, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const APP_ROOT = resolve(fileURLToPath(new URL('./app', import.meta.url)));
+const STATIC_ROOT = resolve(fileURLToPath(new URL('./app', import.meta.url)));
 
-const MIME_TYPES: Record<string, string> = {
+const CONTENT_TYPES: Record<string, string> = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
   '.mjs': 'text/javascript; charset=utf-8',
@@ -18,51 +18,54 @@ const MIME_TYPES: Record<string, string> = {
   '.png': 'image/png',
   '.jpg': 'image/jpeg',
   '.jpeg': 'image/jpeg',
-  '.webp': 'image/webp',
   '.ico': 'image/x-icon',
 };
 
-function parsePort(argv: string[]): number {
-  const idx = argv.indexOf('--port');
-  const raw = idx === -1 ? 8080 : Number(argv[idx + 1]);
-  return Number.isInteger(raw) && raw > 0 && raw < 65536 ? raw : 8080;
+function readPortArg(args: string[]): number {
+  const flagIndex = args.indexOf('--port');
+  if (flagIndex === -1) return 8080;
+  const candidate = Number(args[flagIndex + 1]);
+  return Number.isInteger(candidate) && candidate > 0 && candidate < 65536 ? candidate : 8080;
 }
 
-const port = parsePort(process.argv.slice(2));
+const listenPort = readPortArg(process.argv.slice(2));
 
-createServer((req, res) => {
-  const parsed = new URL(req.url ?? '/', 'http://127.0.0.1');
-  let pathname: string;
+const server = createServer((req, res) => {
+  const url = new URL(req.url ?? '/', 'http://127.0.0.1');
+  let reqPath: string;
   try {
-    pathname = decodeURIComponent(parsed.pathname);
+    reqPath = decodeURIComponent(url.pathname);
   } catch {
     res.writeHead(400).end('Bad Request');
     return;
   }
-  if (pathname.endsWith('/')) pathname += 'index.html';
-  const target = resolve(join(APP_ROOT, normalize(pathname)));
-  if (target !== APP_ROOT && !target.startsWith(APP_ROOT + sep)) {
+
+  if (reqPath.endsWith('/')) reqPath += 'index.html';
+  const filePath = resolve(join(STATIC_ROOT, normalize(reqPath)));
+  if (filePath !== STATIC_ROOT && !filePath.startsWith(STATIC_ROOT + sep)) {
     res.writeHead(403).end('Forbidden');
     return;
   }
 
-  let size: number;
+  let fileSize = 0;
   try {
-    const info = statSync(target);
-    if (!info.isFile()) throw new Error('Not a file');
-    size = info.size;
+    const stat = statSync(filePath);
+    if (!stat.isFile()) throw new Error('Not a regular file');
+    fileSize = stat.size;
   } catch {
     res.writeHead(404).end('Not Found');
     return;
   }
 
-  const contentType = MIME_TYPES[extname(target).toLowerCase()] ?? 'application/octet-stream';
+  const mime = CONTENT_TYPES[extname(filePath).toLowerCase()] ?? 'application/octet-stream';
   res.writeHead(200, {
-    'content-type': contentType,
-    'content-length': size,
+    'content-type': mime,
+    'content-length': fileSize,
     'cache-control': 'no-store',
   });
-  createReadStream(target).pipe(res);
-}).listen(port, '127.0.0.1', () => {
-  console.log(`Leonida Trophy Ledger serving app/ on http://127.0.0.1:${port}`);
+  createReadStream(filePath).pipe(res);
+});
+
+server.listen(listenPort, '127.0.0.1', () => {
+  console.log(`Leonida Trophy Ledger (Pixel Dusk) serving app/ at http://127.0.0.1:${listenPort}`);
 });
